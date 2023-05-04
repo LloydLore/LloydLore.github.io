@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on A Bite of Cybersecurity</title>
+    <link>http://example.org/categories/</link>
+    <description>Recent content in Categories on A Bite of Cybersecurity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 May 2023 13:31:00 +0800</lastBuildDate><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lifestyle</title>
+      <link>http://example.org/categories/lifestyle/</link>
+      <pubDate>Thu, 04 May 2023 13:31:00 +0800</pubDate>
+      
+      <guid>http://example.org/categories/lifestyle/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
