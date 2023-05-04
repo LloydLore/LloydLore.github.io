@@ -17,9 +17,9 @@ jobs:
       pages: write
       id-token: write
 
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-      cancle-in-progress: false
+    # concurrency:
+    #   group: ${{ github.workflow }}-${{ github.ref }}
+    #   cancle-in-progress: false
     steps:
       - uses: actions/checkout@v3	# 引用actions/checkout这个action，与所在的github仓库同名
         with:
