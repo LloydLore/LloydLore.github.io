@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>casual on A Bite of Cybersecurity</title><link>https://lloydlore.github.io/tags/casual/</link><description>Recent content in casual on A Bite of Cybersecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 04 May 2023 13:31:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/casual/index.xml" rel="self" type="application/rss+xml"/><item><title>开心的五一假期</title><link>https://lloydlore.github.io/posts/2023/05/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F/</link><pubDate>Thu, 04 May 2023 13:31:00 +0800</pubDate><guid>https://lloydlore.github.io/posts/2023/05/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F/</guid><description>五一假期回顾 疫情过后的第一个五一假期，丰富而有趣。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>casual on A Bite of Cybersecurity</title>
+    <link>https://lloydlore.github.io/tags/casual/</link>
+    <description>Recent content in casual on A Bite of Cybersecurity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 May 2023 13:31:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/casual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开心的五一假期 </title>
+      <link>https://lloydlore.github.io/posts/2023/05/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F/</link>
+      <pubDate>Thu, 04 May 2023 13:31:00 +0800</pubDate>
+      
+      <guid>https://lloydlore.github.io/posts/2023/05/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F/</guid>
+      <description>五一假期回顾 疫情过后的第一个五一假期，丰富而有趣。</description>
+    </item>
+    
+  </channel>
+</rss>
