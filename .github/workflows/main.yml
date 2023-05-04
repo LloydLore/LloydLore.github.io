@@ -8,6 +8,9 @@ on:
 
 jobs:
   deploy: # 任务名自取
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest	# 在什么环境运行任务
     permissions:
       contents: read
@@ -16,8 +19,9 @@ jobs:
 
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+      cancle-in-progress: false
     steps:
-      - uses: actions/checkout@v2	# 引用actions/checkout这个action，与所在的github仓库同名
+      - uses: actions/checkout@v3	# 引用actions/checkout这个action，与所在的github仓库同名
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive) 获取submodule主题
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -43,6 +47,13 @@ jobs:
           publish_dir: hugo/public	# 注意这里指的是要发布哪个文件夹的内容，而不是指发布到目的仓库的什么位置，因为hugo默认生成静态网页到public文件夹，所以这里发布public文件夹里的内容
           publish_branch: github-actions	# 发布到哪个branch
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: '.'
       - name: Deploy to Github Pages
         id: deployment
         uses: actions/deploy-pages@v2
