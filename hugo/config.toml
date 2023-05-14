@@ -1,4 +1,6 @@
 baseURL = 'https://lloydlore.github.io/'
 languageCode = 'en-us'
 title = 'A Bite of Cybersecurity'
-theme = 'ananke'
+theme = 'PaperMod'
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,0 +1,36 @@
+#+title: A Bite Of Cybersecurity
+#+OPTIONS: author:"Luo Jie" ^:{}
+#+HUGO_BASE_DIR: ./../
+#+HUGO_SECTION: posts
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_DRAFT: false
+#+DATE: [2023-05-08 Mon 22:11]
+#+HUGO_TAGS:
+#+HUGO_CATEGORIES:
+#+hugo_weight: auto
+#+hugo_auto_set_lastmod: t
+
+* Terms :@terms:
+
+All posts in here will have the category set to /terms/.
+
+** What is Back Office? :hugo:org:
+:PROPERTIES:
+:EXPORT_FILE_NAME: What-is-Back-Office?
+:EXPORT_DATE: [2023-05-14 Sun]
+:END:
+
+#+begin_quote
+The back office is a counter concept against front office.
+#+end_quote
+
+** What is Information Security Management :hugo:org:
+:PROPERTIES:
+:EXPORT_FILE_NAME: What-is-Information-Security-Management
+:EXPORT_DATE: [2023-05-14 Sun]
+:END:
+
+#+begin_quote
+Information security management validates that appropriate policies, procedures, standards, and guidelines are implemented to ensure business operations are conducted within an acceptable level of risk.
+#+end_quote
