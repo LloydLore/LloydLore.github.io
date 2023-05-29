@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 May 2023 13:13:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>工行融 e 行个人信息保护政策分析</title>
+      <link>https://lloydlore.github.io/posts/pii-analysis-for-icbc/</link>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://lloydlore.github.io/posts/pii-analysis-for-icbc/</guid>
+      <description>本文尝试对工行融 e 行的个人信息保护政策做出一些分析，我尝试通过这些分析得出一些关键字。以作为其他分析时的参考。 基于功能的数据和基于数据的功能</description>
+    </item>
+    
     <item>
       <title>工行融 e 行个人信息保护政策</title>
       <link>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</link>
