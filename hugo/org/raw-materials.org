@@ -1,0 +1,7 @@
+#+title: Raw Materials
+
+* TODO adb topics
+- adb -s command :: https://stackoverflow.com/questions/14654718/how-to-use-adb-shell-when-multiple-devices-are-connected-fails-with-error-mor
+- adb offcial document :: https://developer.android.com/tools/adb
+- adb client, adb server, adbd 原理浅析 :: https://blog.51cto.com/u_8475449/5605521
+- adb: the full story :: https://malinskiy.medium.com/adb-the-full-story-c2c9d63b2737
