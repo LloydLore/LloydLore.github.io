@@ -10,6 +10,7 @@
 #+HUGO_CATEGORIES:
 #+hugo_weight: auto
 #+hugo_auto_set_lastmod: t
+#+startup: noindent
 
 * Terms :@terms:
 
