@@ -4,13 +4,18 @@
     <title>Categories on A Bite of Cybersecurity</title>
     <link>https://lloydlore.github.io/categories/</link>
     <description>Recent content in Categories on A Bite of Cybersecurity</description>
+    <image>
+      <title>A Bite of Cybersecurity</title>
+      <url>https://lloydlore.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://lloydlore.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 May 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>terms</title>
       <link>https://lloydlore.github.io/categories/terms/</link>
-      <pubDate>Sun, 14 May 2023 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
       
       <guid>https://lloydlore.github.io/categories/terms/</guid>
       <description></description>
