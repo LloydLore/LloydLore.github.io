@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 May 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>doomemacs GUI 中文显示及输入法设置</title>
+      <link>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</guid>
+      <description>本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置： 中文显示字体，[Sarasa Gothic SC](https://github.com/be5invis/Sarasa-Gothic) 中文输入法，[PYIM](https://</description>
+    </item>
+    
     <item>
       <title>工行融 e 行个人信息保护政策分析</title>
       <link>https://lloydlore.github.io/posts/pii-analysis-for-icbc/</link>
@@ -28,15 +37,6 @@
       
       <guid>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</guid>
       <description>[2023-05-15 Mon 12:15] 本文对原文做了个别修改，如需参考原文，见：https://m.icbc.com.cn/ICBC/disclaimer/2.htm 我是工</description>
-    </item>
-    
-    <item>
-      <title>What is Back Office?</title>
-      <link>https://lloydlore.github.io/posts/what-is-back-office/</link>
-      <pubDate>Sun, 14 May 2023 00:00:00 +0800</pubDate>
-      
-      <guid>https://lloydlore.github.io/posts/what-is-back-office/</guid>
-      <description>The back office is a counter concept against front office.</description>
     </item>
     
     <item>
