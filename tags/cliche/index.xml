@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cliche on A Bite of Cybersecurity</title>
+    <link>https://lloydlore.github.io/tags/cliche/</link>
+    <description>Recent content in cliche on A Bite of Cybersecurity</description>
+    <image>
+      <title>A Bite of Cybersecurity</title>
+      <url>https://lloydlore.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://lloydlore.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Nov 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/cliche/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一枝花</title>
+      <link>https://lloydlore.github.io/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://lloydlore.github.io/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</guid>
+      <description>我犹豫了很久，要不要在这个 blog 里写一些稍微偏私人的东西。考虑的点不外乎那么几点，一方面我想找个地方，一个能被人看到，听到的地方说些什么，另一方</description>
+    </item>
+    
+  </channel>
+</rss>
