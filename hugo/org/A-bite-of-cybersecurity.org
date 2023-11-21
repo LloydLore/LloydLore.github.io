@@ -269,7 +269,7 @@ Information security management validates that appropriate policies, procedures,
 :PROPERTIES:
 :EXPORT_AUTHOR: 丛朝
 :EXPORT_FILE_NAME: 一枝花
-:EXPORT_DATE: [2023-11-21 Tue]
+:EXPORT_DATE: [2023-11-21]
 :END:
 我犹豫了很久，要不要在这个 blog 里写一些稍微偏私人的东西。考虑的点不外乎那么几点，一方面我想找个地方，一个能被人看到，听到的地方说些什么，另一方面，我又不想让知道我有这么一面。我通过一段时间的观察，似乎我周围，没什么人还保留着看 blog 的习惯。
 
