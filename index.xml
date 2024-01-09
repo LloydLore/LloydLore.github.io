@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Nov 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一枝花</title>
       <link>https://lloydlore.github.io/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</link>
@@ -46,6 +46,15 @@
       
       <guid>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</guid>
       <description>[2023-05-15 Mon 12:15] 本文对原文做了个别修改，如需参考原文，见：https://m.icbc.com.cn/ICBC/disclaimer/2.htm 我是工</description>
+    </item>
+    
+    <item>
+      <title>谈谈中文技术名词的翻译</title>
+      <link>https://lloydlore.github.io/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0800</pubDate>
+      
+      <guid>https://lloydlore.github.io/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</guid>
+      <description>我在以往工作中接触过所谓 ssh ”爆破“这两个字，彼时因为不需要具体使用这个术语，总觉得“爆破”两个字好屌。当时会想，到底什么牛的技术才可以当得起</description>
     </item>
     
     <item>
