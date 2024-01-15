@@ -297,7 +297,7 @@ Information security management validates that appropriate policies, procedures,
 ** =before-save-hook= 默认不是 =buffer local variable= :org:emacs:hugo:
 :PROPERTIES:
 :EXPORT_AUTHOR: 丛朝
-:EXPORT_DATE: [2024-01-15 Mon]
+:EXPORT_DATE: [2024-01-15]
 :EXPORT_FILE_NAME: Emacs before-save-hook 不是 local variable
 :END:
 我最近准备用 [[https://docutils.sourceforge.io/rst.html][reStructuredText]] 做结构化文档的处理。

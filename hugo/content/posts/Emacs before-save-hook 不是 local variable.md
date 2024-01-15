@@ -2,7 +2,7 @@
 title = "before-save-hook 默认不是 buffer local variable"
 author = ["丛朝"]
 date = 2024-01-15T00:00:00+08:00
-lastmod = 2024-01-15T15:53:00+08:00
+lastmod = 2024-01-15T16:02:00+08:00
 tags = ["org", "emacs", "hugo"]
 categories = ["emacs"]
 draft = false
