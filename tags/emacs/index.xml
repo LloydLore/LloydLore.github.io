@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>doomemacs GUI 中文显示及输入法设置</title>
       <link>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</link>
@@ -19,6 +19,15 @@
       
       <guid>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</guid>
       <description>本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置： 中文显示字体，[Sarasa Gothic SC](https://github.com/be5invis/Sarasa-Gothic) 中文输入法，[PYIM](https://</description>
+    </item>
+    
+    <item>
+      <title>before-save-hook 默认不是 buffer local variable</title>
+      <link>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
+      
+      <guid>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</guid>
+      <description>我最近准备用 reStructuredText 做结构化文档的处理。 基于我已经是一个重度的 org-mode 患者，我在做任何笔记的时候，离开 org-mode 便显得各种 不适应。虽然能看到 Markdown 很清秀，reStr</description>
     </item>
     
   </channel>

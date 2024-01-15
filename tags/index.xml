@@ -11,20 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>cliche</title>
-      <link>https://lloydlore.github.io/tags/cliche/</link>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 +0800</pubDate>
-      
-      <guid>https://lloydlore.github.io/tags/cliche/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>emacs</title>
       <link>https://lloydlore.github.io/tags/emacs/</link>
-      <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
       
       <guid>https://lloydlore.github.io/tags/emacs/</guid>
       <description></description>
@@ -33,7 +24,7 @@
     <item>
       <title>hugo</title>
       <link>https://lloydlore.github.io/tags/hugo/</link>
-      <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
       
       <guid>https://lloydlore.github.io/tags/hugo/</guid>
       <description></description>
@@ -42,9 +33,18 @@
     <item>
       <title>org</title>
       <link>https://lloydlore.github.io/tags/org/</link>
-      <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
       
       <guid>https://lloydlore.github.io/tags/org/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cliche</title>
+      <link>https://lloydlore.github.io/tags/cliche/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0800</pubDate>
+      
+      <guid>https://lloydlore.github.io/tags/cliche/</guid>
       <description></description>
     </item>
     

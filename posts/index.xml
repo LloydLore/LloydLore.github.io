@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一枝花</title>
       <link>https://lloydlore.github.io/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</link>
@@ -46,6 +46,15 @@
       
       <guid>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</guid>
       <description>[2023-05-15 Mon 12:15] 本文对原文做了个别修改，如需参考原文，见：https://m.icbc.com.cn/ICBC/disclaimer/2.htm 我是工</description>
+    </item>
+    
+    <item>
+      <title>before-save-hook 默认不是 buffer local variable</title>
+      <link>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
+      
+      <guid>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</guid>
+      <description>我最近准备用 reStructuredText 做结构化文档的处理。 基于我已经是一个重度的 org-mode 患者，我在做任何笔记的时候，离开 org-mode 便显得各种 不适应。虽然能看到 Markdown 很清秀，reStr</description>
     </item>
     
     <item>
