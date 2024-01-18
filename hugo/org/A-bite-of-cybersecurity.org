@@ -353,7 +353,7 @@ OK, 保存的问题解决了。但悲剧总是从一种形式转变成另外一�
 在这里其实还涉及到我对某个 =org-mode buffer= 做的 =local variable= 的设置，举个例子吧：
 #+caption: example for local variable setup
 #+begin_quote
-# Local Variables:
+=# Local Variables:=
 =# eval: (add-hook 'before-save-hook #'org-rst-export-to-rst nil t)=
 # End:
 #+end_quote
