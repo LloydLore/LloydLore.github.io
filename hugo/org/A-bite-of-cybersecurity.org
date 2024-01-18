@@ -352,11 +352,11 @@ OK, 保存的问题解决了。但悲剧总是从一种形式转变成另外一�
 *** 更多设置
 在这里其实还涉及到我对某个 =org-mode buffer= 做的 =local variable= 的设置，举个例子吧：
 #+caption: example for local variable setup
-#+begin_quote
+#+begin_example
 =# Local Variables:=
 =# eval: (add-hook 'before-save-hook #'org-rst-export-to-rst nil t)=
-# End:
-#+end_quote
+=# End:=
+#+end_example
 
 当然，还得加上导出文件的设置，比如：
 #+caption: export file setting
