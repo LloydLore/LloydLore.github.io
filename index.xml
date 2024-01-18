@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Bite of Cybersecurity</title>
     <link>https://lloydlore.github.io/</link>
@@ -11,88 +11,71 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一枝花</title>
       <link>https://lloydlore.github.io/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</link>
       <pubDate>Tue, 21 Nov 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</guid>
       <description>我犹豫了很久，要不要在这个 blog 里写一些稍微偏私人的东西。考虑的点不外乎那么几点，一方面我想找个地方，一个能被人看到，听到的地方说些什么，另一方</description>
     </item>
-    
     <item>
       <title>doomemacs GUI 中文显示及输入法设置</title>
       <link>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</guid>
       <description>本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置： 中文显示字体，[Sarasa Gothic SC](https://github.com/be5invis/Sarasa-Gothic) 中文输入法，[PYIM](https://</description>
     </item>
-    
     <item>
       <title>工行融 e 行个人信息保护政策分析</title>
       <link>https://lloydlore.github.io/posts/pii-analysis-for-icbc/</link>
       <pubDate>Mon, 29 May 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/pii-analysis-for-icbc/</guid>
       <description>本文尝试对工行融 e 行的个人信息保护政策做出一些分析，我尝试通过这些分析得出一些关键字。以作为其他分析时的参考。 基于功能的数据和基于数据的功能</description>
     </item>
-    
     <item>
       <title>工行融 e 行个人信息保护政策</title>
       <link>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</link>
       <pubDate>Mon, 22 May 2023 13:13:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</guid>
       <description>[2023-05-15 Mon 12:15] 本文对原文做了个别修改，如需参考原文，见：https://m.icbc.com.cn/ICBC/disclaimer/2.htm 我是工</description>
     </item>
-    
     <item>
       <title>before-save-hook 默认不是 buffer local variable</title>
       <link>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</guid>
       <description>我最近准备用 reStructuredText 做结构化文档的处理。 基于我已经是一个重度的 org-mode 患者，我在做任何笔记的时候，离开 org-mode 便显得各种 不适应。虽然能看到 Markdown 很清秀，reStr</description>
     </item>
-    
     <item>
       <title>谈谈中文技术名词的翻译</title>
       <link>https://lloydlore.github.io/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</guid>
       <description>我在以往工作中接触过所谓 ssh ”爆破“这两个字，彼时因为不需要具体使用这个术语，总觉得“爆破”两个字好屌。当时会想，到底什么牛的技术才可以当得起</description>
     </item>
-    
     <item>
       <title>What is Back Office?</title>
       <link>https://lloydlore.github.io/posts/what-is-back-office/</link>
       <pubDate>Mon, 22 May 2023 07:02:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/what-is-back-office/</guid>
       <description>Definition The back office is a counter concept against front office.</description>
     </item>
-    
     <item>
       <title>What is Information Security Management</title>
       <link>https://lloydlore.github.io/posts/what-is-information-security-management/</link>
       <pubDate>Sun, 14 May 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/what-is-information-security-management/</guid>
       <description>Information security management validates that appropriate policies, procedures, standards, and guidelines are implemented to ensure business operations are conducted within an acceptable level of risk.</description>
     </item>
-    
     <item>
       <title>开心的五一假期 </title>
       <link>https://lloydlore.github.io/posts/2023/05/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F/</link>
       <pubDate>Thu, 04 May 2023 13:31:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/2023/05/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F/</guid>
       <description>五一假期回顾 疫情过后的第一个五一假期，丰富而有趣。
 我竟然在五一最后一天开始尝试布署 github pages 这个要如何弄？</description>
     </item>
-    
   </channel>
 </rss>

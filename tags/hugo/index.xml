@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on A Bite of Cybersecurity</title>
     <link>https://lloydlore.github.io/tags/hugo/</link>
@@ -11,60 +11,49 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://lloydlore.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>doomemacs GUI 中文显示及输入法设置</title>
       <link>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</guid>
       <description>本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置： 中文显示字体，[Sarasa Gothic SC](https://github.com/be5invis/Sarasa-Gothic) 中文输入法，[PYIM](https://</description>
     </item>
-    
     <item>
       <title>工行融 e 行个人信息保护政策分析</title>
       <link>https://lloydlore.github.io/posts/pii-analysis-for-icbc/</link>
       <pubDate>Mon, 29 May 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/pii-analysis-for-icbc/</guid>
       <description>本文尝试对工行融 e 行的个人信息保护政策做出一些分析，我尝试通过这些分析得出一些关键字。以作为其他分析时的参考。 基于功能的数据和基于数据的功能</description>
     </item>
-    
     <item>
       <title>工行融 e 行个人信息保护政策</title>
       <link>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</link>
       <pubDate>Mon, 22 May 2023 13:13:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</guid>
       <description>[2023-05-15 Mon 12:15] 本文对原文做了个别修改，如需参考原文，见：https://m.icbc.com.cn/ICBC/disclaimer/2.htm 我是工</description>
     </item>
-    
     <item>
       <title>before-save-hook 默认不是 buffer local variable</title>
       <link>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</guid>
       <description>我最近准备用 reStructuredText 做结构化文档的处理。 基于我已经是一个重度的 org-mode 患者，我在做任何笔记的时候，离开 org-mode 便显得各种 不适应。虽然能看到 Markdown 很清秀，reStr</description>
     </item>
-    
     <item>
       <title>What is Back Office?</title>
       <link>https://lloydlore.github.io/posts/what-is-back-office/</link>
       <pubDate>Mon, 22 May 2023 07:02:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/what-is-back-office/</guid>
       <description>Definition The back office is a counter concept against front office.</description>
     </item>
-    
     <item>
       <title>What is Information Security Management</title>
       <link>https://lloydlore.github.io/posts/what-is-information-security-management/</link>
       <pubDate>Sun, 14 May 2023 00:00:00 +0800</pubDate>
-      
       <guid>https://lloydlore.github.io/posts/what-is-information-security-management/</guid>
       <description>Information security management validates that appropriate policies, procedures, standards, and guidelines are implemented to ensure business operations are conducted within an acceptable level of risk.</description>
     </item>
-    
   </channel>
 </rss>
