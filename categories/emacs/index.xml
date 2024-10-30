@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>emacs on A Bite of Cybersecurity</title>
+    <title>Emacs on A Bite of Cybersecurity</title>
     <link>https://lloydlore.github.io/categories/emacs/</link>
-    <description>Recent content in emacs on A Bite of Cybersecurity</description>
+    <description>Recent content in Emacs on A Bite of Cybersecurity</description>
     <image>
       <title>A Bite of Cybersecurity</title>
       <url>https://lloydlore.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://lloydlore.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.136.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2024 10:26:00 +0800</lastBuildDate>
     <atom:link href="https://lloydlore.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>doomemacs GUI 中文显示及输入法设置</title>
       <link>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
       <guid>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</guid>
-      <description>本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置： 中文显示字体，[Sarasa Gothic SC](https://github.com/be5invis/Sarasa-Gothic) 中文输入法，[PYIM](https://</description>
+      <description>&lt;p&gt;本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;中文显示字体，[Sarasa Gothic SC](https://github.com/be5invis/Sarasa-Gothic)
+中文输入法，[PYIM](https://github.com/tumashu/pyim) + [liberime](https://github.com/merrickluo/liberime)
+输入法方案，[四叶草](https://www.fkxxyz.com/d/cloverpinyin/)
+其他…
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;doomemacs-gui-frame-中文显示&#34;&gt;doomemacs GUI frame 中文显示&lt;/h2&gt;
+&lt;p&gt;我一般只会使用窗口模式下的 emacs，此前在使用我自身做的 emacs 配置时，发现配置中文只要简单地设置 CJK 字符就可以，但到了用 doomemacs 时，我尝试了各种方法，总是不行。&lt;a href=&#34;https://emacs-china.org/t/doom-emacs/23513/10&#34;&gt;最终发现了一个 hook 的使用&lt;/a&gt;，如下：&lt;/p&gt;</description>
     </item>
     <item>
       <title>before-save-hook 默认不是 buffer local variable</title>
       <link>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
       <guid>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</guid>
-      <description>我最近准备用 reStructuredText 做结构化文档的处理。 基于我已经是一个重度的 org-mode 患者，我在做任何笔记的时候，离开 org-mode 便显得各种 不适应。虽然能看到 Markdown 很清秀，reStr</description>
+      <description>&lt;p&gt;我最近准备用 &lt;a href=&#34;https://docutils.sourceforge.io/rst.html&#34;&gt;reStructuredText&lt;/a&gt; 做结构化文档的处理。
+基于我已经是一个重度的 &lt;code&gt;org-mode&lt;/code&gt; 患者，我在做任何笔记的时候，离开 &lt;code&gt;org-mode&lt;/code&gt; 便显得各种
+不适应。虽然能看到 &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 很清秀，reStructuredText 很 sexy，但我大有“野花不如家花香”的
+感慨。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

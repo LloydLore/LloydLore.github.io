@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Cliche on A Bite of Cybersecurity</title>
-    <link>https://lloydlore.github.io/tags/cliche/</link>
-    <description>Recent content in Cliche on A Bite of Cybersecurity</description>
+    <title>只言片语 on A Bite of Cybersecurity</title>
+    <link>https://lloydlore.github.io/categories/%E5%8F%AA%E8%A8%80%E7%89%87%E8%AF%AD/</link>
+    <description>Recent content in 只言片语 on A Bite of Cybersecurity</description>
     <image>
       <title>A Bite of Cybersecurity</title>
       <url>https://lloydlore.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,14 @@
     <generator>Hugo -- 0.136.5</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Oct 2024 16:35:00 +0800</lastBuildDate>
-    <atom:link href="https://lloydlore.github.io/tags/cliche/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lloydlore.github.io/categories/%E5%8F%AA%E8%A8%80%E7%89%87%E8%AF%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一枝花</title>
+      <link>https://lloydlore.github.io/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0800</pubDate>
+      <guid>https://lloydlore.github.io/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</guid>
+      <description>&lt;p&gt;我犹豫了很久，要不要在这个 blog 里写一些稍微偏私人的东西。考虑的点不外乎那么几点，一方面我想找个地方，一个能被人看到，听到的地方说些什么，另一方面，我又不想让知道我有这么一面。我通过一段时间的观察，似乎我周围，没什么人还保留着看 blog 的习惯。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>谈谈中文技术名词的翻译</title>
       <link>https://lloydlore.github.io/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</link>
