@@ -17,6 +17,7 @@ googleAnalytics = "UA-123-45"
   minifyOutput = true
 
 [params]
+social = true
 env = "production"
 title = "A Bite of Cybersecurity"
 description = "A little bit of here, a little bit of there"
