@@ -2,11 +2,11 @@
 title = "What is Information Security Management"
 author = ["Luo Jie"]
 date = 2023-05-14T00:00:00+08:00
-lastmod = 2023-05-22T07:00:00+08:00
+lastmod = 2024-11-01T23:59:00+08:00
 tags = ["hugo", "org"]
 categories = ["terms"]
 draft = false
-weight = 2003
+weight = 2004
 toc = true
 isCJKLanguage = true
 +++

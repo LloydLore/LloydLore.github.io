@@ -1,11 +1,12 @@
 +++
 title = "What is Back Office?"
 author = ["Luo Jie"]
-lastmod = 2023-05-22T07:02:00+08:00
+date = 2023-06-01T00:00:00+08:00
+lastmod = 2024-11-01T23:59:00+08:00
 tags = ["hugo", "org"]
 categories = ["terms"]
 draft = false
-weight = 2002
+weight = 2003
 toc = true
 isCJKLanguage = true
 +++

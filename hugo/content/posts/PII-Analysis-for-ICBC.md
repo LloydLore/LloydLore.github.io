@@ -2,7 +2,7 @@
 title = "工行融 e 行个人信息保护政策分析"
 author = ["丛朝"]
 date = 2023-05-29T00:00:00+08:00
-lastmod = 2023-10-03T01:21:00+08:00
+lastmod = 2024-11-01T23:58:00+08:00
 tags = ["org", "hugo"]
 categories = ["terms"]
 draft = false

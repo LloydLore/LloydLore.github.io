@@ -19,7 +19,7 @@ All posts in here will have the category set to /terms/.
 :PROPERTIES:
 :EXPORT_FILE_NAME: PII-Analysis-for-ICBC
 :EXPORT_AUTHOR: 丛朝
-:EXPORT_DATE: [2023-05-29 Sun]
+:EXPORT_DATE: [2023-05-29]
 :END:
 
 #+begin_quote
@@ -105,9 +105,8 @@ fname
 :PROPERTIES:
 :EXPORT_FILE_NAME: A-PII-Example-from-ICBC
 :EXPORT_AUTHOR: 丛朝
-:EXPORT_DATE:
+:EXPORT_DATE: [2023-05-15]
 :END:
-[2023-05-15 Mon 12:15]
 
 #+begin_quote
 本文对原文做了个别修改，如需参考原文，见：https://m.icbc.com.cn/ICBC/disclaimer/2.htm
@@ -233,7 +232,7 @@ fname
 ** What is Back Office? :hugo:org:
 :PROPERTIES:
 :EXPORT_FILE_NAME: What-is-Back-Office
-:EXPORT_DATE:
+:EXPORT_DATE: [2023-06-01]
 :END:
 
 *** Definition
@@ -244,7 +243,7 @@ The back office is a counter concept against front office.
 ** What is Information Security Management :hugo:org:
 :PROPERTIES:
 :EXPORT_FILE_NAME: What-is-Information-Security-Management
-:EXPORT_DATE: [2023-05-14 Sun]
+:EXPORT_DATE: [2023-05-14]
 :END:
 
 #+begin_quote
@@ -257,7 +256,7 @@ Information security management validates that appropriate policies, procedures,
 :PROPERTIES:
 :EXPORT_AUTHOR: 丛朝
 :EXPORT_FILE_NAME: doomemacs GUI 中文显示设置
-:EXPORT_DATE: [2023-10-03 Mon]
+:EXPORT_DATE: [2023-10-03]
 :END:
 本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置：
  * 中文显示字体，[[https://github.com/be5invis/Sarasa-Gothic][Sarasa Gothic SC]]

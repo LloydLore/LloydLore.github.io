@@ -2,7 +2,7 @@
 title = "doomemacs GUI 中文显示及输入法设置"
 author = ["丛朝"]
 date = 2023-10-03T00:00:00+08:00
-lastmod = 2023-10-03T01:18:00+08:00
+lastmod = 2024-11-01T23:59:00+08:00
 tags = ["hugo", "emacs", "org"]
 categories = ["emacs"]
 draft = false
@@ -13,10 +13,10 @@ isCJKLanguage = true
 
 本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置：
 
-    中文显示字体，[Sarasa Gothic SC](https://github.com/be5invis/Sarasa-Gothic)
-    中文输入法，[PYIM](https://github.com/tumashu/pyim) + [liberime](https://github.com/merrickluo/liberime)
-    输入法方案，[四叶草](https://www.fkxxyz.com/d/cloverpinyin/)
-    其他…
+-   中文显示字体，[Sarasa Gothic SC](https://github.com/be5invis/Sarasa-Gothic)
+-   中文输入法，[PYIM](https://github.com/tumashu/pyim) + [liberime](https://github.com/merrickluo/liberime)
+-   输入法方案，[四叶草](https://www.fkxxyz.com/d/cloverpinyin/)
+-   其他…
 
 
 ## doomemacs GUI frame 中文显示 {#doomemacs-gui-frame-中文显示}

@@ -2,7 +2,7 @@
 title = "before-save-hook 默认不是 buffer local variable"
 author = ["丛朝"]
 date = 2024-01-15T00:00:00+08:00
-lastmod = 2024-01-18T10:26:00+08:00
+lastmod = 2024-11-01T23:59:00+08:00
 tags = ["org", "emacs", "hugo"]
 categories = ["emacs"]
 draft = false
@@ -83,8 +83,15 @@ OK, 保存的问题解决了。但悲剧总是从一种形式转变成另外一�
 
 在这里其实还涉及到我对某个 `org-mode buffer` 做的 `local variable` 的设置，举个例子吧：
 
-> `# Local Variables:`
-> `# eval: (add-hook 'before-save-hook #'org-rst-export-to-rst nil t)`
+```text
+=# Local Variables:=
+=# eval: (add-hook 'before-save-hook #'org-rst-export-to-rst nil t)=
+=# End:=
+```
+<div class="src-block-caption">
+  <span class="src-block-number">Code Snippet 1:</span>
+  example for local variable setup
+</div>
 
 当然，还得加上导出文件的设置，比如：
 
