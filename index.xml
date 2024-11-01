@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- 0.136.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Oct 2024 16:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2024 23:59:00 +0800</lastBuildDate>
     <atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一枝花</title>
@@ -26,11 +26,12 @@
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
       <guid>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</guid>
       <description>&lt;p&gt;本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;中文显示字体，[Sarasa Gothic SC](https://github.com/be5invis/Sarasa-Gothic)
-中文输入法，[PYIM](https://github.com/tumashu/pyim) + [liberime](https://github.com/merrickluo/liberime)
-输入法方案，[四叶草](https://www.fkxxyz.com/d/cloverpinyin/)
-其他…
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;中文显示字体，&lt;a href=&#34;https://github.com/be5invis/Sarasa-Gothic&#34;&gt;Sarasa Gothic SC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;中文输入法，&lt;a href=&#34;https://github.com/tumashu/pyim&#34;&gt;PYIM&lt;/a&gt; + &lt;a href=&#34;https://github.com/merrickluo/liberime&#34;&gt;liberime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;输入法方案，&lt;a href=&#34;https://www.fkxxyz.com/d/cloverpinyin/&#34;&gt;四叶草&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;其他…&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;doomemacs-gui-frame-中文显示&#34;&gt;doomemacs GUI frame 中文显示&lt;/h2&gt;
 &lt;p&gt;我一般只会使用窗口模式下的 emacs，此前在使用我自身做的 emacs 配置时，发现配置中文只要简单地设置 CJK 字符就可以，但到了用 doomemacs 时，我尝试了各种方法，总是不行。&lt;a href=&#34;https://emacs-china.org/t/doom-emacs/23513/10&#34;&gt;最终发现了一个 hook 的使用&lt;/a&gt;，如下：&lt;/p&gt;</description>
     </item>
@@ -44,17 +45,6 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;基于功能的数据和基于数据的功能&#34;&gt;基于功能的数据和基于数据的功能&lt;/h2&gt;
 &lt;p&gt;从信息安全三位一体的角度上说，我们需要保护的一是服务，二是数据，即 Service &amp;amp; Data。在做个人信息识别，和资产识别时，可以分别从基于功能的数据和基于数据的功能的角度来展开。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>工行融 e 行个人信息保护政策</title>
-      <link>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</link>
-      <pubDate>Mon, 22 May 2023 13:13:00 +0800</pubDate>
-      <guid>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</guid>
-      <description>&lt;p&gt;&lt;span class=&#34;timestamp-wrapper&#34;&gt;&lt;span class=&#34;timestamp&#34;&gt;[2023-05-15 Mon 12:15]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;本文对原文做了个别修改，如需参考原文，见：&lt;a href=&#34;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&#34;&gt;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我是工商银行的用户，前几天在使用该银行服务的时候，在手机端被提示了工商银行最新的个人信息保护政策。记录以下要点。&lt;/p&gt;</description>
     </item>
     <item>
       <title>before-save-hook 默认不是 buffer local variable</title>
@@ -75,9 +65,19 @@
 是不是一个命令一输入，突然 ssh 协议站就山崩地裂，崩溃以至于无法工作，再者无法回复，最终只能向黑客妥协，交出自己 ssh 所有的控制权。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>工行融 e 行个人信息保护政策</title>
+      <link>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0800</pubDate>
+      <guid>https://lloydlore.github.io/posts/a-pii-example-from-icbc/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文对原文做了个别修改，如需参考原文，见：&lt;a href=&#34;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&#34;&gt;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我是工商银行的用户，前几天在使用该银行服务的时候，在手机端被提示了工商银行最新的个人信息保护政策。记录以下要点。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>What is Back Office?</title>
       <link>https://lloydlore.github.io/posts/what-is-back-office/</link>
-      <pubDate>Mon, 22 May 2023 07:02:00 +0800</pubDate>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0800</pubDate>
       <guid>https://lloydlore.github.io/posts/what-is-back-office/</guid>
       <description>&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;
 &lt;blockquote&gt;

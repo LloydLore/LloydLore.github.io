@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- 0.136.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2024 10:26:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2024 23:59:00 +0800</lastBuildDate>
     <atom:link href="https://lloydlore.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>doomemacs GUI 中文显示及输入法设置</title>
@@ -19,11 +19,12 @@
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
       <guid>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</guid>
       <description>&lt;p&gt;本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;中文显示字体，[Sarasa Gothic SC](https://github.com/be5invis/Sarasa-Gothic)
-中文输入法，[PYIM](https://github.com/tumashu/pyim) + [liberime](https://github.com/merrickluo/liberime)
-输入法方案，[四叶草](https://www.fkxxyz.com/d/cloverpinyin/)
-其他…
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;中文显示字体，&lt;a href=&#34;https://github.com/be5invis/Sarasa-Gothic&#34;&gt;Sarasa Gothic SC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;中文输入法，&lt;a href=&#34;https://github.com/tumashu/pyim&#34;&gt;PYIM&lt;/a&gt; + &lt;a href=&#34;https://github.com/merrickluo/liberime&#34;&gt;liberime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;输入法方案，&lt;a href=&#34;https://www.fkxxyz.com/d/cloverpinyin/&#34;&gt;四叶草&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;其他…&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;doomemacs-gui-frame-中文显示&#34;&gt;doomemacs GUI frame 中文显示&lt;/h2&gt;
 &lt;p&gt;我一般只会使用窗口模式下的 emacs，此前在使用我自身做的 emacs 配置时，发现配置中文只要简单地设置 CJK 字符就可以，但到了用 doomemacs 时，我尝试了各种方法，总是不行。&lt;a href=&#34;https://emacs-china.org/t/doom-emacs/23513/10&#34;&gt;最终发现了一个 hook 的使用&lt;/a&gt;，如下：&lt;/p&gt;</description>
     </item>
