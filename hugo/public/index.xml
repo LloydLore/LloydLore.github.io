@@ -9,9 +9,9 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.136.4</generator>
+    <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2024 23:59:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2024 17:59:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一枝花</title>
@@ -92,6 +92,18 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;Information security management validates that appropriate policies, procedures, standards, and guidelines are implemented to ensure business operations are conducted within an acceptable level of risk.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Welcome A Puppy</title>
+      <link>http://localhost:1313/posts/welcome-a-puppy/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/welcome-a-puppy/</guid>
+      <description>&lt;p&gt;我一直以来很喜欢🐕，并且我在十一二岁的时候，也养过一只小哈巴狗。我喜欢带着它上床
+睡觉。但后来那只狗被送人了。我也就再也没有养过狗了。&lt;/p&gt;
+&lt;p&gt;上周末带着老婆孩子逛商场，原本只是饭后散步式的逛街，也计划了逛街后，去打羽毛球。
+等我们走到商场里的宠物店时，一只小柴犬吸引了我们的目光。后来才知道，其实它也不算
+小，已经足足有五个月了。在那个瞬间我们一家三口集体脑子发热，没有做过多的犹豫就买
+下了它。我付出了乐观代价，带回了一只有活力的小狗。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Golden Dict Talks to Anki</title>
