@@ -1,7 +1,7 @@
 baseURL: https://lloydlore.github.io/
 languageCode: en-us
 title: A Bite of Cybersecurity
-theme: hugo-PaperMod
+theme: PaperMod
 markup:
   goldmark:
     renderer:
