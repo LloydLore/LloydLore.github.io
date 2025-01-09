@@ -9,9 +9,9 @@
       <url>https://lloydlore.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://lloydlore.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.139.4</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Dec 2024 18:16:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2025 17:47:00 +0800</lastBuildDate>
     <atom:link href="https://lloydlore.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一枝花</title>
@@ -92,6 +92,17 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;Information security management validates that appropriate policies, procedures, standards, and guidelines are implemented to ensure business operations are conducted within an acceptable level of risk.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Set Milestone In Taskjuggler Via Orgmode</title>
+      <link>https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate>
+      <guid>https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/</guid>
+      <description>&lt;h2 id=&#34;taskjuggler-是个好东西&#34;&gt;Taskjuggler 是个好东西&lt;/h2&gt;
+&lt;p&gt;我在工作中，经常会需要排布计划。我很不喜欢用 Excel, Microsoft Project 等这些工具
+去做这件事情，一来我不喜欢那么将随意调整的能力给到可以访问计划的每一个人，二来这
+些工具的可操作性实在太差了，一会儿用用鼠标，一会儿调一调格式，这都是很让我割裂的
+工作方式。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome A Puppy</title>
