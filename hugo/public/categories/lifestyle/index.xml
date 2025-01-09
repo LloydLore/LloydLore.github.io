@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lifestyle on A Bite of Cybersecurity</title>
     <link>http://localhost:1313/categories/lifestyle/</link>
     <description>Recent content in Lifestyle on A Bite of Cybersecurity</description>
-    <image>
-      <title>A Bite of Cybersecurity</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.139.4</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 May 2023 22:27:42 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/lifestyle/index.xml" rel="self" type="application/rss+xml" />
@@ -18,10 +13,7 @@
       <link>http://localhost:1313/posts/2023/05/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F/</link>
       <pubDate>Thu, 04 May 2023 13:31:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/2023/05/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F/</guid>
-      <description>&lt;h2 id=&#34;五一假期回顾&#34;&gt;五一假期回顾&lt;/h2&gt;
-&lt;p&gt;疫情过后的第一个五一假期，丰富而有趣。&lt;/p&gt;
-&lt;h3 id=&#34;我竟然在五一最后一天开始尝试布署-github-pages&#34;&gt;我竟然在五一最后一天开始尝试布署 github pages&lt;/h3&gt;
-&lt;p&gt;这个要如何弄？&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;五一假期回顾&#34;&gt;五一假期回顾&lt;/h2&gt;&#xA;&lt;p&gt;疫情过后的第一个五一假期，丰富而有趣。&lt;/p&gt;&#xA;&lt;h3 id=&#34;我竟然在五一最后一天开始尝试布署-github-pages&#34;&gt;我竟然在五一最后一天开始尝试布署 github pages&lt;/h3&gt;&#xA;&lt;p&gt;这个要如何弄？&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
