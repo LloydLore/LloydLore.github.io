@@ -6,7 +6,7 @@
     <description>Recent content on A Bite of Cybersecurity</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 17:47:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 13:55:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一枝花</title>
@@ -63,6 +63,13 @@
       <pubDate>Sun, 14 May 2023 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/what-is-information-security-management/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Information security management validates that appropriate policies, procedures, standards, and guidelines are implemented to ensure business operations are conducted within an acceptable level of risk.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>CNAS 和 CMA 认定</title>
+      <link>http://localhost:1313/posts/cnas_and_cma_accreditation/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/cnas_and_cma_accreditation/</guid>
+      <description>&lt;p&gt;这两年中国汽车行业里对网络安全的认证需求越来越多，同时要求也越来越高。我能够观察&#xA;到，随着中国电动汽车的倾销加剧，各国对中国生产的电动汽车的门槛，也会随之升高。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Set Milestone In Taskjuggler Via Orgmode</title>

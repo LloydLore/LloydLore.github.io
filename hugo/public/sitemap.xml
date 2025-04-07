@@ -27,10 +27,25 @@
     <lastmod>2024-11-01T23:59:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-09T17:47:00+08:00</lastmod>
+    <lastmod>2025-04-07T13:55:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-01-09T17:47:00+08:00</lastmod>
+    <lastmod>2025-04-07T13:55:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cnas_and_cma_accreditation/</loc>
+    <lastmod>2025-04-07T13:55:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-07T13:55:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-07T13:55:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/work/</loc>
+    <lastmod>2025-04-07T13:55:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E5%8F%AA%E8%A8%80%E7%89%87%E8%AF%AD/</loc>
+    <lastmod>2025-04-07T13:55:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cliche/</loc>
     <lastmod>2025-01-09T17:47:00+08:00</lastmod>
@@ -38,19 +53,10 @@
     <loc>http://localhost:1313/categories/emacs/</loc>
     <lastmod>2025-01-09T17:47:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-01-09T17:47:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</loc>
     <lastmod>2025-01-09T17:47:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-01-09T17:47:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/welcome-a-puppy/</loc>
-    <lastmod>2024-12-11T18:16:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E5%8F%AA%E8%A8%80%E7%89%87%E8%AF%AD/</loc>
     <lastmod>2024-12-11T18:16:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/goldendict-talks-to-anki/</loc>
