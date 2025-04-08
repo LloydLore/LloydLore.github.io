@@ -3,7 +3,7 @@ name: github pages # 名字自取
 on:
   push:
     branches:
-      - main  # 这里的意思是当 main分支发生push的时候，运行下面的jobs，这里先 github-actions
+      - main # 这里的意思是当 main分支发生push的时候，运行下面的jobs，这里先 github-actions
   pull_request:
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest	# 在什么环境运行任务
+    runs-on: ubuntu-latest # 在什么环境运行任务
     permissions:
       contents: read
       pages: write
@@ -21,15 +21,15 @@ jobs:
     #   group: ${{ github.workflow }}-${{ github.ref }}
     #   cancle-in-progress: false
     steps:
-      - uses: actions/checkout@v3	# 引用actions/checkout这个action，与所在的github仓库同名
+      - uses: actions/checkout@v4 # 引用actions/checkout这个action，与所在的github仓库同名
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive) 获取submodule主题
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true # Fetch Hugo themes (true OR recursive) 获取submodule主题
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo	# 步骤名自取
-        uses: peaceiris/actions-hugo@v2	# hugo官方提供的action，用于在任务环境中获取hugo
+      - name: Setup Hugo # 步骤名自取
+        uses: peaceiris/actions-hugo@v2 # hugo官方提供的action，用于在任务环境中获取hugo
         with:
-          hugo-version: 'latest'	# 获取最新版本的hugo
+          hugo-version: "latest" # 获取最新版本的hugo
           # extended: true
 
       - name: Build
@@ -37,23 +37,23 @@ jobs:
           hugo --source hugo --minify --buildFuture --buildExpired	# 使用hugo构建静态网页
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3	# 一个自动发布github pages的action
+        uses: peaceiris/actions-gh-pages@v3 # 一个自动发布github pages的action
         with:
           # github_token: ${{ secrets.GITHUB_TOKEN }} 该项适用于发布到源码相同repo的情况，不能用于发布到其他repo
           external_repository: LloydLore/LloydLore.github.io # 发布到哪个repo
           deploy_key: ${{ secrets.ABC }}
           # deploy_key: /home/lj/.ssh/id_ed25519
           personal_token: ${{ secrets.ABC_TOKEN }} # 发布到其他repo需要提供上面生成的personal access token
-          publish_dir: hugo/public	# 注意这里指的是要发布哪个文件夹的内容，而不是指发布到目的仓库的什么位置，因为hugo默认生成静态网页到public文件夹，所以这里发布public文件夹里的内容
-          publish_branch: github-actions	# 发布到哪个branch
+          publish_dir: hugo/public # 注意这里指的是要发布哪个文件夹的内容，而不是指发布到目的仓库的什么位置，因为hugo默认生成静态网页到public文件夹，所以这里发布public文件夹里的内容
+          publish_branch: github-actions # 发布到哪个branch
 
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v4
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: "."
       - name: Deploy to Github Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
