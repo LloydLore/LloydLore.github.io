@@ -6,7 +6,7 @@
     <description>Recent content in Emacs on A Bite of Cybersecurity</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 17:47:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2024 23:59:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>doomemacs GUI 中文显示及输入法设置</title>
@@ -21,13 +21,6 @@
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</guid>
       <description>&lt;p&gt;我最近准备用 &lt;a href=&#34;https://docutils.sourceforge.io/rst.html&#34;&gt;reStructuredText&lt;/a&gt; 做结构化文档的处理。&#xA;基于我已经是一个重度的 &lt;code&gt;org-mode&lt;/code&gt; 患者，我在做任何笔记的时候，离开 &lt;code&gt;org-mode&lt;/code&gt; 便显得各种&#xA;不适应。虽然能看到 &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 很清秀，reStructuredText 很 sexy，但我大有“野花不如家花香”的&#xA;感慨。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Set Milestone In Taskjuggler Via Orgmode</title>
-      <link>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</link>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</guid>
-      <description>&lt;h2 id=&#34;taskjuggler-是个好东西&#34;&gt;Taskjuggler 是个好东西&lt;/h2&gt;&#xA;&lt;p&gt;我在工作中，经常会需要排布计划。我很不喜欢用 Excel, Microsoft Project 等这些工具&#xA;去做这件事情，一来我不喜欢那么将随意调整的能力给到可以访问计划的每一个人，二来这&#xA;些工具的可操作性实在太差了，一会儿用用鼠标，一会儿调一调格式，这都是很让我割裂的&#xA;工作方式。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -50,9 +50,6 @@
     <loc>http://localhost:1313/tags/cliche/</loc>
     <lastmod>2025-01-09T17:47:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/emacs/</loc>
-    <lastmod>2025-01-09T17:47:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</loc>
     <lastmod>2025-01-09T17:47:00+08:00</lastmod>
   </url><url>
@@ -61,6 +58,9 @@
   </url><url>
     <loc>http://localhost:1313/posts/goldendict-talks-to-anki/</loc>
     <lastmod>2024-10-25T16:35:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/emacs/</loc>
+    <lastmod>2024-11-01T23:59:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/emacs/</loc>
     <lastmod>2024-11-01T23:59:00+08:00</lastmod>
