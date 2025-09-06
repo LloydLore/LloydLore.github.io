@@ -1,117 +1,537 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Bite of Cybersecurity</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on A Bite of Cybersecurity</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Apr 2025 13:55:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>一枝花</title>
-      <link>http://localhost:1313/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</link>
-      <pubDate>Tue, 21 Nov 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</guid>
-      <description>&lt;p&gt;我犹豫了很久，要不要在这个 blog 里写一些稍微偏私人的东西。考虑的点不外乎那么几点，一方面我想找个地方，一个能被人看到，听到的地方说些什么，另一方面，我又不想让知道我有这么一面。我通过一段时间的观察，似乎我周围，没什么人还保留着看 blog 的习惯。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>doomemacs GUI 中文显示及输入法设置</title>
-      <link>http://localhost:1313/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</link>
-      <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</guid>
-      <description>&lt;p&gt;本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;中文显示字体，&lt;a href=&#34;https://github.com/be5invis/Sarasa-Gothic&#34;&gt;Sarasa Gothic SC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;中文输入法，&lt;a href=&#34;https://github.com/tumashu/pyim&#34;&gt;PYIM&lt;/a&gt; + &lt;a href=&#34;https://github.com/merrickluo/liberime&#34;&gt;liberime&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;输入法方案，&lt;a href=&#34;https://www.fkxxyz.com/d/cloverpinyin/&#34;&gt;四叶草&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;其他…&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;doomemacs-gui-frame-中文显示&#34;&gt;doomemacs GUI frame 中文显示&lt;/h2&gt;&#xA;&lt;p&gt;我一般只会使用窗口模式下的 emacs，此前在使用我自身做的 emacs 配置时，发现配置中文只要简单地设置 CJK 字符就可以，但到了用 doomemacs 时，我尝试了各种方法，总是不行。&lt;a href=&#34;https://emacs-china.org/t/doom-emacs/23513/10&#34;&gt;最终发现了一个 hook 的使用&lt;/a&gt;，如下：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>工行融 e 行个人信息保护政策分析</title>
-      <link>http://localhost:1313/posts/pii-analysis-for-icbc/</link>
-      <pubDate>Mon, 29 May 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/pii-analysis-for-icbc/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文尝试对工行融 e 行的个人信息保护政策做出一些分析，我尝试通过这些分析得出一些关键字。以作为其他分析时的参考。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;基于功能的数据和基于数据的功能&#34;&gt;基于功能的数据和基于数据的功能&lt;/h2&gt;&#xA;&lt;p&gt;从信息安全三位一体的角度上说，我们需要保护的一是服务，二是数据，即 Service &amp;amp; Data。在做个人信息识别，和资产识别时，可以分别从基于功能的数据和基于数据的功能的角度来展开。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>before-save-hook 默认不是 buffer local variable</title>
-      <link>http://localhost:1313/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</link>
-      <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</guid>
-      <description>&lt;p&gt;我最近准备用 &lt;a href=&#34;https://docutils.sourceforge.io/rst.html&#34;&gt;reStructuredText&lt;/a&gt; 做结构化文档的处理。&#xA;基于我已经是一个重度的 &lt;code&gt;org-mode&lt;/code&gt; 患者，我在做任何笔记的时候，离开 &lt;code&gt;org-mode&lt;/code&gt; 便显得各种&#xA;不适应。虽然能看到 &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 很清秀，reStructuredText 很 sexy，但我大有“野花不如家花香”的&#xA;感慨。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>谈谈中文技术名词的翻译</title>
-      <link>http://localhost:1313/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</link>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</guid>
-      <description>&lt;p&gt;我在以往工作中接触过所谓 ssh ”爆破“这两个字，彼时因为不需要具体使用这个术语，总觉得“爆破”两个字好屌。当时会想，到底什么牛的技术才可以当得起“爆破”两个字。&#xA;是不是一个命令一输入，突然 ssh 协议站就山崩地裂，崩溃以至于无法工作，再者无法回复，最终只能向黑客妥协，交出自己 ssh 所有的控制权。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>工行融 e 行个人信息保护政策</title>
-      <link>http://localhost:1313/posts/a-pii-example-from-icbc/</link>
-      <pubDate>Mon, 15 May 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/a-pii-example-from-icbc/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文对原文做了个别修改，如需参考原文，见：&lt;a href=&#34;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&#34;&gt;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;我是工商银行的用户，前几天在使用该银行服务的时候，在手机端被提示了工商银行最新的个人信息保护政策。记录以下要点。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>What is Back Office?</title>
-      <link>http://localhost:1313/posts/what-is-back-office/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/what-is-back-office/</guid>
-      <description>&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The back office is a counter concept against front office.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title>What is Information Security Management</title>
-      <link>http://localhost:1313/posts/what-is-information-security-management/</link>
-      <pubDate>Sun, 14 May 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/what-is-information-security-management/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Information security management validates that appropriate policies, procedures, standards, and guidelines are implemented to ensure business operations are conducted within an acceptable level of risk.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title>CNAS 和 CMA 认定</title>
-      <link>http://localhost:1313/posts/cnas_and_cma_accreditation/</link>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/cnas_and_cma_accreditation/</guid>
-      <description>&lt;p&gt;这两年中国汽车行业里对网络安全的认证需求越来越多，同时要求也越来越高。我能够观察&#xA;到，随着中国电动汽车的倾销加剧，各国对中国生产的电动汽车的门槛，也会随之升高。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Set Milestone In Taskjuggler Via Orgmode</title>
-      <link>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</link>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</guid>
-      <description>&lt;h2 id=&#34;taskjuggler-是个好东西&#34;&gt;Taskjuggler 是个好东西&lt;/h2&gt;&#xA;&lt;p&gt;我在工作中，经常会需要排布计划。我很不喜欢用 Excel, Microsoft Project 等这些工具&#xA;去做这件事情，一来我不喜欢那么将随意调整的能力给到可以访问计划的每一个人，二来这&#xA;些工具的可操作性实在太差了，一会儿用用鼠标，一会儿调一调格式，这都是很让我割裂的&#xA;工作方式。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Welcome A Puppy</title>
-      <link>http://localhost:1313/posts/welcome-a-puppy/</link>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/welcome-a-puppy/</guid>
-      <description>&lt;p&gt;我一直以来很喜欢🐕，并且我在十一二岁的时候，也养过一只小哈巴狗。我喜欢带着它上床&#xA;睡觉。但后来那只狗被送人了。我也就再也没有养过狗了。&lt;/p&gt;&#xA;&lt;p&gt;上周末带着老婆孩子逛商场，原本只是饭后散步式的逛街，也计划了逛街后，去打羽毛球。&#xA;等我们走到商场里的宠物店时，一只小柴犬吸引了我们的目光。后来才知道，其实它也不算&#xA;小，已经足足有五个月了。在那个瞬间我们一家三口集体脑子发热，没有做过多的犹豫就买&#xA;下了它。我付出了乐观代价，带回了一只有活力的小狗。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Golden Dict Talks to Anki</title>
-      <link>http://localhost:1313/posts/goldendict-talks-to-anki/</link>
-      <pubDate>Fri, 25 Oct 2024 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/goldendict-talks-to-anki/</guid>
-      <description>&lt;p&gt;我习惯在电脑上使用离线词典，一来离线词典很快，二来在没有网络的时候，离线词典仍然&#xA;能给我一个比较好的结果。其实还有个可能是谬误的想法，我总觉得在线词典，更加吃电脑&#xA;的资源，而资源嘛，能省则省啦。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>开心的五一假期 </title>
-      <link>http://localhost:1313/posts/2023/05/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F/</link>
-      <pubDate>Thu, 04 May 2023 13:31:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/2023/05/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F/</guid>
-      <description>&lt;h2 id=&#34;五一假期回顾&#34;&gt;五一假期回顾&lt;/h2&gt;&#xA;&lt;p&gt;疫情过后的第一个五一假期，丰富而有趣。&lt;/p&gt;&#xA;&lt;h3 id=&#34;我竟然在五一最后一天开始尝试布署-github-pages&#34;&gt;我竟然在五一最后一天开始尝试布署 github pages&lt;/h3&gt;&#xA;&lt;p&gt;这个要如何弄？&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Archive</title>
-      <link>http://localhost:1313/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/archives/</guid>
-      <description>archives</description>
-    </item>
-    <item>
-      <title>Search</title>
-      <link>http://localhost:1313/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
-      <description>search</description>
-    </item>
+    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>一枝花</title>
+        <link>http://localhost:1313/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</link>
+        <pubDate>Tue, 21 Nov 2023 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/</guid>
+        <description>A Bite of Cybersecurity http://localhost:1313/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/ -&lt;p&gt;我犹豫了很久，要不要在这个 blog 里写一些稍微偏私人的东西。考虑的点不外乎那么几点，一方面我想找个地方，一个能被人看到，听到的地方说些什么，另一方面，我又不想让知道我有这么一面。我通过一段时间的观察，似乎我周围，没什么人还保留着看 blog 的习惯。&lt;/p&gt;
+&lt;p&gt;所以我还是在这里写写吧。写什么都好，谁来看都行，我只管写我的。&lt;/p&gt;
+&lt;p&gt;“一枝花”是彭羚一张专辑的名字，我下班之后从坐班车起，到打开家门。差不多可以将这张专辑从头到尾听两遍。我最早听彭羚的歌，是在十二年前一次晚间下班，那时加班班车，司机师傅喜欢放一个音乐电台，歌曲以怀旧为主。我听了王杰，张清芳，齐秦这些人的歌，张清芳也是很特别的歌手，我听了她的《加州阳光》，《大雨的夜里》，《对话练习》等等，也陪我度过了很多孤独的时光。但这次下班是特别的，我打着瞌睡，电台里放的是彭羚的《给我一段仁爱路》，这首歌前奏乍听很聒噪，歌词也很无脑。等到进入了副歌，彭羚特别的嗓音，像雨后天晴似的照亮了我。彼时我并不知道这首歌的名字，只知道歌词里有“仁爱路”三个字，我也不知道是香港的“仁爱路”，还是台湾的“仁爱路”。歌名很奇怪，但真好听呀。&lt;/p&gt;
+&lt;p&gt;一年之后，我也住到了苏州的仁爱路旁，我好奇是不是仁爱路就像“人民路”一般，是不是每个城市都有属于自己的“仁爱路”？这个问题一直到现在我也没有得到答案。我仅仅向自己抛出了问题。恩，我是个喜欢给自己问题，但又不去寻求答案的人。&lt;/p&gt;
+&lt;p&gt;十二年后，我上周去听了杨丞琳的演唱会，这是我有一些特别记忆的女歌手。以前发生了一些和她相关的事情，被我放在记忆里私藏。而这记忆，已经是快二十年以前的了。记忆是很奇怪的东西，有些记忆会随着时间推移慢慢被遗忘，有些记忆却会随着记忆越来越在脑子里清晰。我还记得那年隔壁班的女生唱着《一千零一个愿望》在我旁边款款走来的景象，我不能说很漂亮，我只想说真美好。&lt;/p&gt;
+&lt;p&gt;有时候会觉得二十年浑浑噩噩，幸运的是，自己的心智自觉有慢慢地在打开。当然，也许几年之后，我反观此时的我，又会有很多地不同。但总之还是有一些进步的。人生之路，道阻且长，一步一步走吧！&lt;/p&gt;
+- http://localhost:1313/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>doomemacs GUI 中文显示及输入法设置</title>
+        <link>http://localhost:1313/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</link>
+        <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</guid>
+        <description>A Bite of Cybersecurity http://localhost:1313/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/ -&lt;p&gt;本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;中文显示字体，&lt;a href=&#34;https://github.com/be5invis/Sarasa-Gothic&#34;&gt;Sarasa Gothic SC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;中文输入法，&lt;a href=&#34;https://github.com/tumashu/pyim&#34;&gt;PYIM&lt;/a&gt; + &lt;a href=&#34;https://github.com/merrickluo/liberime&#34;&gt;liberime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;输入法方案，&lt;a href=&#34;https://www.fkxxyz.com/d/cloverpinyin/&#34;&gt;四叶草&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;其他…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;doomemacs-gui-frame-中文显示&#34;&gt;doomemacs GUI frame 中文显示&lt;/h2&gt;
+&lt;p&gt;我一般只会使用窗口模式下的 emacs，此前在使用我自身做的 emacs 配置时，发现配置中文只要简单地设置 CJK 字符就可以，但到了用 doomemacs 时，我尝试了各种方法，总是不行。&lt;a href=&#34;https://emacs-china.org/t/doom-emacs/23513/10&#34;&gt;最终发现了一个 hook 的使用&lt;/a&gt;，如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;+set-cjk&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s&#34;&gt;&amp;#34;set cjk for Emacs&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;interactive&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;dolist&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;charset&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;kana&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;han&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;symbol&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;cjk-misc&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;bopomofo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;set-fontset-font&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;frame-parameter&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;nil&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;&amp;#39;font&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      &lt;span class=&#34;nv&#34;&gt;charset&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;font-spec&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;:family&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Sarasa Gothic SC&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;add-hook&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;&amp;#39;after-setting-font-hook&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;+set-cjk&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;即在 doomemacs 设置完字体以后，我们再来覆盖 CJK 的字体。&lt;/p&gt;
+&lt;h2 id=&#34;中文输入法-pyim-和-liberime&#34;&gt;中文输入法，PYIM 和 liberime&lt;/h2&gt;
+&lt;p&gt;在 emacs 下，PYIM, emacs-rime, &lt;a href=&#34;https://github.com/laishulu/emacs-smart-input-source&#34;&gt;SIS&lt;/a&gt;，我都用过，我在这里不赘述几种输入法的优劣。单从我个 人的使用习惯来说，我更喜欢 PYIM + liberime 的组合，就像 PYIM 作者说的那样，PYIM 就像我的朋友一样，一直陪伴的着我，而我唯一觉得用得不舒服的地方，在于 PYIM 自带字库，以及云输入法，我总觉得会有些延迟。&lt;/p&gt;
+&lt;p&gt;基于以上的考虑，最终我想用 PYIM 作为前端，rime 输入法引擎作为后端。至少试下来，整体的效果还是很好的。&lt;/p&gt;
+&lt;h2 id=&#34;rime-输入法方案-四叶草&#34;&gt;Rime 输入法方案——四叶草&lt;/h2&gt;
+&lt;p&gt;我喜欢这个输入法方案。我的个人电脑上，安装的是 Arco Linux, 有些字体的支持，emoji 的支持有限，这里着重说下几个问题。&lt;/p&gt;
+&lt;h3 id=&#34;问题一-输入法-emoji-不显示&#34;&gt;问题一，输入法 emoji 不显示&lt;/h3&gt;
+&lt;p&gt;安装 fontconfig 的配置，见 &lt;a href=&#34;https://github.com/szclsya/dotfiles/blob/master/fontconfig/fonts.conf&#34;&gt;https://github.com/szclsya/dotfiles/blob/master/fontconfig/fonts.conf&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;问题二-四叶草输入方案&#34;&gt;问题二，四叶草输入方案&lt;/h3&gt;
+&lt;p&gt;最好不要和系统输入法共用一个。&lt;/p&gt;
+- http://localhost:1313/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>工行融 e 行个人信息保护政策分析</title>
+        <link>http://localhost:1313/posts/pii-analysis-for-icbc/</link>
+        <pubDate>Mon, 29 May 2023 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/pii-analysis-for-icbc/</guid>
+        <description>A Bite of Cybersecurity http://localhost:1313/posts/pii-analysis-for-icbc/ -&lt;blockquote&gt;
+&lt;p&gt;本文尝试对工行融 e 行的个人信息保护政策做出一些分析，我尝试通过这些分析得出一些关键字。以作为其他分析时的参考。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;基于功能的数据和基于数据的功能&#34;&gt;基于功能的数据和基于数据的功能&lt;/h2&gt;
+&lt;p&gt;从信息安全三位一体的角度上说，我们需要保护的一是服务，二是数据，即 Service &amp;amp; Data。在做个人信息识别，和资产识别时，可以分别从基于功能的数据和基于数据的功能的角度来展开。&lt;/p&gt;
+&lt;p&gt;打比方，在穷举一个产品具有的所有功能的同时，我们可以将每一个功能用到的数据，特别是个人信息相关的数据整理出来。如此，在产品功能逻辑上，就可以达到全部的覆盖。&lt;/p&gt;
+&lt;p&gt;从我个人的角度，“基于功能的数据”恐怕是更为适合我自己去识别个人信息以及资产的方式。&lt;/p&gt;
+&lt;p&gt;那如何理解“基于数据的功能”呢？在一个系统的运行环境中，个人（actor）这是比较容易识别的，而有关个人的数据，在每个评估者那儿都应该有其积累的经验值。根据这个经验值，评估者在运行环境中，可去结合已有的功能分析，更进一步，可以去评估将来可能会有的功能场景。&lt;/p&gt;
+&lt;p&gt;从实践的角度来看，我认为评估者应当先对系统运行环境进行全方位分析，基于分析结果，评估个人信息及资产。然后再用自己的经验值作为验证。
+所以说，基于功能的数据和基于数据的功能，两者在行程安全概念的过程中，相辅相成，缺一不可。&lt;/p&gt;
+&lt;h2 id=&#34;工行融-e-行关键字识别&#34;&gt;工行融 e 行关键字识别&lt;/h2&gt;
+&lt;p&gt;为了找出这些关键字，我对原文中加粗的字体，做了解析。同时也尝试做了一个词云。执行的代码如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sys&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;wordcloud&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WordCloud&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;wordcloud&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;STOPWORDS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;requests_html&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;HTMLSession&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# get links&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;session&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;HTMLSession&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;r&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;session&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# select the selector&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sel&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;#infoDetailPage &amp;gt; div.infoText.fs16 &amp;gt; p &amp;gt; strong&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;bold_text&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;find&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;get_text_from_sel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;mylist&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;try&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;results&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sel&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;result&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;results&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;mytext&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;result&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;mylist&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mytext&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mylist&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;except&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;bold_text_string&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39; &amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;join&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;get_text_from_sel&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bold_text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# set STOPWORDS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sw&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;STOPWORDS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sw&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;一&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sw&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;二&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sw&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;三&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;wordcloud&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WordCloud&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;scale&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      &lt;span class=&#34;n&#34;&gt;background_color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;white&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      &lt;span class=&#34;n&#34;&gt;stopwords&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sw&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      &lt;span class=&#34;n&#34;&gt;font_path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;/usr/share/fonts/OTF/NotoSansCJKsc-Regular.otf&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;generate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bold_text_string&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# plt, fontset, imshow, etc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;font_manager&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;font_dirs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/home/lj/Downloads/transfonter.org-unpack-20230527-152629&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;font_files&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;font_manager&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;findSystemFonts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fontpaths&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;font_dirs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;font_file&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;font_files&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;font_manager&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fontManager&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;addfont&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;font_file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# %matplotlib inline&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;figure&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dpi&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;300&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;figsize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;matplotlib&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rcParams&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;font.family&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;WenQuanYi Zen Hei&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;常见水果热力图&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;imshow&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;wordcloud&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;interpolation&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;bilinear&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;axis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;off&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# plt.show()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fname&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/home/lj/Pictures/icbc_pii_bold_text.png&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;savefig&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fname&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fname&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;- http://localhost:1313/posts/pii-analysis-for-icbc/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>before-save-hook 默认不是 buffer local variable</title>
+        <link>http://localhost:1313/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</link>
+        <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</guid>
+        <description>A Bite of Cybersecurity http://localhost:1313/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/ -&lt;p&gt;我最近准备用 &lt;a href=&#34;https://docutils.sourceforge.io/rst.html&#34;&gt;reStructuredText&lt;/a&gt; 做结构化文档的处理。
+基于我已经是一个重度的 &lt;code&gt;org-mode&lt;/code&gt; 患者，我在做任何笔记的时候，离开 &lt;code&gt;org-mode&lt;/code&gt; 便显得各种
+不适应。虽然能看到 &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 很清秀，reStructuredText 很 sexy，但我大有“野花不如家花香”的
+感慨。&lt;/p&gt;
+&lt;p&gt;每当我吸完其他的工具之后，最后还是乖乖回到了 &lt;code&gt;org-mode&lt;/code&gt;. 但我不得不承认的是， reStructuredText 配合 &lt;a href=&#34;https://www.sphinx-doc.org/en/master/&#34;&gt;Sphinx&lt;/a&gt; 有一种化繁为简的美感。我曾经有过想用 &lt;code&gt;org-mode&lt;/code&gt; 在大型
+项目里实践 &lt;a href=&#34;https://en.wikipedia.org/wiki/Literate_programming&#34;&gt;Literate programming&lt;/a&gt; 的想法，但一想到要如何推广 &lt;code&gt;org-mode&lt;/code&gt;,整件事情到那儿就
+戛然而止了。毕竟推广 &lt;code&gt;org-mode&lt;/code&gt; 和推广 &lt;code&gt;GNU Emacs&lt;/code&gt; 一样艰难，人各有喜好，各有接受程度，
+&lt;code&gt;org-mode&lt;/code&gt; 和 &lt;code&gt;GNU Emacs&lt;/code&gt; 更像是现代武林的邪派武功。&lt;/p&gt;
+&lt;p&gt;言归正传，我用 &lt;code&gt;org-mode&lt;/code&gt; 记录了一篇笔记之后，使用 &lt;a href=&#34;https://github.com/msnoigrs/ox-rst&#34;&gt;ox-rst&lt;/a&gt; 导出到 rst 格式。这里遇到一个问题：
+我不想每次保存完 &lt;code&gt;org-mode&lt;/code&gt; buffer 之后，在手动去做一些导出，那样显得我太蠢了，无法体现出
+&lt;code&gt;GNU Emacs&lt;/code&gt; 的邪典艺术。所以做一个自动导出的设置吧， &lt;strong&gt;Let&amp;rsquo;s trial and error!!!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;trial-1-after-save-hook&#34;&gt;Trial 1 - &lt;code&gt;after-save-hook&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;我先想到的是用 &lt;code&gt;hook&lt;/code&gt;, 一通 &lt;code&gt;C-h v&lt;/code&gt; 操作下来，试下 &lt;code&gt;after-save-hook&lt;/code&gt;,代码很简单：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;add-to-hook&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;&amp;#39;after-save-hook&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;org-rst-export-to-rst&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;src-block-caption&#34;&gt;
+  &lt;span class=&#34;src-block-number&#34;&gt;Code Snippet 1:&lt;/span&gt;
+  example for bad setting with after-save-hook
+&lt;/div&gt;
+&lt;p&gt;我很悲剧的发现，加了这个 hook 之后，我没有办法保存文件。似乎每次执行导出的操作后，buffer 就变成
+编辑过后的状态，我神奇地搞了一个死循环。一直 &lt;code&gt;save-export-save-export...&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;trial-2-before-save-hook&#34;&gt;Trial 2 - &lt;code&gt;before-save-hook&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;既然 &lt;code&gt;save-buffer&lt;/code&gt; 之后不行，那么就在保存之前吧，毕竟这样很合理。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;add-hook&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;&amp;#39;before-save-hook&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;org-rst-export-to-rst&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;src-block-caption&#34;&gt;
+  &lt;span class=&#34;src-block-number&#34;&gt;Code Snippet 2:&lt;/span&gt;
+  example for bad setting with before-save-hook
+&lt;/div&gt;
+&lt;p&gt;OK, 保存的问题解决了。但悲剧总是从一种形式转变成另外一种形式，我以为 &lt;code&gt;before-save-hook&lt;/code&gt; 是 &lt;code&gt;local variable&lt;/code&gt;, 但他不是的。我保存的每一个文件，都来了一个 &lt;code&gt;.rst&lt;/code&gt; 后缀，你能想象 &lt;code&gt;foo-bar.rst.rst&lt;/code&gt; 的美吗？&lt;/p&gt;
+&lt;h2 id=&#34;tiral-3-before-save-hook-localization&#34;&gt;Tiral 3 - &lt;code&gt;before-save-hook&lt;/code&gt; localization&lt;/h2&gt;
+&lt;p&gt;那…… 有没有一种办法，创造一个 &lt;code&gt;local variable&lt;/code&gt; 呢？&lt;/p&gt;
+&lt;p&gt;有的。在&lt;a href=&#34;https://stackoverflow.com/questions/1931784/emacs-is-before-save-hook-a-local-variable&#34;&gt;这里&lt;/a&gt;我找到了答案。这个答案已经在万维网中存在了 14 年，在今天终于被我捕获了。
+进而我看了 &lt;code&gt;add-hook&lt;/code&gt; 的 manual, 它的 signature 是这样的：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;add-hook&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOOK&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;FUNCTION&lt;/span&gt; &lt;span class=&#34;kp&#34;&gt;&amp;amp;optional&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;DEPTH&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;LOCAL&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;src-block-caption&#34;&gt;
+  &lt;span class=&#34;src-block-number&#34;&gt;Code Snippet 3:&lt;/span&gt;
+  example for good setting with before-save-hook
+&lt;/div&gt;
+&lt;p&gt;就是这个 &lt;code&gt;LOCAL&lt;/code&gt;, 将它设置成 &lt;code&gt;t&lt;/code&gt; 之后，会创建一个 &lt;code&gt;before-save-hook&lt;/code&gt; 的同名 &lt;code&gt;local variable&lt;/code&gt;. 而这个 hook 的执行顺序，则是先按照 &lt;code&gt;global variable&lt;/code&gt; 的变量执行一次，
+在执行一次 &lt;code&gt;local variable&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;于是乎，这个问题解决了。额，你说问题是什么？那就是我可以保存完 &lt;code&gt;org-mode&lt;/code&gt; 的文件后，自动得到
+&lt;code&gt;*.rst&lt;/code&gt; 的文件了。 &lt;strong&gt;Bravo!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;更多设置&#34;&gt;更多设置&lt;/h2&gt;
+&lt;p&gt;在这里其实还涉及到我对某个 &lt;code&gt;org-mode buffer&lt;/code&gt; 做的 &lt;code&gt;local variable&lt;/code&gt; 的设置，举个例子吧：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;=# Local Variables:=
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;=# eval: (add-hook &amp;#39;before-save-hook #&amp;#39;org-rst-export-to-rst nil t)=
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;=# End:=
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;src-block-caption&#34;&gt;
+  &lt;span class=&#34;src-block-number&#34;&gt;Code Snippet 1:&lt;/span&gt;
+  example for local variable setup
+&lt;/div&gt;
+&lt;p&gt;当然，还得加上导出文件的设置，比如：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;#+export_file_name: /you/export/file/path&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;OK, 打完，收功！&lt;/p&gt;
+- http://localhost:1313/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>谈谈中文技术名词的翻译</title>
+        <link>http://localhost:1313/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</link>
+        <pubDate>Wed, 10 Jan 2024 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</guid>
+        <description>A Bite of Cybersecurity http://localhost:1313/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/ -&lt;p&gt;我在以往工作中接触过所谓 ssh ”爆破“这两个字，彼时因为不需要具体使用这个术语，总觉得“爆破”两个字好屌。当时会想，到底什么牛的技术才可以当得起“爆破”两个字。
+是不是一个命令一输入，突然 ssh 协议站就山崩地裂，崩溃以至于无法工作，再者无法回复，最终只能向黑客妥协，交出自己 ssh 所有的控制权。&lt;/p&gt;
+&lt;p&gt;“砰！”&lt;/p&gt;
+&lt;p&gt;直到今天，我才发现，“爆破”等于“暴力破解”，实乃“暴破”，英文所谓 &amp;ldquo;brute force attack&amp;rdquo; 也。&lt;/p&gt;
+&lt;p&gt;在搞清楚这个问题后，我不由汗颜。也意识到，原来看起来高大上的一些概念，很大程度上是因为中文翻译导致的以讹传讹。甚至于我在搜索引擎中搜索“暴破”两个字，几乎没有匹配到内容。&lt;/p&gt;
+&lt;p&gt;语言创造出来，本是为了理性交流，让概念通用化，但英文的原意经由中文的转义后，暴力破解的重复性，变成了爆炸破坏的瞬时性。这可以说造成了某种南辕北辙的效果。&lt;/p&gt;
+&lt;p&gt;传说当年最早翻译福尔摩斯的是一位福建人，老兄将 Holmes 中的 H 发成了 F。翻译人名的时候，可能无伤大雅，但翻译技术名字，要是也如此，那对于技术的传播，反而筑起了一道理解的壁垒。
+记录下这件事情，权当给自己勉励吧。要想在技术上有所建树，切记要中西合璧，如此才相得益彰。&lt;/p&gt;
+- http://localhost:1313/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>工行融 e 行个人信息保护政策</title>
+        <link>http://localhost:1313/posts/a-pii-example-from-icbc/</link>
+        <pubDate>Mon, 15 May 2023 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/a-pii-example-from-icbc/</guid>
+        <description>A Bite of Cybersecurity http://localhost:1313/posts/a-pii-example-from-icbc/ -&lt;blockquote&gt;
+&lt;p&gt;本文对原文做了个别修改，如需参考原文，见：&lt;a href=&#34;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&#34;&gt;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;我是工商银行的用户，前几天在使用该银行服务的时候，在手机端被提示了工商银行最新的个人信息保护政策。记录以下要点。&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;问：工行融 e 行将对个人信息做哪些处理？&lt;/dt&gt;
+&lt;dd&gt;收集、使用、存储、提供、转让、公开和删除&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;数据使用实体需要向数据被收集个体（简称“个体”）阐述相关事宜，见下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数据使用实体将说明个体信息类型及其用途，以便数据个体了解针对某一特定功能收集个人信息的目的、方式、范围及可能的后果等。&lt;/li&gt;
+&lt;li&gt;当个体使用某些功能时，数据使用实体需获得个体的明示同意后，可收集个体的某些敏感个人信息，例如个体的 &lt;strong&gt;通讯录&lt;/strong&gt;, &lt;strong&gt;生物识别信息&lt;/strong&gt; 等，拒绝提供这些信息会影响个体正常使用相关功能。&lt;/li&gt;
+&lt;li&gt;数据使用实体不应主动提供或转让个体的个人信息与第三方，如存在其他提供或转让个体个人信息情形，数据使用实体需征得个体的明示同意。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--listend--&gt;
+&lt;dl&gt;
+&lt;dt&gt;问：什么是明示同意？&lt;/dt&gt;
+&lt;dd&gt;explicit consent 明示同意是指个体通过书面、口头等方式主动作出纸质或电子形式的声明，或者自主作出肯定性动作，对个体的个人信息进行特定处理作出明确授权的行为。&lt;/dd&gt;
+&lt;dt&gt;问：肯定性动作包括哪些？&lt;/dt&gt;
+&lt;dd&gt;肯定性动作包括个体的主动勾选、主动点击“确定”“同意”“注册”“发送”“拨打”、主动填写或提供等。&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h2 id=&#34;保护个人信息的几个原则&#34;&gt;保护个人信息的几个原则&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;timestamp-wrapper&#34;&gt;&lt;span class=&#34;timestamp&#34;&gt;[2023-05-17 Wed 10:46]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;数据使用实体需要深知个人信息对个体的重要性，需尽力保护个体的个人信息安全。同时，数据使用实体需要恪守以下 7 个原则以保护个体的个人信息：&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;权责一致原则&lt;/dt&gt;
+&lt;dd&gt;指在一个组织中的管理者所拥有的权力应当与所承担的责任相适应的准则。The principle of consistency of rights and responsibilities&lt;/dd&gt;
+&lt;dt&gt;目的明确原则&lt;/dt&gt;
+&lt;dd&gt;具有合法、正当、必要、明确的个人信息处理目的。&lt;/dd&gt;
+&lt;dt&gt;选择同意原则&lt;/dt&gt;
+&lt;dd&gt;指向个人信息主体明示个人信息处理目的、方式、范围、规则等，征求其授权同意。换言之，选择同意原则即是要求企业尊重用户的事先同意权，征求同意的行为需发生在未对用户个人信息采取任何措施之前，例如在注册 App 前需勾选同意用户协议等。&lt;/dd&gt;
+&lt;dt&gt;最小必要原则&lt;/dt&gt;
+&lt;dd&gt;Minimum and necessary&lt;/dd&gt;
+&lt;dt&gt;确保安全原则&lt;/dt&gt;
+&lt;dd&gt;具备与所面临的安全风险相匹配的安全能力、并采取足够的管理措施和技术手段，保护个人信息的保密性、完整性、可用性。&lt;/dd&gt;
+&lt;dt&gt;主体参与原则&lt;/dt&gt;
+&lt;dd&gt;指向个人信息主体提供能够访问、更正、删除其个人信息，以及撤回同意、注销账户等方法。主体参与原则赋予用户的是事后监督权，保护的是用户事后的反悔权，或者是用户不同意的自由。根据实践，相较于选择同意权，企业更容易忽视用户的主体参与权利。&lt;/dd&gt;
+&lt;dt&gt;公开透明原则&lt;/dt&gt;
+&lt;dd&gt;以明确、易懂和合理的方式公开处理个人信息的范围、目的、规则等，并接受外部监督&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h3 id=&#34;从目的明确原则展开的目的限制原则--the-principle-of-purpose-limitation&#34;&gt;从目的明确原则展开的目的限制原则 (the principle of purpose limitation)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;timestamp-wrapper&#34;&gt;&lt;span class=&#34;timestamp&#34;&gt;[2023-05-17 Wed 11:26]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;目的限制原则 (the principle of purpose limitation), 也称目的拘束原则，是个人信息保护法中最基本的一项原则，贯穿于个人信息处理活动的全过程，无论处理者是谁，也不管属于何种类型的处理活动，都必须受到该原则的拘束。目的限制原则是个人信息保护的基石，在个人信息保护法中具有重要的地位，该原则也被称为个人信息保护法的“帝王条款”。&lt;/p&gt;
+&lt;p&gt;个人信息保护法第六条规定：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;处理个人信息应当具有明确、合理的目的，并应当与处理目的直接相关，采取对个人权益影响最小的方式。收集个人信息，应当限于实现处理目的的最小范围，不得过度收集个人信息。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;个人信息-敏感个人信息的定义&#34;&gt;个人信息，敏感个人信息的定义&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;timestamp-wrapper&#34;&gt;&lt;span class=&#34;timestamp&#34;&gt;[2023-05-17 Wed 12:59]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;个人信息是以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。
+敏感个人信息是一旦泄露或者非法使用，容易导致自然人的个人尊严受到侵害或者人身、财产安全受到危害的个人信息，包括生物识别、宗教信仰、特定身份、医疗健康、金融账户、行踪轨迹等信息，以及不满十四周岁未成年人的个人信息。&lt;/p&gt;
+&lt;h2 id=&#34;工商银行相关的技术细节-索引&#34;&gt;工商银行相关的技术细节，索引&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;timestamp-wrapper&#34;&gt;&lt;span class=&#34;timestamp&#34;&gt;[2023-05-22 Mon 12:44]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如何收集和使用个人信息&lt;/li&gt;
+&lt;li&gt;如何使用 Cookie 技术&lt;/li&gt;
+&lt;li&gt;如何存储和保护个人信息&lt;/li&gt;
+&lt;li&gt;如何提供，转让和公开披露个人信息&lt;/li&gt;
+&lt;li&gt;个体如何管理自身的个人信息&lt;/li&gt;
+&lt;li&gt;如何处理未成年人信息&lt;/li&gt;
+&lt;li&gt;政策如何更新&lt;/li&gt;
+&lt;li&gt;如何联系个人数据使用实体&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;如何收集和使用个人信息&#34;&gt;如何收集和使用个人信息&lt;/h3&gt;
+&lt;p&gt;应用会收集在使用服务过程中主动输入或因使用服务而产生的信息。依据法律法规及监管要求，个体需提供或授权数据使用实体收集必要的个人信息。如果个体拒绝提供，其将无法使用相应功能或服务。&lt;/p&gt;
+&lt;p&gt;在注册时，按照使用本行、他行发行卡注册的途径，收集的信息略有区别。当使用本行卡注册时，需要：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;手机号码&lt;/li&gt;
+&lt;li&gt;身份证信息&lt;/li&gt;
+&lt;li&gt;银行卡号&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;验证银行卡密码&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;若使用的是他行发行卡，则需要：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;他行卡号&lt;/li&gt;
+&lt;li&gt;姓名&lt;/li&gt;
+&lt;li&gt;性别&lt;/li&gt;
+&lt;li&gt;手机号码&lt;/li&gt;
+&lt;li&gt;证件类型&lt;/li&gt;
+&lt;li&gt;证件号码&lt;/li&gt;
+&lt;li&gt;证件有效期&lt;/li&gt;
+&lt;li&gt;联络地址&lt;/li&gt;
+&lt;li&gt;职业&lt;/li&gt;
+&lt;li&gt;国籍，&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;同时，将以下信息发送至中国银联或人民银行进行信息查询与核验，以完成注册：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;姓名&lt;/li&gt;
+&lt;li&gt;证件类型&lt;/li&gt;
+&lt;li&gt;证件号码&lt;/li&gt;
+&lt;li&gt;他行卡号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当注册服务时，数据使用实体会采集个体的人脸信息进行身份认证，可能会将人脸信息发送至公安部进行核验并接受验证结果。如果拒绝采集人脸信息，将无法注册该服务。&lt;/p&gt;
+&lt;p&gt;当使用数据使用实体提供的服务时，个体可能需要向实体提供或授权实体收集相应服务所需的个人信息。如果个体拒绝提供，个人将无法使用相应功能或服务。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当登录时，银行将对登录手机号码、登录密码或手势密码进行有效性核验，首次登录时将验证银行卡取款密码和短信验证码，必要时会验证人脸信息。如个体忘记登录密码需要重置时，银行将根据个体所选择场景的需要验证个体的身份信息，包括手机号码、姓名、证件类型、证件号码、银行卡号、银行卡取款密码、人脸信息。银行还会收集设备信息用语硬件绑定和登录安全加固。如个体不提供以上信息，个体将无法登录或者找回密码，但这不影响个体正常使用未登录情况下可用的功能或服务。&lt;/li&gt;
+&lt;li&gt;为了让个体更安全、便捷地使用登录服务，如果个体的设备与银行应用的移动版本均支持指纹/面容 ID 功能，个体可以选择通过指纹 / 面容 ID 功能登录银行应用移动端。个体需在其设备上录入个体的指纹 / 面容信息，在个体进行指纹 / 面容 ID 登录移动端时，个体需在其设备上完成指纹 / 面容 ID 验证。银行仅接收验证结果，并不收集个体的指纹 / 面容信息，其信息仅在个体授权采集指纹 / 面容信息的设备上保存和处理。如个人不想使用指纹 / 面容 ID 登录，仍可通过其他方式进行登录。个体可意通过移动端开启或关闭指纹 / 面容 ID 登录功能。&lt;/li&gt;
+&lt;li&gt;为了让个体更安全、便捷地使用登录服务，如移动端支持声纹登录功能，个体可选择通过声纹登录移动端，银行会采集个体的声纹信息，在经过个体的明示同意和身份认证后，个体的声纹信息将被加密存储于银行信息系统后台数据库中。如个体拒绝授权银行采集个体的声纹信息，银行将无法提供声纹登录服务。个体仍可以通过其他方式登录。个体可以通过移动端开启或关闭声纹登录功能。&lt;/li&gt;
+&lt;li&gt;当个体在注册、登录、注销电子银行，或在功能开通、查询、变更等交易需核实身份或辅助认证场景时，出于维护个体的信息、账户、资金安全及风险控制等原因，或法律法规、监管规定要求必须开展客户身份核实的场景时，银行会要求个体通过人脸识别进行身份核验。如果个体是未成年人，需要由其监护人通过人脸识别完成验证。
+在人脸识别时，银行会采集个体的人脸信息，通过活体检测和人脸比对等技术，核验个体的真实身份，银行会使用个体在电子银行、自助终端、网点柜面等渠道授权留存的人脸信息，或通过有权机关（包括但不限于中国人民银行、公安部及其授权机构）查询及使用您的身份信息及人脸照片信息。在必要时，银行会将个体的人脸信息发送至上述机构进行核验并接收验证结果。人脸识别验证后，个体的人脸信息将被归档存储于银行系统，以作为交易留证资料。如果个体不提供人脸信息进行采集验证，银行将无法为个体提供根据业务性质及其风险控制等原因必须进行人脸识别验证的产品或服务。
+个体可以授权银行将个体的人脸信息保存至银行信息库，可实现 7*24 小时人脸识别认证服务。经过个体的明示同意和身份认证后，个体的人脸信息将被加密存储于银行人脸识别信息库。个体可意登录银行移动端，开通、终止人脸识别服务或更新个体的人脸信息。&lt;/li&gt;
+&lt;li&gt;为了让个体更安全、便捷地使用转账、支付服务，如个体的设备与移动端版本均支持指纹、面容功能，对于某些品牌或型号的设备，个体可选择开通指纹、刷脸支付功能。个体需要在设备上录入个体的指纹、面容信息，在个体进行指纹，刷脸支付时，个体需要在其设备上完成指纹，面容验证。银行仅接收验证结果，并不收集个体的指纹，面容信息，其信息仅在个体授权采集指纹，面容信息的设备上保存和处理。如个体不想使用指纹，刷脸支付，仍可通过其他方式进行转账，支付。个体可以通过应用开启或关闭指纹，刷脸支付功能。&lt;/li&gt;
+&lt;li&gt;当个体通过第三方授权登录应用时，银行可能从第三方（如微信，支付宝，Apple）收集个体授权提供的账户信息（头像，昵称，地区，性别），并在个体同意本政策后将个体的第三方账户与其银行账户绑定，使个体可以通过第三方账户直接登录并使用银行的产品或服务。个体可以通过应用开启或关闭上述第三方授权登录功能，并可以查询第三方账户绑定历史。&lt;/li&gt;
+&lt;li&gt;当个体使用银行提供的实名认证服务时，银行将根据个体所根据场景的需要验证个体的姓名、证件类型（身份证，护照，军官证，士兵证，港澳台居民来往通行证，临时身份证，户口本，警官证，外国人永久居留证，边民出入境通行证），证件号码，银行卡号账号，短信验证码，人脸信息，并可能通过验证账号，卡密码方式对有关信息进行有效性核验。如个体不提供上述信息，银行将无法向个体提供需完成实名认证后方可使用的产品或服务，但这不影响个体正常使用银行的其他功能。&lt;/li&gt;
+&lt;li&gt;……&lt;/li&gt;
+&lt;li&gt;……&lt;/li&gt;
+&lt;li&gt;……&lt;/li&gt;
+&lt;li&gt;在以下情形中，个体选择是否授权个人信息使用实体收集，使用个体的个人信息：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;基于相机（摄像头）的功能:&lt;/strong&gt; 个体可使用扫码支付，二维码识别，银行卡识别，身份证识别，人脸识别，同屏解说，远程视频审核等服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于相册（图片库）的功能:&lt;/strong&gt; 个体可使用头像上传，电子回单保存，二维码识别，银行卡及身份证识别等服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于地理位置的功能:&lt;/strong&gt; 个体可开启定位服务，用于网络金融交易风控，提高查询附近网点，获得优惠商户信息的准确性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于麦克风的功能:&lt;/strong&gt; 个体可使用音频 U 盾，声纹识别，语音搜索，语音转账，语音唤醒，同屏解说，远程视频审核等服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于蓝牙的功能:&lt;/strong&gt; 个体可使用蓝牙 U 盾等服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Face ID:&lt;/strong&gt; 个体可使用登录，支付等服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于存储的功能:&lt;/strong&gt; 用语手机银行登录，我的客服，扫一扫，登录图像图片保存，同屏解说等功能或服务，提供客户端升级相关信息。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于电话的功能:&lt;/strong&gt; 用于读取手机设备 ID 等基础信息，并标识设备绑定信息以保障客户在登录，支付时的交易安全。当个体使用忘记密码，账户挂失或解挂等功能的音视频审核服务和同屏解说服务时，需要确认电话状态，避免在通话过程中进入音视频通讯而出现设备占用等异常状态。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于 NFC 的功能:&lt;/strong&gt; 个体可使用云闪付，工银芯管家等服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于通讯录的功能:&lt;/strong&gt; 个体可使用手机号转账，话费充值，汇款短信通知等服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于指纹的功能:&lt;/strong&gt; 个体可使用指纹登录，指纹登录设置等服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于剪切板的功能:&lt;/strong&gt; 个体可使用云口令识别，转账快捷跳转功能，银行系统后台不保存个体的剪切板内容。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于投屏录屏的功能:&lt;/strong&gt; 个体可使用同屏解说服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于应用内下载安装 App 的功能:&lt;/strong&gt; 个体可使用检测到新版本后的客户端升级服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于悬浮窗的功能:&lt;/strong&gt; 个体可参加任务中心活动，使用音视频审核服务和同屏解说服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基于加速度传感器的功能:&lt;/strong&gt; 个体可使用翻转退出登录和摇一摇服务。
+上述功能可能需要个体在其设备中向银行开启个体的相机（摄像头），相册（图片库），地理位置（位置信息），麦克风，蓝牙，Face ID，存储空间，电话，NFC，通讯录，指纹，剪切板，投屏录屏，应用内下载安装 App，悬浮窗的访问权限，以实现这些功能所涉及的信息的收集和使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.mbalib.com/wiki/%E7%9B%AE%E7%9A%84%E9%99%90%E5%88%B6%E5%8E%9F%E5%88%99&#34;&gt;https://wiki.mbalib.com/wiki/%E7%9B%AE%E7%9A%84%E9%99%90%E5%88%B6%E5%8E%9F%E5%88%99&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+- http://localhost:1313/posts/a-pii-example-from-icbc/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>What is Back Office?</title>
+        <link>http://localhost:1313/posts/what-is-back-office/</link>
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/what-is-back-office/</guid>
+        <description>A Bite of Cybersecurity http://localhost:1313/posts/what-is-back-office/ -&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The back office is a counter concept against front office.&lt;/p&gt;&lt;/blockquote&gt;
+- http://localhost:1313/posts/what-is-back-office/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>What is Information Security Management</title>
+        <link>http://localhost:1313/posts/what-is-information-security-management/</link>
+        <pubDate>Sun, 14 May 2023 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/what-is-information-security-management/</guid>
+        <description>A Bite of Cybersecurity http://localhost:1313/posts/what-is-information-security-management/ -&lt;blockquote&gt;
+&lt;p&gt;Information security management validates that appropriate policies, procedures, standards, and guidelines are implemented to ensure business operations are conducted within an acceptable level of risk.&lt;/p&gt;&lt;/blockquote&gt;
+- http://localhost:1313/posts/what-is-information-security-management/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>CNAS 和 CMA 认定</title>
+        <link>http://localhost:1313/posts/cnas_and_cma_accreditation/</link>
+        <pubDate>Tue, 01 Apr 2025 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/cnas_and_cma_accreditation/</guid>
+        <description>A Bite of Cybersecurity http://localhost:1313/posts/cnas_and_cma_accreditation/ -&lt;p&gt;这两年中国汽车行业里对网络安全的认证需求越来越多，同时要求也越来越高。我能够观察
+到，随着中国电动汽车的倾销加剧，各国对中国生产的电动汽车的门槛，也会随之升高。&lt;/p&gt;
+&lt;p&gt;这里说门槛是不那么准确的，特别说明，使用“门槛”这个词语不带有任何的贬低和恶意，主
+要表达的意思是，随着产业升级和技术复杂度的提高，若采用静止的观念看待整车的网络安
+全，那么车辆的安全风险自售卖到终端用户时起，便与日俱增。该“门槛”的作用在于设置一
+个可以达到的最低标准，从而使汽车工业产业链的各个节点均能有效地达到。&lt;/p&gt;
+&lt;p&gt;从推动标准的角度上说，行业里需要有第三方机构，可以独立地评估一家企业，或者是一类
+产品，是否能够达到这个门槛。中国的汽车准入条件并非参考的是美国的自申明，并且中国
+的电动汽车出口地，目前也绝不是美国。基于上述的考量，中国企业参考 UN R155 以及
+ISO/SAE 21434:2021 就是目下的最优解。&lt;/p&gt;
+&lt;h2 id=&#34;问题的出现&#34;&gt;问题的出现&lt;/h2&gt;
+&lt;p&gt;早在 J3061&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;发布起，行业内便在探讨有关汽车网络安全系统的实现。当 R155 及
+ISO/SAE 21434:2021 实施时，行业内达成了需要完善网络安全管理体系的共识。但随之而
+来的问题产生在于各个国家，各个 OEM 对与法规和标准的解读程度。其中最大的讨论产生
+于汽车网络安全的测试和验证&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;（verification and validation）。这里集成体现的
+矛盾在于：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;汽车网络安全的测试要求持续性，贯穿整个产品生命周期，并且在各个阶段，测试的侧
+重各有差异&lt;/li&gt;
+&lt;li&gt;网络安全的测试与传统的集成测试，自动化测试有相当程度的重叠，如何调配组织内部
+资源来应对&lt;/li&gt;
+&lt;li&gt;各组织之间的成果互认，统一测试标准及验收条件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;基于篇幅的考量，在本文中，我主要讨论上述的第三点。&lt;/p&gt;
+&lt;h2 id=&#34;成果互认&#34;&gt;成果互认&lt;/h2&gt;
+&lt;p&gt;从实施者的角度上说，相关方对于标准之间的互认，始终是一个费时费力的待解决问题。组
+织在具备产品开发的角度上，还需具备相当能力以应对各类法规，标准的要求。举一个例子，
+对于组织财务的审计，我们可以去找四大提供专业严谨的服务。而对于产品网络安全，即便
+当前行业内部已有充分的指导标准，但各个组织主要还是依赖自检自查以做应对。&lt;/p&gt;
+&lt;p&gt;在某种程度上，依赖于自查，即增加了 &amp;ldquo;inside attacker&amp;rdquo; 的风险。组织面临着巨量的交
+付压力，整车系统也在对各个因素做系统性的权衡。而安全措施往往成为了一个侥幸逃避的
+借口。在产业链的各个环节累积的产品网络安全风险，最终将在 Tier1 和 OEM 积累。OEM
+在最终面对车辆型式认证时，往往初审的结果也不尽人意。&lt;/p&gt;
+&lt;p&gt;以比较常见的调试口保护举例，下级供应商因其技术的积累不足，紧张的交付周期，往往在
+开发阶段对其不做保护，也不会设计相应的测试用例以确保其可用性。一种好的情况是，下
+级供应商能做出 SFOP 的分析，得出准确的风险评估，从而再做出申明。但现实往往是，供
+应商既未做申明，也未做管控，最终未知的产品风险暴露在车辆型式认证前。此时再去做更
+改，将带来巨大的更改成本。&lt;/p&gt;
+&lt;h2 id=&#34;解决思路&#34;&gt;解决思路&lt;/h2&gt;
+&lt;p&gt;针对上述情况，一种解决方案是引入成熟的测试验证体系，以一个成熟的体系来保障一个待
+成熟的体系（CSMS)。&lt;/p&gt;
+&lt;p&gt;CNAS (China National Accreditation Service for Conformity Assessment) 资质认可是
+由中国合格评定认可委员会实施的认可活动，是一种自愿行为，任何第一方，第二方和第三
+方实验室均可申请认可。CNAS 是国家级实验室的标志，有这一标志，表明该检验机构已经
+通过了中国国家实验室认证委员会的考核，检验能力已经达到了国家级实验室水平。&lt;/p&gt;
+&lt;p&gt;CNAS 资质已与亚太地区实验室认可和国际实验室认可合作组织签订了互认协议
+（APLPA-MRA). 因此，获得 CNAS 的认可，出具的检测报告可以获得签署互认协议方国家和
+地区认可机构的承认。&lt;/p&gt;
+&lt;p&gt;其中第一方实验室是组织内的实验室，检测、校准组织生产的产品，数据为组织所用，目的
+是提高和控制组织生产的产品质量。第二方实验室也是组织内的实验室，检测，校准供方提
+供的产品，数据为组织所用，目的是提高和控制供方的产品质量。第三方则独立于第一方和
+第二方，为社会提供检测、校准服务的实验室，其数据为社会所用，目的是提高和控制社会
+产品质量。&lt;/p&gt;
+&lt;p&gt;对于组织而言，按照 CNAS 的标准，搭建第一方和第二方实验室，是一个可行且可靠的方案。&lt;/p&gt;
+&lt;h2 id=&#34;接下来的工作&#34;&gt;接下来的工作&lt;/h2&gt;
+&lt;p&gt;此篇文章仅作为一个半成品而存在，在后续的更新中，我将提供更多有关 CNAS, 以及中国
+法规标准的相关信息。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;SAE J3061 Cybersecurity Guidebook for Cyber-Physical Vehicle Systems&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;A Global Survey of Standardization and Industry Practices of Automotive
+Cybersecurity Validation and Verification Testing Processes and Tools&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+- http://localhost:1313/posts/cnas_and_cma_accreditation/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Set Milestone In Taskjuggler Via Orgmode</title>
+        <link>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</link>
+        <pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</guid>
+        <description>A Bite of Cybersecurity http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/ -&lt;h2 id=&#34;taskjuggler-是个好东西&#34;&gt;Taskjuggler 是个好东西&lt;/h2&gt;
+&lt;p&gt;我在工作中，经常会需要排布计划。我很不喜欢用 Excel, Microsoft Project 等这些工具
+去做这件事情，一来我不喜欢那么将随意调整的能力给到可以访问计划的每一个人，二来这
+些工具的可操作性实在太差了，一会儿用用鼠标，一会儿调一调格式，这都是很让我割裂的
+工作方式。&lt;/p&gt;
+&lt;p&gt;我很久以前试过用 PlantUML 做甘特图，问题在于 PlantUML 的一致性太差了，并且它也不
+是个专门用于项目管理的工具。当然和 PlantUML 对标的 Mermaid 也不是我的理想型。但
+直到某一天，我遇到了 Taskjuggler。我的问题终于得到了解决方案。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://taskjuggler.org/&#34;&gt;Taskjuggler&lt;/a&gt; 诞生于 2001 年，是一款历时已久的项目管理工具。经过了这么些年对于项目
+管理的摸爬滚打，我渐渐觉得软件工程在项目管理上，有时候需要借鉴的太多了。软件工程
+固然有其复杂性，但这复杂性往往带来的是混沌，而非经典项目管理上的确定性。一个项目
+追求的一个大目标，就是其确定性，若没有确定性，便没有计划。&lt;/p&gt;
+&lt;p&gt;日益复杂的系统工程，带来了确定性的挑战。这也就需要系统的项目管理工具来辅助项目管
+理人员来思考。我个人认为 Taskjuggler 最大的优势在于其高度的开放性，它开放了很多
+的字段，这些字段可以照顾到我在一个项目上碰到的各种各样奇怪的问题。而其他的工具，
+看似上手容易，实则限制了想象力。我很想在这个地方多说一些自己的感悟，可恨的地方在
+于，我对 Taskjuggler 的体验还没有那样深刻。等之后有机会，我可以多写一些这部分的
+对比介绍。&lt;/p&gt;
+&lt;h2 id=&#34;taskjuggler-with-milestone&#34;&gt;Taskjuggler with Milestone&lt;/h2&gt;
+&lt;p&gt;当在进行高层次的项目计划时，我通常不会考虑细节的分解，对于某一个任务，我更喜欢使
+用类似 &amp;ldquo;deadline(最终期限)&amp;rdquo; 或者 &amp;ldquo;delivery time(交付时间)&amp;rdquo; 的方式来开展组织计划。
+相应地，在taskjuggler 中，我会用如下的范例来描述一个任务的交付时间：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-taskjuggler&#34; data-lang=&#34;taskjuggler&#34;&gt;task tara &amp;#34;TARA&amp;#34; {
+      milestone
+      end 2025-2-15
+    }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;由以上的范例可以发现，taskjuggler 使用的是一种不太常见的语言，说实话这有些增加了
+学习成本。幸运的是 taskjuggler 可以使用 Orgmode 来转化。所以 &lt;a href=&#34;https://orgmode.org/worg/exporters/taskjuggler/ox-taskjuggler.html&#34;&gt;Let&amp;rsquo;s Orgmode!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;每一个确定性的目标都是要满足某一个 Milestone。taskjggler 里使用 🔶 来表示一个
+Milestone 的完成。&lt;/p&gt;
+&lt;h2 id=&#34;trial-and-error&#34;&gt;Trial and Error&lt;/h2&gt;
+&lt;p&gt;在使用 Orgmode 导出 Taskjuggler milestone 的时候，我遇到了一个问题，详细可以参考
+&lt;a href=&#34;https://github.com/taskjuggler/TaskJuggler/issues/236&#34;&gt;这里&lt;/a&gt;。这个 Issue 并没有给出最终的解决办法，经过我的试错，一个 walkaround 是：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不要在最后一个 task 里增加 end property!
+不要在最后一个 task 里增加 end property!
+不要在最后一个 task 里增加 end property!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;好了，happy hacking!&lt;/p&gt;
+- http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/ - </description>
+        </item>
+    
+    
   </channel>
-</rss>
+</rss> 
