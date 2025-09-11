@@ -1,4 +1,4 @@
-<?xml-stylesheet href="/rss.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A Byte of Cybersecurity</title><link>http://localhost:1313/</link><description>Recent content on A Byte of Cybersecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>Set Milestone In Taskjuggler Via Orgmode</title><link>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</link><pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate><guid>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</guid><description>A Byte of Cybersecurity http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/ -&lt;h2 id="taskjuggler-是个好东西"&gt;Taskjuggler 是个好东西&lt;/h2&gt;
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A Byte of Cybersecurity</title><link>https://lloydlore.github.io/</link><description>Recent content on A Byte of Cybersecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Set Milestone In Taskjuggler Via Orgmode</title><link>https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/</link><pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate><guid>https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/ -&lt;h2 id="taskjuggler-是个好东西"&gt;Taskjuggler 是个好东西&lt;/h2&gt;
 &lt;p&gt;我在工作中，经常会需要排布计划。我很不喜欢用 Excel, Microsoft Project 等这些工具
 去做这件事情，一来我不喜欢那么将随意调整的能力给到可以访问计划的每一个人，二来这
 些工具的可操作性实在太差了，一会儿用用鼠标，一会儿调一调格式，这都是很让我割裂的
@@ -36,7 +36,7 @@ Milestone 的完成。&lt;/p&gt;
 不要在最后一个 task 里增加 end property!
 不要在最后一个 task 里增加 end property!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;好了，happy hacking!&lt;/p&gt;
-- http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/ -</description></item><item><title>Welcome A Puppy</title><link>http://localhost:1313/posts/welcome-a-puppy/</link><pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate><guid>http://localhost:1313/posts/welcome-a-puppy/</guid><description>A Byte of Cybersecurity http://localhost:1313/posts/welcome-a-puppy/ -&lt;p&gt;我一直以来很喜欢🐕，并且我在十一二岁的时候，也养过一只小哈巴狗。我喜欢带着它上床
+- https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/ -</description></item><item><title>Welcome A Puppy</title><link>https://lloydlore.github.io/posts/welcome-a-puppy/</link><pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate><guid>https://lloydlore.github.io/posts/welcome-a-puppy/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/welcome-a-puppy/ -&lt;p&gt;我一直以来很喜欢🐕，并且我在十一二岁的时候，也养过一只小哈巴狗。我喜欢带着它上床
 睡觉。但后来那只狗被送人了。我也就再也没有养过狗了。&lt;/p&gt;
 &lt;p&gt;上周末带着老婆孩子逛商场，原本只是饭后散步式的逛街，也计划了逛街后，去打羽毛球。
 等我们走到商场里的宠物店时，一只小柴犬吸引了我们的目光。后来才知道，其实它也不算
@@ -44,7 +44,7 @@ Milestone 的完成。&lt;/p&gt;
 下了它。我付出了乐观代价，带回了一只有活力的小狗。&lt;/p&gt;
 &lt;p&gt;几天以来，我有了种重新当爸爸的感觉，小狗怎么养，怎么教，我在此之前从没有做过什么
 功课。我真的很喜欢它。欢迎这个家庭有了新成员！我们现在算是四口之家（👨‍👩‍👧‍🐶）了！&lt;/p&gt;
-- http://localhost:1313/posts/welcome-a-puppy/ -</description></item><item><title>Golden Dict Talks to Anki</title><link>http://localhost:1313/posts/goldendict-talks-to-anki/</link><pubDate>Fri, 25 Oct 2024 00:00:00 +0800</pubDate><guid>http://localhost:1313/posts/goldendict-talks-to-anki/</guid><description>A Byte of Cybersecurity http://localhost:1313/posts/goldendict-talks-to-anki/ -&lt;p&gt;我习惯在电脑上使用离线词典，一来离线词典很快，二来在没有网络的时候，离线词典仍然
+- https://lloydlore.github.io/posts/welcome-a-puppy/ -</description></item><item><title>Golden Dict Talks to Anki</title><link>https://lloydlore.github.io/posts/goldendict-talks-to-anki/</link><pubDate>Fri, 25 Oct 2024 00:00:00 +0800</pubDate><guid>https://lloydlore.github.io/posts/goldendict-talks-to-anki/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/goldendict-talks-to-anki/ -&lt;p&gt;我习惯在电脑上使用离线词典，一来离线词典很快，二来在没有网络的时候，离线词典仍然
 能给我一个比较好的结果。其实还有个可能是谬误的想法，我总觉得在线词典，更加吃电脑
 的资源，而资源嘛，能省则省啦。&lt;/p&gt;
 &lt;p&gt;使用过很多词典，对我来说，以及对我儿子来说，欧路词典能够解决大部分平常遇到的问题，
@@ -66,13 +66,13 @@ Milestone 的完成。&lt;/p&gt;
 &lt;h2 id="设置-goldendict-ng-选项"&gt;设置 GoldenDict-ng 选项&lt;/h2&gt;
 &lt;p&gt;在对 &lt;code&gt;GoldenDict-ng&lt;/code&gt; 做设置时，我们需要在 &lt;code&gt;Preferences-&amp;gt;Network-&amp;gt;Anki Connect&lt;/code&gt;
 中设置一些参数，具体可以参考以下：&lt;/p&gt;
-&lt;figure&gt;&lt;img src="http://localhost:1313/ox-hugo/2024-10-25_16-05-48_screenshot.png"&gt;
+&lt;figure&gt;&lt;img src="https://lloydlore.github.io/ox-hugo/2024-10-25_16-05-48_screenshot.png"&gt;
 &lt;/figure&gt;
 &lt;h2 id="点一下"&gt;点一下&lt;/h2&gt;
 &lt;p&gt;设置好 Anki Connect 后，在词典的界面，会多出一个加号，如下图，状态栏会有提示：
 &lt;code&gt;anki:post to anki success&lt;/code&gt;, 这样就可以去 Anki 中查看卡了。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="http://localhost:1313/ox-hugo/2024-10-25_16-08-48_screenshot.png"&gt;
+&lt;figure&gt;&lt;img src="https://lloydlore.github.io/ox-hugo/2024-10-25_16-08-48_screenshot.png"&gt;
 &lt;/figure&gt;
 &lt;h2 id="小结"&gt;小结&lt;/h2&gt;
 &lt;p&gt;希望这条路打通之后，我能多记一些单词吧。Happy Hacking!&lt;/p&gt;
-- http://localhost:1313/posts/goldendict-talks-to-anki/ -</description></item></channel></rss>
+- https://lloydlore.github.io/posts/goldendict-talks-to-anki/ -</description></item></channel></rss>
