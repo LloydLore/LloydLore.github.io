@@ -22,18 +22,23 @@ I didn't realized that Hugo is under heavy development, and many themes are also
 
 But since long time has elapsed, I need to re-learn how to set up a blog using Hugo. So I decided to write down my experience here, so that I can refer to it later.
 
-## What I'll Cover
+## 4 days journey
 
-In this post, I'll walk you through:
+I stayed up for 2:00 a.m. on the day yesterday just in order to make some trial and error to make this little project work. By that night I closed my eyes, I finished successful build on my local environment, but as you know, I don't have much confidence to make it work with the Github actions. 
 
-- Setting up Hugo
-- Configuring the diary theme
-- Creating your first post
-- Customizing the layout
+I felt a little bit tired of Hugo from the next morning. I indeed wanted to master Hugo, but I tried several times, it is so unfamiliar to me. I don't use Go previsouly, I was astonished by the Go grammer I encountered. Then day 2, and day 3 passed away easily. At current stage, it is the 4th day when I started this refactoring. 
 
-Let's get started!
+I need to finish them today, I just told myself with such sentence. 
 
-So where is the iamge?
+## Delete the memories
+
+I deleted all the content I made with previous Hugo Setup. I build a org-mode worflow at that time, but somehow I didn't insisted on with org-mode. I shall say this is the first time over these years I want to give Markdown a serious try instead of keep myself on orgmode. I know it might sound strange to some wierdo (hacker, and geek maybe), but I really think I don't use much orgmode features over the past years. 
+
+It doesn't mean that I will give up orgmode. God, I love orgmode, it is one of the most powerful tools in the world. All I wanted to say is that, orgmode is the very part I cannot let go. So let's see what I could do with it next steps. 
+
+## In the fu...ture
+
+I try not to think about the future, I need to focus on the moment. 
 
 {{< figure
   src="hugo-diary-cover.jpg"
