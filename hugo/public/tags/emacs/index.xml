@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emacs on A Byte of Cybersecurity</title>
+    <link>http://localhost:1313/tags/emacs/</link>
+    <description>Recent content in Emacs on A Byte of Cybersecurity</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Nov 2024 23:59:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>doomemacs GUI 中文显示及输入法设置</title>
+      <link>http://localhost:1313/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</guid>
+      <description>&lt;p&gt;本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;中文显示字体，&lt;a href=&#34;https://github.com/be5invis/Sarasa-Gothic&#34;&gt;Sarasa Gothic SC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;中文输入法，&lt;a href=&#34;https://github.com/tumashu/pyim&#34;&gt;PYIM&lt;/a&gt; + &lt;a href=&#34;https://github.com/merrickluo/liberime&#34;&gt;liberime&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;输入法方案，&lt;a href=&#34;https://www.fkxxyz.com/d/cloverpinyin/&#34;&gt;四叶草&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;其他…&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;doomemacs-gui-frame-中文显示&#34;&gt;doomemacs GUI frame 中文显示&lt;/h2&gt;&#xA;&lt;p&gt;我一般只会使用窗口模式下的 emacs，此前在使用我自身做的 emacs 配置时，发现配置中文只要简单地设置 CJK 字符就可以，但到了用 doomemacs 时，我尝试了各种方法，总是不行。&lt;a href=&#34;https://emacs-china.org/t/doom-emacs/23513/10&#34;&gt;最终发现了一个 hook 的使用&lt;/a&gt;，如下：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>before-save-hook 默认不是 buffer local variable</title>
+      <link>http://localhost:1313/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</guid>
+      <description>&lt;p&gt;我最近准备用 &lt;a href=&#34;https://docutils.sourceforge.io/rst.html&#34;&gt;reStructuredText&lt;/a&gt; 做结构化文档的处理。&#xA;基于我已经是一个重度的 &lt;code&gt;org-mode&lt;/code&gt; 患者，我在做任何笔记的时候，离开 &lt;code&gt;org-mode&lt;/code&gt; 便显得各种&#xA;不适应。虽然能看到 &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; 很清秀，reStructuredText 很 sexy，但我大有“野花不如家花香”的&#xA;感慨。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

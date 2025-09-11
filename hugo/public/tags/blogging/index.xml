@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on A Byte of Cybersecurity</title>
+    <link>http://localhost:1313/tags/blogging/</link>
+    <description>Recent content in Blogging on A Byte of Cybersecurity</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Long time no tweaking Hugo</title>
+      <link>http://localhost:1313/posts/my-new-post/</link>
+      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-new-post/</guid>
+      <description>&lt;h1 id=&#34;not-a-welcome&#34;&gt;Not A Welcome&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Things just faded away, not like Michael Jordan, like a duck drone in the ocean.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;I had many excuses not update my blog for such a long time. But I need to say, when you didn&amp;rsquo;t put much effort on something, it just faded away.&lt;/p&gt;&#xA;&lt;p&gt;I didn&amp;rsquo;t realized that Hugo is under heavy development, and many themes are also evolving. So I decided to give it a try again. Last time I deployed my blog on github pages, it has a very very ugly layout. This time I found a very nice theme called &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-theme-diary/&#34;&gt;diary&lt;/a&gt;, and I really like it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

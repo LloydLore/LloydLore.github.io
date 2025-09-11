@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<title>before-save-hook 默认不是 buffer local variable</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.cb53f1bee2b8900cb4f082afbf00175d6618f281cf9a2fe8619e3b52d20b5721.css" integrity="sha256-y1PxvuK4kAy08IKvvwAXXWYY8oHPmi/oYZ47UtILVyE=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories/">
+                    categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags/">
+                    tags
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts/">
+                    posts
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#trial-1-after-save-hook" class="nav-trial-1-after-save-hook">
+									Trial 1 - after-save-hook
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#trial-2-before-save-hook" class="nav-trial-2-before-save-hook">
+									Trial 2 - before-save-hook
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#tiral-3-before-save-hook-localization" class="nav-tiral-3-before-save-hook-localization">
+									Tiral 3 - before-save-hook localization
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%9b%b4%e5%a4%9a%e8%ae%be%e7%bd%ae" class="nav-更多设置">
+									更多设置
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="http://localhost:1313/">
+            A Byte of Cybersecurity
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://localhost:1313/">
+        <div class="single-column-header-title">A Byte of Cybersecurity</div>
+        
+        <div class="single-column-header-subtitle">💓 ☮️</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    before-save-hook 默认不是 buffer local variable
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2024-01-15 00:00
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/emacs">Emacs</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/org">org</a>
+                                &nbsp;
+                            
+                                <a href="/tags/emacs">emacs</a>
+                                &nbsp;
+                            
+                                <a href="/tags/hugo">hugo</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>我最近准备用 <a href="https://docutils.sourceforge.io/rst.html">reStructuredText</a> 做结构化文档的处理。
+基于我已经是一个重度的 <code>org-mode</code> 患者，我在做任何笔记的时候，离开 <code>org-mode</code> 便显得各种
+不适应。虽然能看到 <a href="https://daringfireball.net/projects/markdown/">Markdown</a> 很清秀，reStructuredText 很 sexy，但我大有“野花不如家花香”的
+感慨。</p>
+<p>每当我吸完其他的工具之后，最后还是乖乖回到了 <code>org-mode</code>. 但我不得不承认的是， reStructuredText 配合 <a href="https://www.sphinx-doc.org/en/master/">Sphinx</a> 有一种化繁为简的美感。我曾经有过想用 <code>org-mode</code> 在大型
+项目里实践 <a href="https://en.wikipedia.org/wiki/Literate_programming">Literate programming</a> 的想法，但一想到要如何推广 <code>org-mode</code>,整件事情到那儿就
+戛然而止了。毕竟推广 <code>org-mode</code> 和推广 <code>GNU Emacs</code> 一样艰难，人各有喜好，各有接受程度，
+<code>org-mode</code> 和 <code>GNU Emacs</code> 更像是现代武林的邪派武功。</p>
+<p>言归正传，我用 <code>org-mode</code> 记录了一篇笔记之后，使用 <a href="https://github.com/msnoigrs/ox-rst">ox-rst</a> 导出到 rst 格式。这里遇到一个问题：
+我不想每次保存完 <code>org-mode</code> buffer 之后，在手动去做一些导出，那样显得我太蠢了，无法体现出
+<code>GNU Emacs</code> 的邪典艺术。所以做一个自动导出的设置吧， <strong>Let&rsquo;s trial and error!!!</strong></p>
+<h2 id="trial-1-after-save-hook">Trial 1 - <code>after-save-hook</code></h2>
+<p>我先想到的是用 <code>hook</code>, 一通 <code>C-h v</code> 操作下来，试下 <code>after-save-hook</code>,代码很简单：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(add-to-hook <span style="color:#e6db74">&#39;after-save-hook</span> <span style="color:#a6e22e">#&#39;</span>org-rst-export-to-rst)
+</span></span></code></pre></div><div class="src-block-caption">
+  <span class="src-block-number">Code Snippet 1:</span>
+  example for bad setting with after-save-hook
+</div>
+<p>我很悲剧的发现，加了这个 hook 之后，我没有办法保存文件。似乎每次执行导出的操作后，buffer 就变成
+编辑过后的状态，我神奇地搞了一个死循环。一直 <code>save-export-save-export...</code>.</p>
+<h2 id="trial-2-before-save-hook">Trial 2 - <code>before-save-hook</code></h2>
+<p>既然 <code>save-buffer</code> 之后不行，那么就在保存之前吧，毕竟这样很合理。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(add-hook <span style="color:#e6db74">&#39;before-save-hook</span> <span style="color:#a6e22e">#&#39;</span>org-rst-export-to-rst)
+</span></span></code></pre></div><div class="src-block-caption">
+  <span class="src-block-number">Code Snippet 2:</span>
+  example for bad setting with before-save-hook
+</div>
+<p>OK, 保存的问题解决了。但悲剧总是从一种形式转变成另外一种形式，我以为 <code>before-save-hook</code> 是 <code>local variable</code>, 但他不是的。我保存的每一个文件，都来了一个 <code>.rst</code> 后缀，你能想象 <code>foo-bar.rst.rst</code> 的美吗？</p>
+<h2 id="tiral-3-before-save-hook-localization">Tiral 3 - <code>before-save-hook</code> localization</h2>
+<p>那…… 有没有一种办法，创造一个 <code>local variable</code> 呢？</p>
+<p>有的。在<a href="https://stackoverflow.com/questions/1931784/emacs-is-before-save-hook-a-local-variable">这里</a>我找到了答案。这个答案已经在万维网中存在了 14 年，在今天终于被我捕获了。
+进而我看了 <code>add-hook</code> 的 manual, 它的 signature 是这样的：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(add-hook HOOK FUNCTION <span style="color:#66d9ef">&amp;optional</span> DEPTH LOCAL)
+</span></span></code></pre></div><div class="src-block-caption">
+  <span class="src-block-number">Code Snippet 3:</span>
+  example for good setting with before-save-hook
+</div>
+<p>就是这个 <code>LOCAL</code>, 将它设置成 <code>t</code> 之后，会创建一个 <code>before-save-hook</code> 的同名 <code>local variable</code>. 而这个 hook 的执行顺序，则是先按照 <code>global variable</code> 的变量执行一次，
+在执行一次 <code>local variable</code>.</p>
+<p>于是乎，这个问题解决了。额，你说问题是什么？那就是我可以保存完 <code>org-mode</code> 的文件后，自动得到
+<code>*.rst</code> 的文件了。 <strong>Bravo!</strong></p>
+<h2 id="更多设置">更多设置</h2>
+<p>在这里其实还涉及到我对某个 <code>org-mode buffer</code> 做的 <code>local variable</code> 的设置，举个例子吧：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>=# Local Variables:=
+</span></span><span style="display:flex;"><span>=# eval: (add-hook &#39;before-save-hook #&#39;org-rst-export-to-rst nil t)=
+</span></span><span style="display:flex;"><span>=# End:=
+</span></span></code></pre></div><div class="src-block-caption">
+  <span class="src-block-number">Code Snippet 1:</span>
+  example for local variable setup
+</div>
+<p>当然，还得加上导出文件的设置，比如：</p>
+<blockquote>
+<p><code>#+export_file_name: /you/export/file/path</code></p></blockquote>
+<p>OK, 打完，收功！</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2024-11-01</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/">
+			Next<br>doomemacs GUI 中文显示及输入法设置
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/">
+			Previous<br>谈谈中文技术名词的翻译
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://localhost:1313/">
+    
+        <div class="nav-title">
+            A Byte of Cybersecurity
+        </div>
+        
+        <div class="nav-subtitle">
+            💓 ☮️
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories/">
+                categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags/">
+                tags
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts/">
+                posts
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2025 A Byte of Cybersecurity
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#trial-1-after-save-hook" class="nav-trial-1-after-save-hook">
+									Trial 1 - after-save-hook
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#trial-2-before-save-hook" class="nav-trial-2-before-save-hook">
+									Trial 2 - before-save-hook
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#tiral-3-before-save-hook-localization" class="nav-tiral-3-before-save-hook-localization">
+									Tiral 3 - before-save-hook localization
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%9b%b4%e5%a4%9a%e8%ae%be%e7%bd%ae" class="nav-更多设置">
+									更多设置
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2025 A Byte of Cybersecurity
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>
