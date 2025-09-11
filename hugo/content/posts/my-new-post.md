@@ -44,12 +44,10 @@ I try not to think about the future, I need to focus on the moment.
   src="hugo-diary-cover.jpg"
   alt="A photograph of Zion National Park"
   link="https://www.nps.gov/zion/index.htm"
-  caption="Zion National Park"
+  caption="One Day in Hokkaido"
   class="ma0 w-75"
 >}}
 
-## Installation
 
-First, you'll need to install Hugo...
 
 <!-- Rest of your blog content -->
