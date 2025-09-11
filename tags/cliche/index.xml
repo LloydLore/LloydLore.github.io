@@ -1,57 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Cliche on A Bite of Cybersecurity</title>
-    <link>https://lloydlore.github.io/tags/cliche/</link>
-    <description>Recent content in Cliche on A Bite of Cybersecurity</description>
-    <image>
-      <title>A Bite of Cybersecurity</title>
-      <url>https://lloydlore.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://lloydlore.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.145.0</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 17:47:00 +0800</lastBuildDate>
-    <atom:link href="https://lloydlore.github.io/tags/cliche/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>谈谈中文技术名词的翻译</title>
-      <link>https://lloydlore.github.io/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</link>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>https://lloydlore.github.io/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</guid>
-      <description>&lt;p&gt;我在以往工作中接触过所谓 ssh ”爆破“这两个字，彼时因为不需要具体使用这个术语，总觉得“爆破”两个字好屌。当时会想，到底什么牛的技术才可以当得起“爆破”两个字。
-是不是一个命令一输入，突然 ssh 协议站就山崩地裂，崩溃以至于无法工作，再者无法回复，最终只能向黑客妥协，交出自己 ssh 所有的控制权。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Set Milestone In Taskjuggler Via Orgmode</title>
-      <link>https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/</link>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/</guid>
-      <description>&lt;h2 id=&#34;taskjuggler-是个好东西&#34;&gt;Taskjuggler 是个好东西&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cliche on A Byte of Cybersecurity</title><link>http://localhost:1313/tags/cliche/</link><description>Recent content in Cliche on A Byte of Cybersecurity</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 09 Jan 2025 17:47:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/cliche/index.xml" rel="self" type="application/rss+xml"/><item><title>谈谈中文技术名词的翻译</title><link>http://localhost:1313/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</link><pubDate>Wed, 10 Jan 2024 00:00:00 +0800</pubDate><guid>http://localhost:1313/posts/%E8%B0%88%E8%B0%88%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D%E7%9A%84%E7%BF%BB%E8%AF%91%E4%B9%8B-ssh-%E7%88%86%E7%A0%B4/</guid><description>&lt;p&gt;我在以往工作中接触过所谓 ssh ”爆破“这两个字，彼时因为不需要具体使用这个术语，总觉得“爆破”两个字好屌。当时会想，到底什么牛的技术才可以当得起“爆破”两个字。
+是不是一个命令一输入，突然 ssh 协议站就山崩地裂，崩溃以至于无法工作，再者无法回复，最终只能向黑客妥协，交出自己 ssh 所有的控制权。&lt;/p&gt;</description></item><item><title>Set Milestone In Taskjuggler Via Orgmode</title><link>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</link><pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate><guid>http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/</guid><description>&lt;h2 id="taskjuggler-是个好东西"&gt;Taskjuggler 是个好东西&lt;/h2&gt;
 &lt;p&gt;我在工作中，经常会需要排布计划。我很不喜欢用 Excel, Microsoft Project 等这些工具
 去做这件事情，一来我不喜欢那么将随意调整的能力给到可以访问计划的每一个人，二来这
 些工具的可操作性实在太差了，一会儿用用鼠标，一会儿调一调格式，这都是很让我割裂的
-工作方式。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Welcome A Puppy</title>
-      <link>https://lloydlore.github.io/posts/welcome-a-puppy/</link>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>https://lloydlore.github.io/posts/welcome-a-puppy/</guid>
-      <description>&lt;p&gt;我一直以来很喜欢🐕，并且我在十一二岁的时候，也养过一只小哈巴狗。我喜欢带着它上床
+工作方式。&lt;/p&gt;</description></item><item><title>Welcome A Puppy</title><link>http://localhost:1313/posts/welcome-a-puppy/</link><pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate><guid>http://localhost:1313/posts/welcome-a-puppy/</guid><description>&lt;p&gt;我一直以来很喜欢🐕，并且我在十一二岁的时候，也养过一只小哈巴狗。我喜欢带着它上床
 睡觉。但后来那只狗被送人了。我也就再也没有养过狗了。&lt;/p&gt;
 &lt;p&gt;上周末带着老婆孩子逛商场，原本只是饭后散步式的逛街，也计划了逛街后，去打羽毛球。
 等我们走到商场里的宠物店时，一只小柴犬吸引了我们的目光。后来才知道，其实它也不算
 小，已经足足有五个月了。在那个瞬间我们一家三口集体脑子发热，没有做过多的犹豫就买
-下了它。我付出了乐观代价，带回了一只有活力的小狗。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Golden Dict Talks to Anki</title>
-      <link>https://lloydlore.github.io/posts/goldendict-talks-to-anki/</link>
-      <pubDate>Fri, 25 Oct 2024 00:00:00 +0800</pubDate>
-      <guid>https://lloydlore.github.io/posts/goldendict-talks-to-anki/</guid>
-      <description>&lt;p&gt;我习惯在电脑上使用离线词典，一来离线词典很快，二来在没有网络的时候，离线词典仍然
+下了它。我付出了乐观代价，带回了一只有活力的小狗。&lt;/p&gt;</description></item><item><title>Golden Dict Talks to Anki</title><link>http://localhost:1313/posts/goldendict-talks-to-anki/</link><pubDate>Fri, 25 Oct 2024 00:00:00 +0800</pubDate><guid>http://localhost:1313/posts/goldendict-talks-to-anki/</guid><description>&lt;p&gt;我习惯在电脑上使用离线词典，一来离线词典很快，二来在没有网络的时候，离线词典仍然
 能给我一个比较好的结果。其实还有个可能是谬误的想法，我总觉得在线词典，更加吃电脑
-的资源，而资源嘛，能省则省啦。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+的资源，而资源嘛，能省则省啦。&lt;/p&gt;</description></item></channel></rss>
