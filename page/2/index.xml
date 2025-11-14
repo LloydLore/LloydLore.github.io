@@ -1,4 +1,73 @@
-<?xml-stylesheet href="/rss.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A Byte of Cybersecurity</title><link>https://lloydlore.github.io/</link><description>Recent content on A Byte of Cybersecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Set Milestone In Taskjuggler Via Orgmode</title><link>https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/</link><pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate><guid>https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/ -&lt;h2 id="taskjuggler-是个好东西"&gt;Taskjuggler 是个好东西&lt;/h2&gt;
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A Byte of Cybersecurity</title><link>https://lloydlore.github.io/</link><description>Recent content on A Byte of Cybersecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>CNAS 和 CMA 认定</title><link>https://lloydlore.github.io/posts/cnas_and_cma_accreditation/</link><pubDate>Tue, 01 Apr 2025 00:00:00 +0800</pubDate><guid>https://lloydlore.github.io/posts/cnas_and_cma_accreditation/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/cnas_and_cma_accreditation/ -&lt;p&gt;这两年中国汽车行业里对网络安全的认证需求越来越多，同时要求也越来越高。我能够观察
+到，随着中国电动汽车的倾销加剧，各国对中国生产的电动汽车的门槛，也会随之升高。&lt;/p&gt;
+&lt;p&gt;这里说门槛是不那么准确的，特别说明，使用“门槛”这个词语不带有任何的贬低和恶意，主
+要表达的意思是，随着产业升级和技术复杂度的提高，若采用静止的观念看待整车的网络安
+全，那么车辆的安全风险自售卖到终端用户时起，便与日俱增。该“门槛”的作用在于设置一
+个可以达到的最低标准，从而使汽车工业产业链的各个节点均能有效地达到。&lt;/p&gt;
+&lt;p&gt;从推动标准的角度上说，行业里需要有第三方机构，可以独立地评估一家企业，或者是一类
+产品，是否能够达到这个门槛。中国的汽车准入条件并非参考的是美国的自申明，并且中国
+的电动汽车出口地，目前也绝不是美国。基于上述的考量，中国企业参考 UN R155 以及
+ISO/SAE 21434:2021 就是目下的最优解。&lt;/p&gt;
+&lt;h2 id="问题的出现"&gt;问题的出现&lt;/h2&gt;
+&lt;p&gt;早在 J3061&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;发布起，行业内便在探讨有关汽车网络安全系统的实现。当 R155 及
+ISO/SAE 21434:2021 实施时，行业内达成了需要完善网络安全管理体系的共识。但随之而
+来的问题产生在于各个国家，各个 OEM 对与法规和标准的解读程度。其中最大的讨论产生
+于汽车网络安全的测试和验证&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;（verification and validation）。这里集成体现的
+矛盾在于：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;汽车网络安全的测试要求持续性，贯穿整个产品生命周期，并且在各个阶段，测试的侧
+重各有差异&lt;/li&gt;
+&lt;li&gt;网络安全的测试与传统的集成测试，自动化测试有相当程度的重叠，如何调配组织内部
+资源来应对&lt;/li&gt;
+&lt;li&gt;各组织之间的成果互认，统一测试标准及验收条件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;基于篇幅的考量，在本文中，我主要讨论上述的第三点。&lt;/p&gt;
+&lt;h2 id="成果互认"&gt;成果互认&lt;/h2&gt;
+&lt;p&gt;从实施者的角度上说，相关方对于标准之间的互认，始终是一个费时费力的待解决问题。组
+织在具备产品开发的角度上，还需具备相当能力以应对各类法规，标准的要求。举一个例子，
+对于组织财务的审计，我们可以去找四大提供专业严谨的服务。而对于产品网络安全，即便
+当前行业内部已有充分的指导标准，但各个组织主要还是依赖自检自查以做应对。&lt;/p&gt;
+&lt;p&gt;在某种程度上，依赖于自查，即增加了 &amp;ldquo;inside attacker&amp;rdquo; 的风险。组织面临着巨量的交
+付压力，整车系统也在对各个因素做系统性的权衡。而安全措施往往成为了一个侥幸逃避的
+借口。在产业链的各个环节累积的产品网络安全风险，最终将在 Tier1 和 OEM 积累。OEM
+在最终面对车辆型式认证时，往往初审的结果也不尽人意。&lt;/p&gt;
+&lt;p&gt;以比较常见的调试口保护举例，下级供应商因其技术的积累不足，紧张的交付周期，往往在
+开发阶段对其不做保护，也不会设计相应的测试用例以确保其可用性。一种好的情况是，下
+级供应商能做出 SFOP 的分析，得出准确的风险评估，从而再做出申明。但现实往往是，供
+应商既未做申明，也未做管控，最终未知的产品风险暴露在车辆型式认证前。此时再去做更
+改，将带来巨大的更改成本。&lt;/p&gt;
+&lt;h2 id="解决思路"&gt;解决思路&lt;/h2&gt;
+&lt;p&gt;针对上述情况，一种解决方案是引入成熟的测试验证体系，以一个成熟的体系来保障一个待
+成熟的体系（CSMS)。&lt;/p&gt;
+&lt;p&gt;CNAS (China National Accreditation Service for Conformity Assessment) 资质认可是
+由中国合格评定认可委员会实施的认可活动，是一种自愿行为，任何第一方，第二方和第三
+方实验室均可申请认可。CNAS 是国家级实验室的标志，有这一标志，表明该检验机构已经
+通过了中国国家实验室认证委员会的考核，检验能力已经达到了国家级实验室水平。&lt;/p&gt;
+&lt;p&gt;CNAS 资质已与亚太地区实验室认可和国际实验室认可合作组织签订了互认协议
+（APLPA-MRA). 因此，获得 CNAS 的认可，出具的检测报告可以获得签署互认协议方国家和
+地区认可机构的承认。&lt;/p&gt;
+&lt;p&gt;其中第一方实验室是组织内的实验室，检测、校准组织生产的产品，数据为组织所用，目的
+是提高和控制组织生产的产品质量。第二方实验室也是组织内的实验室，检测，校准供方提
+供的产品，数据为组织所用，目的是提高和控制供方的产品质量。第三方则独立于第一方和
+第二方，为社会提供检测、校准服务的实验室，其数据为社会所用，目的是提高和控制社会
+产品质量。&lt;/p&gt;
+&lt;p&gt;对于组织而言，按照 CNAS 的标准，搭建第一方和第二方实验室，是一个可行且可靠的方案。&lt;/p&gt;
+&lt;h2 id="接下来的工作"&gt;接下来的工作&lt;/h2&gt;
+&lt;p&gt;此篇文章仅作为一个半成品而存在，在后续的更新中，我将提供更多有关 CNAS, 以及中国
+法规标准的相关信息。&lt;/p&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;SAE J3061 Cybersecurity Guidebook for Cyber-Physical Vehicle Systems&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;A Global Survey of Standardization and Industry Practices of Automotive
+Cybersecurity Validation and Verification Testing Processes and Tools&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+- https://lloydlore.github.io/posts/cnas_and_cma_accreditation/ -</description></item><item><title>Set Milestone In Taskjuggler Via Orgmode</title><link>https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/</link><pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate><guid>https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/ -&lt;h2 id="taskjuggler-是个好东西"&gt;Taskjuggler 是个好东西&lt;/h2&gt;
 &lt;p&gt;我在工作中，经常会需要排布计划。我很不喜欢用 Excel, Microsoft Project 等这些工具
 去做这件事情，一来我不喜欢那么将随意调整的能力给到可以访问计划的每一个人，二来这
 些工具的可操作性实在太差了，一会儿用用鼠标，一会儿调一调格式，这都是很让我割裂的
@@ -34,7 +103,8 @@ Milestone 的完成。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;不要在最后一个 task 里增加 end property!
 不要在最后一个 task 里增加 end property!
-不要在最后一个 task 里增加 end property!&lt;/p&gt;&lt;/blockquote&gt;
+不要在最后一个 task 里增加 end property!&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;好了，happy hacking!&lt;/p&gt;
 - https://lloydlore.github.io/posts/set-milestone-in-taskjuggler-via-orgmode/ -</description></item><item><title>Welcome A Puppy</title><link>https://lloydlore.github.io/posts/welcome-a-puppy/</link><pubDate>Wed, 11 Dec 2024 00:00:00 +0800</pubDate><guid>https://lloydlore.github.io/posts/welcome-a-puppy/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/welcome-a-puppy/ -&lt;p&gt;我一直以来很喜欢🐕，并且我在十一二岁的时候，也养过一只小哈巴狗。我喜欢带着它上床
 睡觉。但后来那只狗被送人了。我也就再也没有养过狗了。&lt;/p&gt;
