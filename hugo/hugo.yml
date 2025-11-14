@@ -5,8 +5,6 @@ description: A little bit of here, a littlt bit of there
 subtitle: 'Love <--> Peace'
 theme: diary
 author: 丛朝
-params:
-  subtitle: "Your personal tagline here"
 
 # Pagination settings
 pagination.pagerSize: 8
