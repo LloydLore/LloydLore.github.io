@@ -1,4 +1,4 @@
-<?xml-stylesheet href="/rss.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A Byte of Cybersecurity</title><link>https://lloydlore.github.io/</link><description>Recent content on A Byte of Cybersecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>工行融 e 行个人信息保护政策分析</title><link>https://lloydlore.github.io/posts/pii-analysis-for-icbc/</link><pubDate>Mon, 29 May 2023 00:00:00 +0800</pubDate><guid>https://lloydlore.github.io/posts/pii-analysis-for-icbc/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/pii-analysis-for-icbc/ -&lt;blockquote&gt;
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A Byte of Cybersecurity</title><link>https://lloydlore.github.io/</link><description>Recent content on A Byte of Cybersecurity</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lloydlore.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>工行融 e 行个人信息保护政策分析</title><link>https://lloydlore.github.io/posts/pii-analysis-for-icbc/</link><pubDate>Mon, 29 May 2023 00:00:00 +0800</pubDate><guid>https://lloydlore.github.io/posts/pii-analysis-for-icbc/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/pii-analysis-for-icbc/ -&lt;blockquote&gt;
 &lt;p&gt;本文尝试对工行融 e 行的个人信息保护政策做出一些分析，我尝试通过这些分析得出一些关键字。以作为其他分析时的参考。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id="基于功能的数据和基于数据的功能"&gt;基于功能的数据和基于数据的功能&lt;/h2&gt;
@@ -309,7 +309,177 @@ example for local variable setup
 &lt;p&gt;一年之后，我也住到了苏州的仁爱路旁，我好奇是不是仁爱路就像“人民路”一般，是不是每个城市都有属于自己的“仁爱路”？这个问题一直到现在我也没有得到答案。我仅仅向自己抛出了问题。恩，我是个喜欢给自己问题，但又不去寻求答案的人。&lt;/p&gt;
 &lt;p&gt;十二年后，我上周去听了杨丞琳的演唱会，这是我有一些特别记忆的女歌手。以前发生了一些和她相关的事情，被我放在记忆里私藏。而这记忆，已经是快二十年以前的了。记忆是很奇怪的东西，有些记忆会随着时间推移慢慢被遗忘，有些记忆却会随着记忆越来越在脑子里清晰。我还记得那年隔壁班的女生唱着《一千零一个愿望》在我旁边款款走来的景象，我不能说很漂亮，我只想说真美好。&lt;/p&gt;
 &lt;p&gt;有时候会觉得二十年浑浑噩噩，幸运的是，自己的心智自觉有慢慢地在打开。当然，也许几年之后，我反观此时的我，又会有很多地不同。但总之还是有一些进步的。人生之路，道阻且长，一步一步走吧！&lt;/p&gt;
-- https://lloydlore.github.io/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/ -</description></item><item><title>Playing Game with Myself</title><link>https://lloydlore.github.io/posts/playing-games-with-myself/</link><pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate><guid>https://lloydlore.github.io/posts/playing-games-with-myself/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/playing-games-with-myself/ -&lt;h2 id="no-games-for-a-long-time"&gt;No Games for a Long Time&lt;/h2&gt;
+- https://lloydlore.github.io/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/ -</description></item><item><title>:"Mono font for Chinese and English in vscode"</title><link>https://lloydlore.github.io/posts/mono-font-in-vscode/</link><pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate><guid>https://lloydlore.github.io/posts/mono-font-in-vscode/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/mono-font-in-vscode/ -&lt;h2 id="abstract"&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This document provides a solution for configuring VSCode to use monospace fonts where Chinese (CJK) characters occupy exactly twice the width of English characters, ensuring proper alignment in mixed-language text.&lt;/p&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;When working with mixed Chinese and English text in VSCode, proper character alignment is crucial for code comments, documentation, and text formatting. True monospace fonts should maintain a 2:1 width ratio between full-width CJK characters and half-width Latin characters.&lt;/p&gt;
+&lt;h2 id="methods-and-results"&gt;Methods and Results&lt;/h2&gt;
+&lt;h3 id="recommended-fonts"&gt;Recommended Fonts&lt;/h3&gt;
+&lt;p&gt;The following fonts provide excellent CJK and Latin character width ratio (2:1):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sarasa Mono SC (更纱黑体)&lt;/strong&gt; - Recommended&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download: &lt;a href="https://github.com/be5invis/Sarasa-Gothic/releases"&gt;https://github.com/be5invis/Sarasa-Gothic/releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Best overall support for Chinese and English&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Noto Sans Mono CJK SC&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download: &lt;a href="https://github.com/googlefonts/noto-cjk/releases"&gt;https://github.com/googlefonts/noto-cjk/releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Google&amp;rsquo;s open-source solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Source Code Pro + Source Han Sans&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adobe&amp;rsquo;s professional font family&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;JetBrains Mono&lt;/strong&gt; (with CJK fallback)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download: &lt;a href="https://www.jetbrains.com/lp/mono/"&gt;https://www.jetbrains.com/lp/mono/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="vscode-configuration"&gt;VSCode Configuration&lt;/h3&gt;
+&lt;p&gt;Add the following to your VSCode &lt;code&gt;settings.json&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;editor.fontFamily&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#39;Sarasa Mono SC&amp;#39;, &amp;#39;Noto Sans Mono CJK SC&amp;#39;, &amp;#39;Source Han Sans&amp;#39;, &amp;#39;Microsoft YaHei Mono&amp;#39;, monospace&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;editor.fontSize&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;14&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;editor.fontLigatures&amp;#34;&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;editor.renderWhitespace&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;all&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="step-by-step-setup"&gt;Step-by-Step Setup&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Install the font&lt;/strong&gt; (using Sarasa Mono SC as example):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# For Ubuntu/Debian&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;wget https://github.com/be5invis/Sarasa-Gothic/releases/latest/download/sarasa-gothic-ttf.zip
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;unzip sarasa-gothic-ttf.zip -d sarasa-fonts
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo mkdir -p /usr/share/fonts/truetype/sarasa
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo cp sarasa-fonts/*.ttf /usr/share/fonts/truetype/sarasa/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo fc-cache -f -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Open VSCode Settings&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Press &lt;code&gt;Ctrl+Shift+P&lt;/code&gt; (or &lt;code&gt;Cmd+Shift+P&lt;/code&gt; on macOS)&lt;/li&gt;
+&lt;li&gt;Type &amp;ldquo;Preferences: Open Settings (JSON)&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Add the font configuration above&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Verify Installation&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;fc-list | grep -i sarasa
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="validation-test"&gt;Validation Test&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Test alignment with various characters:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;// English: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;// Chinese: 中文测试字符串对齐检查验证
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;// Mixed: A中B文C测D试E字F符G串H对I齐
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;// Numbers: 0123456789 零一二三四五六七八九
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Expected result: Each Chinese character should align exactly with two English characters.&lt;/p&gt;
+&lt;h3 id="visual-verification"&gt;Visual Verification&lt;/h3&gt;
+&lt;p&gt;Create a test file with the following content:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;|--En--|--En--|
+|---中---|---文---|
+ABC中文XYZ
+12一二34
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If properly configured:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;中&amp;rdquo; should align with &amp;ldquo;En&amp;ndash;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Each Chinese character occupies 2 English character widths&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="discussion"&gt;Discussion&lt;/h2&gt;
+&lt;h3 id="why-21-ratio-matters"&gt;Why 2:1 Ratio Matters&lt;/h3&gt;
+&lt;p&gt;In traditional terminal and programming environments, CJK characters are treated as &amp;ldquo;full-width&amp;rdquo; (占两个字符宽度), while ASCII characters are &amp;ldquo;half-width&amp;rdquo; (占一个字符宽度). This convention:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ensures proper alignment in ASCII art and tables&lt;/li&gt;
+&lt;li&gt;Maintains readability in code comments&lt;/li&gt;
+&lt;li&gt;Follows East Asian Width (EAW) specifications in Unicode Standard Annex #11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="common-issues"&gt;Common Issues&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Font fallback problems&lt;/strong&gt;: If primary font lacks CJK support, VSCode may use system default, breaking alignment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solution: Use font family list with CJK-aware fonts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Font ligatures&lt;/strong&gt;: Can disrupt character width calculations&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solution: Set &lt;code&gt;&amp;quot;editor.fontLigatures&amp;quot;: false&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Variable-width fonts&lt;/strong&gt;: Proportional fonts don&amp;rsquo;t maintain fixed ratios&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solution: Only use fonts explicitly labeled as &amp;ldquo;Mono&amp;rdquo; or &amp;ldquo;Monospace&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="alternative-fonts-comparison"&gt;Alternative Fonts Comparison&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Font&lt;/th&gt;
+&lt;th&gt;CJK Support&lt;/th&gt;
+&lt;th&gt;License&lt;/th&gt;
+&lt;th&gt;Width Ratio&lt;/th&gt;
+&lt;th&gt;Readability&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Sarasa Mono SC&lt;/td&gt;
+&lt;td&gt;✅ Excellent&lt;/td&gt;
+&lt;td&gt;SIL OFL 1.1&lt;/td&gt;
+&lt;td&gt;Perfect 2:1&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Noto Sans Mono CJK&lt;/td&gt;
+&lt;td&gt;✅ Excellent&lt;/td&gt;
+&lt;td&gt;SIL OFL 1.1&lt;/td&gt;
+&lt;td&gt;Perfect 2:1&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Source Code Pro&lt;/td&gt;
+&lt;td&gt;⚠️ Needs fallback&lt;/td&gt;
+&lt;td&gt;SIL OFL 1.1&lt;/td&gt;
+&lt;td&gt;With fallback&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Consolas&lt;/td&gt;
+&lt;td&gt;❌ Poor&lt;/td&gt;
+&lt;td&gt;Proprietary&lt;/td&gt;
+&lt;td&gt;Inconsistent&lt;/td&gt;
+&lt;td&gt;⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="acknowledgements"&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;Thanks to the open-source font community, especially:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Be5invis for Sarasa Gothic project&lt;/li&gt;
+&lt;li&gt;Google Fonts for Noto CJK family&lt;/li&gt;
+&lt;li&gt;Adobe for Source Han Sans/Code Pro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="references"&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Sarasa Gothic GitHub Repository: &lt;a href="https://github.com/be5invis/Sarasa-Gothic"&gt;https://github.com/be5invis/Sarasa-Gothic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unicode Standard Annex #11 - East Asian Width: &lt;a href="https://www.unicode.org/reports/tr11/"&gt;https://www.unicode.org/reports/tr11/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;VSCode Font Configuration Documentation: &lt;a href="https://code.visualstudio.com/docs/getstarted/settings"&gt;https://code.visualstudio.com/docs/getstarted/settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Noto CJK Fonts: &lt;a href="https://github.com/googlefonts/noto-cjk"&gt;https://github.com/googlefonts/noto-cjk&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+- https://lloydlore.github.io/posts/mono-font-in-vscode/ -</description></item><item><title>Playing Game with Myself</title><link>https://lloydlore.github.io/posts/playing-games-with-myself/</link><pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate><guid>https://lloydlore.github.io/posts/playing-games-with-myself/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/playing-games-with-myself/ -&lt;h2 id="no-games-for-a-long-time"&gt;No Games for a Long Time&lt;/h2&gt;
 &lt;p&gt;I am obssessed with digital games since I was 5 years old. That means I&amp;rsquo;ve already played games over the past 30 years. Now I have a 9 years old son, I sometimes watch him playing his favorate games. To be honest, I am so envy on him.&lt;/p&gt;
 &lt;p&gt;I have to work, work, and work. When I finally got sometime, I just unlock my cellphone, swiping the glass. No, that&amp;rsquo;s not a gamer. A gamer should sit down or sink down the coach, holding his controller, and playing the game from day to night. That is me, that&amp;rsquo;s the devotion I am always seeking for.&lt;/p&gt;
 &lt;h2 id="work-or-play-this-is-the-problem"&gt;Work or Play, this is the problem&lt;/h2&gt;
@@ -318,26 +488,4 @@ example for local variable setup
 &lt;h2 id="if-i-really-want"&gt;If I Really Want&lt;/h2&gt;
 &lt;p&gt;If I really want to start my own business, just don&amp;rsquo;t waste the time when sitting in the office. Distraction is by no means a good thing, if I don&amp;rsquo;t like the job, just wait for the apporiate timing, then quit this fucking job. But before that moment, I should play the game, the tedious game.&lt;/p&gt;
 &lt;p&gt;Pull my attention back.&lt;/p&gt;
-- https://lloydlore.github.io/posts/playing-games-with-myself/ -</description></item><item><title>Long time no tweaking Hugo</title><link>https://lloydlore.github.io/posts/my-new-post/</link><pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate><guid>https://lloydlore.github.io/posts/my-new-post/</guid><description>A Byte of Cybersecurity https://lloydlore.github.io/posts/my-new-post/ -&lt;h1 id="not-a-welcome"&gt;Not A Welcome&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Things just faded away, not like Michael Jordan, like a duck drone in the ocean.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I had many excuses not update my blog for such a long time. But I need to say, when you didn&amp;rsquo;t put much effort on something, it just faded away.&lt;/p&gt;
-&lt;p&gt;I didn&amp;rsquo;t realized that Hugo is under heavy development, and many themes are also evolving. So I decided to give it a try again. Last time I deployed my blog on github pages, it has a very very ugly layout. This time I found a very nice theme called &lt;a href="https://themes.gohugo.io/themes/hugo-theme-diary/"&gt;diary&lt;/a&gt;, and I really like it.&lt;/p&gt;
-&lt;p&gt;But since long time has elapsed, I need to re-learn how to set up a blog using Hugo. So I decided to write down my experience here, so that I can refer to it later.&lt;/p&gt;
-&lt;h2 id="4-days-journey"&gt;4 days journey&lt;/h2&gt;
-&lt;p&gt;I stayed up for 2:00 a.m. on the day yesterday just in order to make some trial and error to make this little project work. By that night I closed my eyes, I finished successful build on my local environment, but as you know, I don&amp;rsquo;t have much confidence to make it work with the Github actions.&lt;/p&gt;
-&lt;p&gt;I felt a little bit tired of Hugo from the next morning. I indeed wanted to master Hugo, but I tried several times, it is so unfamiliar to me. I don&amp;rsquo;t use Go previsouly, I was astonished by the Go grammer I encountered. Then day 2, and day 3 passed away easily. At current stage, it is the 4th day when I started this refactoring.&lt;/p&gt;
-&lt;p&gt;I need to finish them today, I just told myself with such sentence.&lt;/p&gt;
-&lt;h2 id="delete-the-memories"&gt;Delete the memories&lt;/h2&gt;
-&lt;p&gt;I deleted all the content I made with previous Hugo Setup. I build a org-mode worflow at that time, but somehow I didn&amp;rsquo;t insisted on with org-mode. I shall say this is the first time over these years I want to give Markdown a serious try instead of keep myself on orgmode. I know it might sound strange to some wierdo (hacker, and geek maybe), but I really think I don&amp;rsquo;t use much orgmode features over the past years.&lt;/p&gt;
-&lt;p&gt;It doesn&amp;rsquo;t mean that I will give up orgmode. God, I love orgmode, it is one of the most powerful tools in the world. All I wanted to say is that, orgmode is the very part I cannot let go. So let&amp;rsquo;s see what I could do with it next steps.&lt;/p&gt;
-&lt;h2 id="in-the-future"&gt;In the fu&amp;hellip;ture&lt;/h2&gt;
-&lt;p&gt;I try not to think about the future, I need to focus on the moment.&lt;/p&gt;
-&lt;figure class="ma0 w-75"&gt;&lt;a href="https://www.nps.gov/zion/index.htm"&gt;&lt;img src="https://lloydlore.github.io/hugo-diary-cover.jpg"
-alt="A photograph of Zion National Park"&gt;&lt;/a&gt;&lt;figcaption&gt;
-&lt;p&gt;One Day in Hokkaido&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;!-- Rest of your blog content --&gt;
-- https://lloydlore.github.io/posts/my-new-post/ -</description></item></channel></rss>
+- https://lloydlore.github.io/posts/playing-games-with-myself/ -</description></item></channel></rss>
