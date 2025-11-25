@@ -1,8 +1,9 @@
 ---
-title: :"Mono font for Chinese and English in vscode"
+title: "Mono font for Chinese and English in vscode"
 author: 丛朝
 date: 2025-11-25
 lastmod: 2025-11-25
+featured: true
 type: "post"
 draft: false
 tags: ["work", "eyecandy"]
