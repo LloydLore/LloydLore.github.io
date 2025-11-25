@@ -3,10 +3,8 @@ title: :"Mono font for Chinese and English in vscode"
 author: 丛朝
 date: 2025-11-25
 lastmod: 2025-11-25
-tags: 
 type: "post"
 draft: false
-isCJKLanguage = true
 tags: ["work", "eyecandy"]
 categories: ["Life", "Tutorials"]
 description: "No more misalignment"
