@@ -6,9 +6,123 @@
     <description>Recent content on A Byte of Cybersecurity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Long time no tweaking Hugo</title>
+        <link>http://localhost:1313/posts/my-new-post/</link>
+        <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-new-post/</guid>
+        <description>A Byte of Cybersecurity http://localhost:1313/posts/my-new-post/ -&lt;h1 id=&#34;not-a-welcome&#34;&gt;Not A Welcome&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Things just faded away, not like Michael Jordan, like a duck drone in the ocean.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I had many excuses not update my blog for such a long time. But I need to say, when you didn&amp;rsquo;t put much effort on something, it just faded away.&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t realized that Hugo is under heavy development, and many themes are also evolving. So I decided to give it a try again. Last time I deployed my blog on github pages, it has a very very ugly layout. This time I found a very nice theme called &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-theme-diary/&#34;&gt;diary&lt;/a&gt;, and I really like it.&lt;/p&gt;
+&lt;p&gt;But since long time has elapsed, I need to re-learn how to set up a blog using Hugo. So I decided to write down my experience here, so that I can refer to it later.&lt;/p&gt;
+&lt;h2 id=&#34;4-days-journey&#34;&gt;4 days journey&lt;/h2&gt;
+&lt;p&gt;I stayed up for 2:00 a.m. on the day yesterday just in order to make some trial and error to make this little project work. By that night I closed my eyes, I finished successful build on my local environment, but as you know, I don&amp;rsquo;t have much confidence to make it work with the Github actions.&lt;/p&gt;
+&lt;p&gt;I felt a little bit tired of Hugo from the next morning. I indeed wanted to master Hugo, but I tried several times, it is so unfamiliar to me. I don&amp;rsquo;t use Go previsouly, I was astonished by the Go grammer I encountered. Then day 2, and day 3 passed away easily. At current stage, it is the 4th day when I started this refactoring.&lt;/p&gt;
+&lt;p&gt;I need to finish them today, I just told myself with such sentence.&lt;/p&gt;
+&lt;h2 id=&#34;delete-the-memories&#34;&gt;Delete the memories&lt;/h2&gt;
+&lt;p&gt;I deleted all the content I made with previous Hugo Setup. I build a org-mode worflow at that time, but somehow I didn&amp;rsquo;t insisted on with org-mode. I shall say this is the first time over these years I want to give Markdown a serious try instead of keep myself on orgmode. I know it might sound strange to some wierdo (hacker, and geek maybe), but I really think I don&amp;rsquo;t use much orgmode features over the past years.&lt;/p&gt;
+&lt;p&gt;It doesn&amp;rsquo;t mean that I will give up orgmode. God, I love orgmode, it is one of the most powerful tools in the world. All I wanted to say is that, orgmode is the very part I cannot let go. So let&amp;rsquo;s see what I could do with it next steps.&lt;/p&gt;
+&lt;h2 id=&#34;in-the-future&#34;&gt;In the fu&amp;hellip;ture&lt;/h2&gt;
+&lt;p&gt;I try not to think about the future, I need to focus on the moment.&lt;/p&gt;
+&lt;figure class=&#34;ma0 w-75&#34;&gt;&lt;a href=&#34;https://www.nps.gov/zion/index.htm&#34;&gt;&lt;img src=&#34;http://localhost:1313/hugo-diary-cover.jpg&#34;
+    alt=&#34;A photograph of Zion National Park&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;
+      &lt;p&gt;One Day in Hokkaido&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Rest of your blog content --&gt;
+- http://localhost:1313/posts/my-new-post/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>CNAS 和 CMA 认定</title>
+        <link>http://localhost:1313/posts/cnas_and_cma_accreditation/</link>
+        <pubDate>Tue, 01 Apr 2025 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/cnas_and_cma_accreditation/</guid>
+        <description>A Byte of Cybersecurity http://localhost:1313/posts/cnas_and_cma_accreditation/ -&lt;p&gt;这两年中国汽车行业里对网络安全的认证需求越来越多，同时要求也越来越高。我能够观察
+到，随着中国电动汽车的倾销加剧，各国对中国生产的电动汽车的门槛，也会随之升高。&lt;/p&gt;
+&lt;p&gt;这里说门槛是不那么准确的，特别说明，使用“门槛”这个词语不带有任何的贬低和恶意，主
+要表达的意思是，随着产业升级和技术复杂度的提高，若采用静止的观念看待整车的网络安
+全，那么车辆的安全风险自售卖到终端用户时起，便与日俱增。该“门槛”的作用在于设置一
+个可以达到的最低标准，从而使汽车工业产业链的各个节点均能有效地达到。&lt;/p&gt;
+&lt;p&gt;从推动标准的角度上说，行业里需要有第三方机构，可以独立地评估一家企业，或者是一类
+产品，是否能够达到这个门槛。中国的汽车准入条件并非参考的是美国的自申明，并且中国
+的电动汽车出口地，目前也绝不是美国。基于上述的考量，中国企业参考 UN R155 以及
+ISO/SAE 21434:2021 就是目下的最优解。&lt;/p&gt;
+&lt;h2 id=&#34;问题的出现&#34;&gt;问题的出现&lt;/h2&gt;
+&lt;p&gt;早在 J3061&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;发布起，行业内便在探讨有关汽车网络安全系统的实现。当 R155 及
+ISO/SAE 21434:2021 实施时，行业内达成了需要完善网络安全管理体系的共识。但随之而
+来的问题产生在于各个国家，各个 OEM 对与法规和标准的解读程度。其中最大的讨论产生
+于汽车网络安全的测试和验证&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;（verification and validation）。这里集成体现的
+矛盾在于：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;汽车网络安全的测试要求持续性，贯穿整个产品生命周期，并且在各个阶段，测试的侧
+重各有差异&lt;/li&gt;
+&lt;li&gt;网络安全的测试与传统的集成测试，自动化测试有相当程度的重叠，如何调配组织内部
+资源来应对&lt;/li&gt;
+&lt;li&gt;各组织之间的成果互认，统一测试标准及验收条件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;基于篇幅的考量，在本文中，我主要讨论上述的第三点。&lt;/p&gt;
+&lt;h2 id=&#34;成果互认&#34;&gt;成果互认&lt;/h2&gt;
+&lt;p&gt;从实施者的角度上说，相关方对于标准之间的互认，始终是一个费时费力的待解决问题。组
+织在具备产品开发的角度上，还需具备相当能力以应对各类法规，标准的要求。举一个例子，
+对于组织财务的审计，我们可以去找四大提供专业严谨的服务。而对于产品网络安全，即便
+当前行业内部已有充分的指导标准，但各个组织主要还是依赖自检自查以做应对。&lt;/p&gt;
+&lt;p&gt;在某种程度上，依赖于自查，即增加了 &amp;ldquo;inside attacker&amp;rdquo; 的风险。组织面临着巨量的交
+付压力，整车系统也在对各个因素做系统性的权衡。而安全措施往往成为了一个侥幸逃避的
+借口。在产业链的各个环节累积的产品网络安全风险，最终将在 Tier1 和 OEM 积累。OEM
+在最终面对车辆型式认证时，往往初审的结果也不尽人意。&lt;/p&gt;
+&lt;p&gt;以比较常见的调试口保护举例，下级供应商因其技术的积累不足，紧张的交付周期，往往在
+开发阶段对其不做保护，也不会设计相应的测试用例以确保其可用性。一种好的情况是，下
+级供应商能做出 SFOP 的分析，得出准确的风险评估，从而再做出申明。但现实往往是，供
+应商既未做申明，也未做管控，最终未知的产品风险暴露在车辆型式认证前。此时再去做更
+改，将带来巨大的更改成本。&lt;/p&gt;
+&lt;h2 id=&#34;解决思路&#34;&gt;解决思路&lt;/h2&gt;
+&lt;p&gt;针对上述情况，一种解决方案是引入成熟的测试验证体系，以一个成熟的体系来保障一个待
+成熟的体系（CSMS)。&lt;/p&gt;
+&lt;p&gt;CNAS (China National Accreditation Service for Conformity Assessment) 资质认可是
+由中国合格评定认可委员会实施的认可活动，是一种自愿行为，任何第一方，第二方和第三
+方实验室均可申请认可。CNAS 是国家级实验室的标志，有这一标志，表明该检验机构已经
+通过了中国国家实验室认证委员会的考核，检验能力已经达到了国家级实验室水平。&lt;/p&gt;
+&lt;p&gt;CNAS 资质已与亚太地区实验室认可和国际实验室认可合作组织签订了互认协议
+（APLPA-MRA). 因此，获得 CNAS 的认可，出具的检测报告可以获得签署互认协议方国家和
+地区认可机构的承认。&lt;/p&gt;
+&lt;p&gt;其中第一方实验室是组织内的实验室，检测、校准组织生产的产品，数据为组织所用，目的
+是提高和控制组织生产的产品质量。第二方实验室也是组织内的实验室，检测，校准供方提
+供的产品，数据为组织所用，目的是提高和控制供方的产品质量。第三方则独立于第一方和
+第二方，为社会提供检测、校准服务的实验室，其数据为社会所用，目的是提高和控制社会
+产品质量。&lt;/p&gt;
+&lt;p&gt;对于组织而言，按照 CNAS 的标准，搭建第一方和第二方实验室，是一个可行且可靠的方案。&lt;/p&gt;
+&lt;h2 id=&#34;接下来的工作&#34;&gt;接下来的工作&lt;/h2&gt;
+&lt;p&gt;此篇文章仅作为一个半成品而存在，在后续的更新中，我将提供更多有关 CNAS, 以及中国
+法规标准的相关信息。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;SAE J3061 Cybersecurity Guidebook for Cyber-Physical Vehicle Systems&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;A Global Survey of Standardization and Industry Practices of Automotive
+Cybersecurity Validation and Verification Testing Processes and Tools&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+- http://localhost:1313/posts/cnas_and_cma_accreditation/ - </description>
+        </item>
     
     
     
@@ -54,7 +168,8 @@ Milestone 的完成。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;不要在最后一个 task 里增加 end property!
 不要在最后一个 task 里增加 end property!
-不要在最后一个 task 里增加 end property!&lt;/p&gt;&lt;/blockquote&gt;
+不要在最后一个 task 里增加 end property!&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;好了，happy hacking!&lt;/p&gt;
 - http://localhost:1313/posts/set-milestone-in-taskjuggler-via-orgmode/ - </description>
         </item>

@@ -6,7 +6,7 @@
     <description>Recent content on A Byte of Cybersecurity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,7 +19,8 @@
         
         <guid>http://localhost:1313/posts/pii-analysis-for-icbc/</guid>
         <description>A Byte of Cybersecurity http://localhost:1313/posts/pii-analysis-for-icbc/ -&lt;blockquote&gt;
-&lt;p&gt;本文尝试对工行融 e 行的个人信息保护政策做出一些分析，我尝试通过这些分析得出一些关键字。以作为其他分析时的参考。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;本文尝试对工行融 e 行的个人信息保护政策做出一些分析，我尝试通过这些分析得出一些关键字。以作为其他分析时的参考。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;基于功能的数据和基于数据的功能&#34;&gt;基于功能的数据和基于数据的功能&lt;/h2&gt;
 &lt;p&gt;从信息安全三位一体的角度上说，我们需要保护的一是服务，二是数据，即 Service &amp;amp; Data。在做个人信息识别，和资产识别时，可以分别从基于功能的数据和基于数据的功能的角度来展开。&lt;/p&gt;
 &lt;p&gt;打比方，在穷举一个产品具有的所有功能的同时，我们可以将每一个功能用到的数据，特别是个人信息相关的数据整理出来。如此，在产品功能逻辑上，就可以达到全部的覆盖。&lt;/p&gt;
@@ -189,7 +190,8 @@
 &lt;/div&gt;
 &lt;p&gt;当然，还得加上导出文件的设置，比如：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;#+export_file_name: /you/export/file/path&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;#+export_file_name: /you/export/file/path&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;OK, 打完，收功！&lt;/p&gt;
 - http://localhost:1313/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/ - </description>
         </item>
@@ -222,7 +224,8 @@
         
         <guid>http://localhost:1313/posts/a-pii-example-from-icbc/</guid>
         <description>A Byte of Cybersecurity http://localhost:1313/posts/a-pii-example-from-icbc/ -&lt;blockquote&gt;
-&lt;p&gt;本文对原文做了个别修改，如需参考原文，见：&lt;a href=&#34;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&#34;&gt;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;本文对原文做了个别修改，如需参考原文，见：&lt;a href=&#34;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&#34;&gt;https://m.icbc.com.cn/ICBC/disclaimer/2.htm&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;我是工商银行的用户，前几天在使用该银行服务的时候，在手机端被提示了工商银行最新的个人信息保护政策。记录以下要点。&lt;/p&gt;
 &lt;dl&gt;
 &lt;dt&gt;问：工行融 e 行将对个人信息做哪些处理？&lt;/dt&gt;
@@ -265,7 +268,8 @@
 &lt;p&gt;目的限制原则 (the principle of purpose limitation), 也称目的拘束原则，是个人信息保护法中最基本的一项原则，贯穿于个人信息处理活动的全过程，无论处理者是谁，也不管属于何种类型的处理活动，都必须受到该原则的拘束。目的限制原则是个人信息保护的基石，在个人信息保护法中具有重要的地位，该原则也被称为个人信息保护法的“帝王条款”。&lt;/p&gt;
 &lt;p&gt;个人信息保护法第六条规定：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;处理个人信息应当具有明确、合理的目的，并应当与处理目的直接相关，采取对个人权益影响最小的方式。收集个人信息，应当限于实现处理目的的最小范围，不得过度收集个人信息。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;处理个人信息应当具有明确、合理的目的，并应当与处理目的直接相关，采取对个人权益影响最小的方式。收集个人信息，应当限于实现处理目的的最小范围，不得过度收集个人信息。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;个人信息-敏感个人信息的定义&#34;&gt;个人信息，敏感个人信息的定义&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;timestamp-wrapper&#34;&gt;&lt;span class=&#34;timestamp&#34;&gt;[2023-05-17 Wed 12:59]&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;个人信息是以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。
@@ -369,7 +373,8 @@
         <guid>http://localhost:1313/posts/what-is-back-office/</guid>
         <description>A Byte of Cybersecurity http://localhost:1313/posts/what-is-back-office/ -&lt;h2 id=&#34;definition&#34;&gt;Definition&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The back office is a counter concept against front office.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The back office is a counter concept against front office.&lt;/p&gt;
+&lt;/blockquote&gt;
 - http://localhost:1313/posts/what-is-back-office/ - </description>
         </item>
     
@@ -382,7 +387,8 @@
         
         <guid>http://localhost:1313/posts/what-is-information-security-management/</guid>
         <description>A Byte of Cybersecurity http://localhost:1313/posts/what-is-information-security-management/ -&lt;blockquote&gt;
-&lt;p&gt;Information security management validates that appropriate policies, procedures, standards, and guidelines are implemented to ensure business operations are conducted within an acceptable level of risk.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Information security management validates that appropriate policies, procedures, standards, and guidelines are implemented to ensure business operations are conducted within an acceptable level of risk.&lt;/p&gt;
+&lt;/blockquote&gt;
 - http://localhost:1313/posts/what-is-information-security-management/ - </description>
         </item>
     
@@ -406,117 +412,202 @@
     
     
         <item>
-        <title>Long time no tweaking Hugo</title>
-        <link>http://localhost:1313/posts/my-new-post/</link>
-        <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+        <title>Mono font for Chinese and English in vscode</title>
+        <link>http://localhost:1313/posts/mono-font-in-vscode/</link>
+        <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/my-new-post/</guid>
-        <description>A Byte of Cybersecurity http://localhost:1313/posts/my-new-post/ -&lt;h1 id=&#34;not-a-welcome&#34;&gt;Not A Welcome&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Things just faded away, not like Michael Jordan, like a duck drone in the ocean.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;I had many excuses not update my blog for such a long time. But I need to say, when you didn&amp;rsquo;t put much effort on something, it just faded away.&lt;/p&gt;
-&lt;p&gt;I didn&amp;rsquo;t realized that Hugo is under heavy development, and many themes are also evolving. So I decided to give it a try again. Last time I deployed my blog on github pages, it has a very very ugly layout. This time I found a very nice theme called &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-theme-diary/&#34;&gt;diary&lt;/a&gt;, and I really like it.&lt;/p&gt;
-&lt;p&gt;But since long time has elapsed, I need to re-learn how to set up a blog using Hugo. So I decided to write down my experience here, so that I can refer to it later.&lt;/p&gt;
-&lt;h2 id=&#34;what-ill-cover&#34;&gt;What I&amp;rsquo;ll Cover&lt;/h2&gt;
-&lt;p&gt;In this post, I&amp;rsquo;ll walk you through:&lt;/p&gt;
+        <guid>http://localhost:1313/posts/mono-font-in-vscode/</guid>
+        <description>A Byte of Cybersecurity http://localhost:1313/posts/mono-font-in-vscode/ -&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This document provides a solution for configuring VSCode to use monospace fonts where Chinese (CJK) characters occupy exactly twice the width of English characters, ensuring proper alignment in mixed-language text.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;When working with mixed Chinese and English text in VSCode, proper character alignment is crucial for code comments, documentation, and text formatting. True monospace fonts should maintain a 2:1 width ratio between full-width CJK characters and half-width Latin characters.&lt;/p&gt;
+&lt;h2 id=&#34;methods-and-results&#34;&gt;Methods and Results&lt;/h2&gt;
+&lt;h3 id=&#34;recommended-fonts&#34;&gt;Recommended Fonts&lt;/h3&gt;
+&lt;p&gt;The following fonts provide excellent CJK and Latin character width ratio (2:1):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sarasa Mono SC (更纱黑体)&lt;/strong&gt; - Recommended&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Setting up Hugo&lt;/li&gt;
-&lt;li&gt;Configuring the diary theme&lt;/li&gt;
-&lt;li&gt;Creating your first post&lt;/li&gt;
-&lt;li&gt;Customizing the layout&lt;/li&gt;
+&lt;li&gt;Download: &lt;a href=&#34;https://github.com/be5invis/Sarasa-Gothic/releases&#34;&gt;https://github.com/be5invis/Sarasa-Gothic/releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Best overall support for Chinese and English&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Let&amp;rsquo;s get started!&lt;/p&gt;
-&lt;p&gt;So where is the iamge?&lt;/p&gt;
-&lt;figure class=&#34;ma0 w-75&#34;&gt;&lt;a href=&#34;https://www.nps.gov/zion/index.htm&#34;&gt;&lt;img src=&#34;http://localhost:1313/hugo-diary-cover.jpg&#34;
-    alt=&#34;A photograph of Zion National Park&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;
-      &lt;p&gt;Zion National Park&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-&lt;p&gt;First, you&amp;rsquo;ll need to install Hugo&amp;hellip;&lt;/p&gt;
-&lt;!-- Rest of your blog content --&gt;
-- http://localhost:1313/posts/my-new-post/ - </description>
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Noto Sans Mono CJK SC&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download: &lt;a href=&#34;https://github.com/googlefonts/noto-cjk/releases&#34;&gt;https://github.com/googlefonts/noto-cjk/releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Google&amp;rsquo;s open-source solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Source Code Pro + Source Han Sans&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adobe&amp;rsquo;s professional font family&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;JetBrains Mono&lt;/strong&gt; (with CJK fallback)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download: &lt;a href=&#34;https://www.jetbrains.com/lp/mono/&#34;&gt;https://www.jetbrains.com/lp/mono/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;vscode-configuration&#34;&gt;VSCode Configuration&lt;/h3&gt;
+&lt;p&gt;Add the following to your VSCode &lt;code&gt;settings.json&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;editor.fontFamily&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#39;Sarasa Mono SC&amp;#39;, &amp;#39;Noto Sans Mono CJK SC&amp;#39;, &amp;#39;Source Han Sans&amp;#39;, &amp;#39;Microsoft YaHei Mono&amp;#39;, monospace&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;editor.fontSize&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;14&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;editor.fontLigatures&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;editor.renderWhitespace&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;all&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-by-step-setup&#34;&gt;Step-by-Step Setup&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Install the font&lt;/strong&gt; (using Sarasa Mono SC as example):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# For Ubuntu/Debian&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget https://github.com/be5invis/Sarasa-Gothic/releases/latest/download/sarasa-gothic-ttf.zip
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;unzip sarasa-gothic-ttf.zip -d sarasa-fonts
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo mkdir -p /usr/share/fonts/truetype/sarasa
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo cp sarasa-fonts/*.ttf /usr/share/fonts/truetype/sarasa/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo fc-cache -f -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Open VSCode Settings&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Press &lt;code&gt;Ctrl+Shift+P&lt;/code&gt; (or &lt;code&gt;Cmd+Shift+P&lt;/code&gt; on macOS)&lt;/li&gt;
+&lt;li&gt;Type &amp;ldquo;Preferences: Open Settings (JSON)&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Add the font configuration above&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Verify Installation&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fc-list | grep -i sarasa
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;validation-test&#34;&gt;Validation Test&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Test alignment with various characters:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;// English: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;// Chinese: 中文测试字符串对齐检查验证
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;// Mixed:   A中B文C测D试E字F符G串H对I齐
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;// Numbers: 0123456789 零一二三四五六七八九
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Expected result: Each Chinese character should align exactly with two English characters.&lt;/p&gt;
+&lt;h3 id=&#34;visual-verification&#34;&gt;Visual Verification&lt;/h3&gt;
+&lt;p&gt;Create a test file with the following content:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;|--En--|--En--|
+|---中---|---文---|
+ABC中文XYZ
+12一二34
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If properly configured:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;中&amp;rdquo; should align with &amp;ldquo;En&amp;ndash;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Each Chinese character occupies 2 English character widths&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;discussion&#34;&gt;Discussion&lt;/h2&gt;
+&lt;h3 id=&#34;why-21-ratio-matters&#34;&gt;Why 2:1 Ratio Matters&lt;/h3&gt;
+&lt;p&gt;In traditional terminal and programming environments, CJK characters are treated as &amp;ldquo;full-width&amp;rdquo; (占两个字符宽度), while ASCII characters are &amp;ldquo;half-width&amp;rdquo; (占一个字符宽度). This convention:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ensures proper alignment in ASCII art and tables&lt;/li&gt;
+&lt;li&gt;Maintains readability in code comments&lt;/li&gt;
+&lt;li&gt;Follows East Asian Width (EAW) specifications in Unicode Standard Annex #11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;common-issues&#34;&gt;Common Issues&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Font fallback problems&lt;/strong&gt;: If primary font lacks CJK support, VSCode may use system default, breaking alignment&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solution: Use font family list with CJK-aware fonts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Font ligatures&lt;/strong&gt;: Can disrupt character width calculations&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solution: Set &lt;code&gt;&amp;quot;editor.fontLigatures&amp;quot;: false&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Variable-width fonts&lt;/strong&gt;: Proportional fonts don&amp;rsquo;t maintain fixed ratios&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solution: Only use fonts explicitly labeled as &amp;ldquo;Mono&amp;rdquo; or &amp;ldquo;Monospace&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;alternative-fonts-comparison&#34;&gt;Alternative Fonts Comparison&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Font&lt;/th&gt;
+          &lt;th&gt;CJK Support&lt;/th&gt;
+          &lt;th&gt;License&lt;/th&gt;
+          &lt;th&gt;Width Ratio&lt;/th&gt;
+          &lt;th&gt;Readability&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sarasa Mono SC&lt;/td&gt;
+          &lt;td&gt;✅ Excellent&lt;/td&gt;
+          &lt;td&gt;SIL OFL 1.1&lt;/td&gt;
+          &lt;td&gt;Perfect 2:1&lt;/td&gt;
+          &lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Noto Sans Mono CJK&lt;/td&gt;
+          &lt;td&gt;✅ Excellent&lt;/td&gt;
+          &lt;td&gt;SIL OFL 1.1&lt;/td&gt;
+          &lt;td&gt;Perfect 2:1&lt;/td&gt;
+          &lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Source Code Pro&lt;/td&gt;
+          &lt;td&gt;⚠️ Needs fallback&lt;/td&gt;
+          &lt;td&gt;SIL OFL 1.1&lt;/td&gt;
+          &lt;td&gt;With fallback&lt;/td&gt;
+          &lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Consolas&lt;/td&gt;
+          &lt;td&gt;❌ Poor&lt;/td&gt;
+          &lt;td&gt;Proprietary&lt;/td&gt;
+          &lt;td&gt;Inconsistent&lt;/td&gt;
+          &lt;td&gt;⭐⭐&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;Thanks to the open-source font community, especially:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Be5invis for Sarasa Gothic project&lt;/li&gt;
+&lt;li&gt;Google Fonts for Noto CJK family&lt;/li&gt;
+&lt;li&gt;Adobe for Source Han Sans/Code Pro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Sarasa Gothic GitHub Repository: &lt;a href=&#34;https://github.com/be5invis/Sarasa-Gothic&#34;&gt;https://github.com/be5invis/Sarasa-Gothic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unicode Standard Annex #11 - East Asian Width: &lt;a href=&#34;https://www.unicode.org/reports/tr11/&#34;&gt;https://www.unicode.org/reports/tr11/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;VSCode Font Configuration Documentation: &lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/settings&#34;&gt;https://code.visualstudio.com/docs/getstarted/settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Noto CJK Fonts: &lt;a href=&#34;https://github.com/googlefonts/noto-cjk&#34;&gt;https://github.com/googlefonts/noto-cjk&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+- http://localhost:1313/posts/mono-font-in-vscode/ - </description>
         </item>
     
     
     
         <item>
-        <title>CNAS 和 CMA 认定</title>
-        <link>http://localhost:1313/posts/cnas_and_cma_accreditation/</link>
-        <pubDate>Tue, 01 Apr 2025 00:00:00 +0800</pubDate>
+        <title>Playing Game with Myself</title>
+        <link>http://localhost:1313/posts/playing-games-with-myself/</link>
+        <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/cnas_and_cma_accreditation/</guid>
-        <description>A Byte of Cybersecurity http://localhost:1313/posts/cnas_and_cma_accreditation/ -&lt;p&gt;这两年中国汽车行业里对网络安全的认证需求越来越多，同时要求也越来越高。我能够观察
-到，随着中国电动汽车的倾销加剧，各国对中国生产的电动汽车的门槛，也会随之升高。&lt;/p&gt;
-&lt;p&gt;这里说门槛是不那么准确的，特别说明，使用“门槛”这个词语不带有任何的贬低和恶意，主
-要表达的意思是，随着产业升级和技术复杂度的提高，若采用静止的观念看待整车的网络安
-全，那么车辆的安全风险自售卖到终端用户时起，便与日俱增。该“门槛”的作用在于设置一
-个可以达到的最低标准，从而使汽车工业产业链的各个节点均能有效地达到。&lt;/p&gt;
-&lt;p&gt;从推动标准的角度上说，行业里需要有第三方机构，可以独立地评估一家企业，或者是一类
-产品，是否能够达到这个门槛。中国的汽车准入条件并非参考的是美国的自申明，并且中国
-的电动汽车出口地，目前也绝不是美国。基于上述的考量，中国企业参考 UN R155 以及
-ISO/SAE 21434:2021 就是目下的最优解。&lt;/p&gt;
-&lt;h2 id=&#34;问题的出现&#34;&gt;问题的出现&lt;/h2&gt;
-&lt;p&gt;早在 J3061&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;发布起，行业内便在探讨有关汽车网络安全系统的实现。当 R155 及
-ISO/SAE 21434:2021 实施时，行业内达成了需要完善网络安全管理体系的共识。但随之而
-来的问题产生在于各个国家，各个 OEM 对与法规和标准的解读程度。其中最大的讨论产生
-于汽车网络安全的测试和验证&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;（verification and validation）。这里集成体现的
-矛盾在于：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;汽车网络安全的测试要求持续性，贯穿整个产品生命周期，并且在各个阶段，测试的侧
-重各有差异&lt;/li&gt;
-&lt;li&gt;网络安全的测试与传统的集成测试，自动化测试有相当程度的重叠，如何调配组织内部
-资源来应对&lt;/li&gt;
-&lt;li&gt;各组织之间的成果互认，统一测试标准及验收条件&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;基于篇幅的考量，在本文中，我主要讨论上述的第三点。&lt;/p&gt;
-&lt;h2 id=&#34;成果互认&#34;&gt;成果互认&lt;/h2&gt;
-&lt;p&gt;从实施者的角度上说，相关方对于标准之间的互认，始终是一个费时费力的待解决问题。组
-织在具备产品开发的角度上，还需具备相当能力以应对各类法规，标准的要求。举一个例子，
-对于组织财务的审计，我们可以去找四大提供专业严谨的服务。而对于产品网络安全，即便
-当前行业内部已有充分的指导标准，但各个组织主要还是依赖自检自查以做应对。&lt;/p&gt;
-&lt;p&gt;在某种程度上，依赖于自查，即增加了 &amp;ldquo;inside attacker&amp;rdquo; 的风险。组织面临着巨量的交
-付压力，整车系统也在对各个因素做系统性的权衡。而安全措施往往成为了一个侥幸逃避的
-借口。在产业链的各个环节累积的产品网络安全风险，最终将在 Tier1 和 OEM 积累。OEM
-在最终面对车辆型式认证时，往往初审的结果也不尽人意。&lt;/p&gt;
-&lt;p&gt;以比较常见的调试口保护举例，下级供应商因其技术的积累不足，紧张的交付周期，往往在
-开发阶段对其不做保护，也不会设计相应的测试用例以确保其可用性。一种好的情况是，下
-级供应商能做出 SFOP 的分析，得出准确的风险评估，从而再做出申明。但现实往往是，供
-应商既未做申明，也未做管控，最终未知的产品风险暴露在车辆型式认证前。此时再去做更
-改，将带来巨大的更改成本。&lt;/p&gt;
-&lt;h2 id=&#34;解决思路&#34;&gt;解决思路&lt;/h2&gt;
-&lt;p&gt;针对上述情况，一种解决方案是引入成熟的测试验证体系，以一个成熟的体系来保障一个待
-成熟的体系（CSMS)。&lt;/p&gt;
-&lt;p&gt;CNAS (China National Accreditation Service for Conformity Assessment) 资质认可是
-由中国合格评定认可委员会实施的认可活动，是一种自愿行为，任何第一方，第二方和第三
-方实验室均可申请认可。CNAS 是国家级实验室的标志，有这一标志，表明该检验机构已经
-通过了中国国家实验室认证委员会的考核，检验能力已经达到了国家级实验室水平。&lt;/p&gt;
-&lt;p&gt;CNAS 资质已与亚太地区实验室认可和国际实验室认可合作组织签订了互认协议
-（APLPA-MRA). 因此，获得 CNAS 的认可，出具的检测报告可以获得签署互认协议方国家和
-地区认可机构的承认。&lt;/p&gt;
-&lt;p&gt;其中第一方实验室是组织内的实验室，检测、校准组织生产的产品，数据为组织所用，目的
-是提高和控制组织生产的产品质量。第二方实验室也是组织内的实验室，检测，校准供方提
-供的产品，数据为组织所用，目的是提高和控制供方的产品质量。第三方则独立于第一方和
-第二方，为社会提供检测、校准服务的实验室，其数据为社会所用，目的是提高和控制社会
-产品质量。&lt;/p&gt;
-&lt;p&gt;对于组织而言，按照 CNAS 的标准，搭建第一方和第二方实验室，是一个可行且可靠的方案。&lt;/p&gt;
-&lt;h2 id=&#34;接下来的工作&#34;&gt;接下来的工作&lt;/h2&gt;
-&lt;p&gt;此篇文章仅作为一个半成品而存在，在后续的更新中，我将提供更多有关 CNAS, 以及中国
-法规标准的相关信息。&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;SAE J3061 Cybersecurity Guidebook for Cyber-Physical Vehicle Systems&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;A Global Survey of Standardization and Industry Practices of Automotive
-Cybersecurity Validation and Verification Testing Processes and Tools&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-- http://localhost:1313/posts/cnas_and_cma_accreditation/ - </description>
+        <guid>http://localhost:1313/posts/playing-games-with-myself/</guid>
+        <description>A Byte of Cybersecurity http://localhost:1313/posts/playing-games-with-myself/ -&lt;h2 id=&#34;no-games-for-a-long-time&#34;&gt;No Games for a Long Time&lt;/h2&gt;
+&lt;p&gt;I am obssessed with digital games since I was 5 years old. That means I&amp;rsquo;ve already played games over the past 30 years. Now I have a 9 years old son, I sometimes watch him playing his favorate games. To be honest, I am so envy on him.&lt;/p&gt;
+&lt;p&gt;I have to work, work, and work. When I finally got sometime, I just unlock my cellphone, swiping the glass. No, that&amp;rsquo;s not a gamer. A gamer should sit down or sink down the coach, holding his controller, and playing the game from day to night. That is me, that&amp;rsquo;s the devotion I am always seeking for.&lt;/p&gt;
+&lt;h2 id=&#34;work-or-play-this-is-the-problem&#34;&gt;Work or Play, this is the problem&lt;/h2&gt;
+&lt;p&gt;In my journey with games, I came across some games I just hard to swallow, I would play until I finally got tired of the tedious game. Now it turns to my work, I hate what I am doing when I sit down in my office chair. I feel distracted from everything except the work presented to my face. That is not a good sign, I am dreaming to quit the job and start my own business. One day I suddenly got the idea: if I am going to start my own business, could the easy attempt of distraction could do me well?&lt;/p&gt;
+&lt;p&gt;The answer is absolutely NO. I feel ashamed at that moment. Does the notion of &amp;ldquo;start my own business&amp;rdquo; is a blind confidence I used to escape the reality? The answer is absolutely YES.&lt;/p&gt;
+&lt;h2 id=&#34;if-i-really-want&#34;&gt;If I Really Want&lt;/h2&gt;
+&lt;p&gt;If I really want to start my own business, just don&amp;rsquo;t waste the time when sitting in the office. Distraction is by no means a good thing, if I don&amp;rsquo;t like the job, just wait for the apporiate timing, then quit this fucking job. But before that moment, I should play the game, the tedious game.&lt;/p&gt;
+&lt;p&gt;Pull my attention back.&lt;/p&gt;
+- http://localhost:1313/posts/playing-games-with-myself/ - </description>
         </item>
     
     

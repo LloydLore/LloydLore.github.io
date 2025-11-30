@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-<title>doomemacs GUI 中文显示及输入法设置</title>
+<title>Playing Game with Myself</title>
 
 
 
@@ -10,7 +10,7 @@
 <meta name="google-site-verification" content="">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
 <meta content="telephone=no" name="format-detection">
-<meta name="description" content="">
+<meta name="description" content="I am a gamer, playing with myself!">
 <meta name="renderer" content="webkit">
 <meta name="theme-color" content="#ffffff">
 
@@ -133,8 +133,8 @@
 						
 						
 							<li>
-								<a href="#doomemacs-gui-frame-%e4%b8%ad%e6%96%87%e6%98%be%e7%a4%ba" class="nav-doomemacs-gui-frame-中文显示">
-									doomemacs GUI frame 中文显示
+								<a href="#no-games-for-a-long-time" class="nav-no-games-for-a-long-time">
+									No Games for a Long Time
 								</a>
 							</li>
 						
@@ -151,8 +151,8 @@
 						
 						
 							<li>
-								<a href="#%e4%b8%ad%e6%96%87%e8%be%93%e5%85%a5%e6%b3%95-pyim-%e5%92%8c-liberime" class="nav-中文输入法-pyim-和-liberime">
-									中文输入法，PYIM 和 liberime
+								<a href="#work-or-play-this-is-the-problem" class="nav-work-or-play-this-is-the-problem">
+									Work or Play, this is the problem
 								</a>
 							</li>
 						
@@ -169,50 +169,8 @@
 						
 						
 							<li>
-								<a href="#rime-%e8%be%93%e5%85%a5%e6%b3%95%e6%96%b9%e6%a1%88-%e5%9b%9b%e5%8f%b6%e8%8d%89" class="nav-rime-输入法方案-四叶草">
-									Rime 输入法方案——四叶草
-								</a>
-							</li>
-						
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-							
-								
-									<ul>
-								
-							
-						
-						
-							<li>
-								<a href="#%e9%97%ae%e9%a2%98%e4%b8%80-%e8%be%93%e5%85%a5%e6%b3%95-emoji-%e4%b8%8d%e6%98%be%e7%a4%ba" class="nav-问题一-输入法-emoji-不显示">
-									问题一，输入法 emoji 不显示
-								</a>
-							</li>
-						
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-						
-							<li>
-								<a href="#%e9%97%ae%e9%a2%98%e4%ba%8c-%e5%9b%9b%e5%8f%b6%e8%8d%89%e8%be%93%e5%85%a5%e6%96%b9%e6%a1%88" class="nav-问题二-四叶草输入方案">
-									问题二，四叶草输入方案
+								<a href="#if-i-really-want" class="nav-if-i-really-want">
+									If I Really Want
 								</a>
 							</li>
 						
@@ -275,18 +233,22 @@
                 
             >
                 <div class="post-title">
-                    doomemacs GUI 中文显示及输入法设置
+                    Playing Game with Myself
+                    
+                    <div class="post-subtitle">
+                        I am a gamer, playing with myself!
+                    </div>
                     
                     <div class="post-meta">
                         
                         <time itemprop="datePublished">
-                            2023-10-03 00:00
+                            2025-11-14 00:00
                         </time>
                         
 
                         
                             <i class="material-icons" style="">folder</i>
-                                <a href="/categories/emacs">emacs</a>
+                                <a href="/categories/life">Life</a>
                                 &nbsp;
                         
 
@@ -296,10 +258,10 @@
                                 <a href="/tags/hugo">hugo</a>
                                 &nbsp;
                             
-                                <a href="/tags/emacs">emacs</a>
+                                <a href="/tags/work">work</a>
                                 &nbsp;
                             
-                                <a href="/tags/org">org</a>
+                                <a href="/tags/blogging">blogging</a>
                                 &nbsp;
                             
                         
@@ -312,38 +274,19 @@
                 
                 <div class="post-body" v-pre>
                 
-                    <p>本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置：</p>
-<ul>
-<li>中文显示字体，<a href="https://github.com/be5invis/Sarasa-Gothic">Sarasa Gothic SC</a></li>
-<li>中文输入法，<a href="https://github.com/tumashu/pyim">PYIM</a> + <a href="https://github.com/merrickluo/liberime">liberime</a></li>
-<li>输入法方案，<a href="https://www.fkxxyz.com/d/cloverpinyin/">四叶草</a></li>
-<li>其他…</li>
-</ul>
-<h2 id="doomemacs-gui-frame-中文显示">doomemacs GUI frame 中文显示</h2>
-<p>我一般只会使用窗口模式下的 emacs，此前在使用我自身做的 emacs 配置时，发现配置中文只要简单地设置 CJK 字符就可以，但到了用 doomemacs 时，我尝试了各种方法，总是不行。<a href="https://emacs-china.org/t/doom-emacs/23513/10">最终发现了一个 hook 的使用</a>，如下：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(defun +set-cjk()
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;set cjk for Emacs&#34;</span>
-</span></span><span style="display:flex;"><span>  (interactive)
-</span></span><span style="display:flex;"><span>  (dolist (charset <span style="color:#f92672">&#39;</span>(kana han symbol cjk-misc bopomofo))
-</span></span><span style="display:flex;"><span>    (<span style="color:#a6e22e">set-fontset-font</span> (<span style="color:#a6e22e">frame-parameter</span> <span style="color:#66d9ef">nil</span> <span style="color:#e6db74">&#39;font</span>)
-</span></span><span style="display:flex;"><span>                      charset
-</span></span><span style="display:flex;"><span>                      (<span style="color:#a6e22e">font-spec</span> :family <span style="color:#e6db74">&#34;Sarasa Gothic SC&#34;</span>))))
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>(add-hook <span style="color:#e6db74">&#39;after-setting-font-hook</span> <span style="color:#a6e22e">#&#39;</span>+set-cjk)
-</span></span></code></pre></div><p>即在 doomemacs 设置完字体以后，我们再来覆盖 CJK 的字体。</p>
-<h2 id="中文输入法-pyim-和-liberime">中文输入法，PYIM 和 liberime</h2>
-<p>在 emacs 下，PYIM, emacs-rime, <a href="https://github.com/laishulu/emacs-smart-input-source">SIS</a>，我都用过，我在这里不赘述几种输入法的优劣。单从我个 人的使用习惯来说，我更喜欢 PYIM + liberime 的组合，就像 PYIM 作者说的那样，PYIM 就像我的朋友一样，一直陪伴的着我，而我唯一觉得用得不舒服的地方，在于 PYIM 自带字库，以及云输入法，我总觉得会有些延迟。</p>
-<p>基于以上的考虑，最终我想用 PYIM 作为前端，rime 输入法引擎作为后端。至少试下来，整体的效果还是很好的。</p>
-<h2 id="rime-输入法方案-四叶草">Rime 输入法方案——四叶草</h2>
-<p>我喜欢这个输入法方案。我的个人电脑上，安装的是 Arco Linux, 有些字体的支持，emoji 的支持有限，这里着重说下几个问题。</p>
-<h3 id="问题一-输入法-emoji-不显示">问题一，输入法 emoji 不显示</h3>
-<p>安装 fontconfig 的配置，见 <a href="https://github.com/szclsya/dotfiles/blob/master/fontconfig/fonts.conf">https://github.com/szclsya/dotfiles/blob/master/fontconfig/fonts.conf</a></p>
-<h3 id="问题二-四叶草输入方案">问题二，四叶草输入方案</h3>
-<p>最好不要和系统输入法共用一个。</p>
+                    <h2 id="no-games-for-a-long-time">No Games for a Long Time</h2>
+<p>I am obssessed with digital games since I was 5 years old. That means I&rsquo;ve already played games over the past 30 years. Now I have a 9 years old son, I sometimes watch him playing his favorate games. To be honest, I am so envy on him.</p>
+<p>I have to work, work, and work. When I finally got sometime, I just unlock my cellphone, swiping the glass. No, that&rsquo;s not a gamer. A gamer should sit down or sink down the coach, holding his controller, and playing the game from day to night. That is me, that&rsquo;s the devotion I am always seeking for.</p>
+<h2 id="work-or-play-this-is-the-problem">Work or Play, this is the problem</h2>
+<p>In my journey with games, I came across some games I just hard to swallow, I would play until I finally got tired of the tedious game. Now it turns to my work, I hate what I am doing when I sit down in my office chair. I feel distracted from everything except the work presented to my face. That is not a good sign, I am dreaming to quit the job and start my own business. One day I suddenly got the idea: if I am going to start my own business, could the easy attempt of distraction could do me well?</p>
+<p>The answer is absolutely NO. I feel ashamed at that moment. Does the notion of &ldquo;start my own business&rdquo; is a blind confidence I used to escape the reality? The answer is absolutely YES.</p>
+<h2 id="if-i-really-want">If I Really Want</h2>
+<p>If I really want to start my own business, just don&rsquo;t waste the time when sitting in the office. Distraction is by no means a good thing, if I don&rsquo;t like the job, just wait for the apporiate timing, then quit this fucking job. But before that moment, I should play the game, the tedious game.</p>
+<p>Pull my attention back.</p>
 
                     
                     <HR width="100%" id="EOF">
-		    <p style="color:#777;">Last modified on 2024-11-01</p>
+		    <p style="color:#777;">Last modified on 2025-11-14</p>
                     
                 </div>
             </div>
@@ -352,14 +295,14 @@
             <nav class="post-pagination">
 
                 
-                <a class="newer-posts" href="/posts/pii-analysis-for-icbc/">
-			Next<br>工行融 e 行个人信息保护政策分析
+                <a class="newer-posts" href="/posts/mono-font-in-vscode/">
+			Next<br>Mono font for Chinese and English in vscode
                 </a>
                 
                 
                 
-                <a class="older-posts" href="/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/">
-			Previous<br>before-save-hook 默认不是 buffer local variable
+                <a class="older-posts" href="/posts/my-new-post/">
+			Previous<br>Long time no tweaking Hugo
                 </a>
                 
             </nav>
@@ -483,8 +426,8 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 						
 						
 							<li>
-								<a href="#doomemacs-gui-frame-%e4%b8%ad%e6%96%87%e6%98%be%e7%a4%ba" class="nav-doomemacs-gui-frame-中文显示">
-									doomemacs GUI frame 中文显示
+								<a href="#no-games-for-a-long-time" class="nav-no-games-for-a-long-time">
+									No Games for a Long Time
 								</a>
 							</li>
 						
@@ -501,8 +444,8 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 						
 						
 							<li>
-								<a href="#%e4%b8%ad%e6%96%87%e8%be%93%e5%85%a5%e6%b3%95-pyim-%e5%92%8c-liberime" class="nav-中文输入法-pyim-和-liberime">
-									中文输入法，PYIM 和 liberime
+								<a href="#work-or-play-this-is-the-problem" class="nav-work-or-play-this-is-the-problem">
+									Work or Play, this is the problem
 								</a>
 							</li>
 						
@@ -519,50 +462,8 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 						
 						
 							<li>
-								<a href="#rime-%e8%be%93%e5%85%a5%e6%b3%95%e6%96%b9%e6%a1%88-%e5%9b%9b%e5%8f%b6%e8%8d%89" class="nav-rime-输入法方案-四叶草">
-									Rime 输入法方案——四叶草
-								</a>
-							</li>
-						
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-							
-								
-									<ul>
-								
-							
-						
-						
-							<li>
-								<a href="#%e9%97%ae%e9%a2%98%e4%b8%80-%e8%be%93%e5%85%a5%e6%b3%95-emoji-%e4%b8%8d%e6%98%be%e7%a4%ba" class="nav-问题一-输入法-emoji-不显示">
-									问题一，输入法 emoji 不显示
-								</a>
-							</li>
-						
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-						
-							<li>
-								<a href="#%e9%97%ae%e9%a2%98%e4%ba%8c-%e5%9b%9b%e5%8f%b6%e8%8d%89%e8%be%93%e5%85%a5%e6%96%b9%e6%a1%88" class="nav-问题二-四叶草输入方案">
-									问题二，四叶草输入方案
+								<a href="#if-i-really-want" class="nav-if-i-really-want">
+									If I Really Want
 								</a>
 							</li>
 						

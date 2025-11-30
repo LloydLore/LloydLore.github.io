@@ -6,8 +6,22 @@
     <description>Recent content in Work on A Byte of Cybersecurity</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Apr 2025 13:55:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mono font for Chinese and English in vscode</title>
+      <link>http://localhost:1313/posts/mono-font-in-vscode/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mono-font-in-vscode/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;This document provides a solution for configuring VSCode to use monospace fonts where Chinese (CJK) characters occupy exactly twice the width of English characters, ensuring proper alignment in mixed-language text.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;When working with mixed Chinese and English text in VSCode, proper character alignment is crucial for code comments, documentation, and text formatting. True monospace fonts should maintain a 2:1 width ratio between full-width CJK characters and half-width Latin characters.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Playing Game with Myself</title>
+      <link>http://localhost:1313/posts/playing-games-with-myself/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/playing-games-with-myself/</guid>
+      <description>&lt;h2 id=&#34;no-games-for-a-long-time&#34;&gt;No Games for a Long Time&lt;/h2&gt;&#xA;&lt;p&gt;I am obssessed with digital games since I was 5 years old. That means I&amp;rsquo;ve already played games over the past 30 years. Now I have a 9 years old son, I sometimes watch him playing his favorate games. To be honest, I am so envy on him.&lt;/p&gt;&#xA;&lt;p&gt;I have to work, work, and work. When I finally got sometime, I just unlock my cellphone, swiping the glass. No, that&amp;rsquo;s not a gamer. A gamer should sit down or sink down the coach, holding his controller, and playing the game from day to night. That is me, that&amp;rsquo;s the devotion I am always seeking for.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>CNAS 和 CMA 认定</title>
       <link>http://localhost:1313/posts/cnas_and_cma_accreditation/</link>
