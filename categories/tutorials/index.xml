@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on A Byte of Cybersecurity</title><link>https://lloydlore.github.io/categories/tutorials/</link><description>Recent content in Tutorials on A Byte of Cybersecurity</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lloydlore.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>“話しかける” 中的 “かけ” 如何理解？</title><link>https://lloydlore.github.io/posts/hanashikakeru/</link><pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate><guid>https://lloydlore.github.io/posts/hanashikakeru/</guid><description>&lt;h2 id="-第一步追问其本-the-why"&gt;🎯 第一步：追问其本 (The Why)&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on A Byte of Cybersecurity</title><link>https://lloydlore.github.io/categories/tutorials/</link><description>Recent content in Tutorials on A Byte of Cybersecurity</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 26 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lloydlore.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>開く（あく）和 開く（ひらく）的区别</title><link>https://lloydlore.github.io/posts/aku_and_hiraku/</link><pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate><guid>https://lloydlore.github.io/posts/aku_and_hiraku/</guid><description>&lt;hr&gt;
+&lt;h2 id="-第一步追问其本-the-why"&gt;🎯 第一步：追问其本 (The Why)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;为什么日语需要同一个汉字有两种读音？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个现象的诞生，是为了解决&lt;strong&gt;日语表达体系中&amp;quot;自然状态描述&amp;quot;与&amp;quot;人为动作描述&amp;quot;的区分问题&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;在日语的演化过程中，存在一个核心矛盾：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;古代日本人有自己的和语词汇（やまとことば）&lt;/li&gt;
+&lt;li&gt;后来从中国引进了汉字书写系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当&amp;quot;开&amp;quot;这个概念需要用汉字「開く」表达时，日语发现：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;あく（自动词）&lt;/strong&gt;：源自日语原生词汇，强调&amp;quot;事物自己打开的状态&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ひらく（他动词）&lt;/strong&gt;：也源自日语原生词汇，强调&amp;quot;人主动打开的动作&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这就像是一个汉字&amp;quot;開く&amp;quot;要同时承载两个日语固有概念，因此产生了两种读音。这是&lt;strong&gt;语言接触与融合的必然产物&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-第二步建立直觉-the-how"&gt;💡 第二步：建立直觉 (The How)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;想象一个简单场景：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;早晨的便利店&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;🏪 &lt;strong&gt;あく的世界（自然发生）：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;你走到便利店门口，看到门上挂着牌子：&amp;ldquo;営業時間 7:00〜23:00&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;早上7点，你站在门外，观察到：店が&lt;strong&gt;開いた&lt;/strong&gt;（あいた）&lt;/li&gt;
+&lt;li&gt;这里你是&lt;strong&gt;观察者&lt;/strong&gt;，店铺的&amp;quot;开&amp;quot;是一个&lt;strong&gt;状态的呈现&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;就像花开了、眼睛睁开了——重点是&amp;quot;它开了&amp;quot;这个&lt;strong&gt;结果&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🚪 &lt;strong&gt;ひらく的世界（主动行为）：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;你是店员，早上6:55到达店铺&lt;/li&gt;
+&lt;li&gt;你拿出钥匙，转动门锁，用手推开玻璃门：ドアを&lt;strong&gt;開く&lt;/strong&gt;（ひらく）&lt;/li&gt;
+&lt;li&gt;这里你是&lt;strong&gt;施动者&lt;/strong&gt;，&amp;ldquo;开&amp;quot;是一个&lt;strong&gt;有意识的动作&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;就像翻开书、展开地图——重点是&amp;quot;我打开&amp;quot;这个&lt;strong&gt;过程&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;核心感觉差异：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;あく = 像看花开 🌸（我见证了&amp;quot;开&amp;rdquo;）&lt;/li&gt;
+&lt;li&gt;ひらく = 像剥橙子 🍊（我执行了&amp;quot;开&amp;quot;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-第三步系统化认知-the-what"&gt;🔧 第三步：系统化认知 (The What)&lt;/h2&gt;
+&lt;h3 id="a-核心构成"&gt;A. 核心构成&lt;/h3&gt;
+&lt;p&gt;这个区分系统由&lt;strong&gt;三个关键维度&lt;/strong&gt;组成：&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;维度&lt;/th&gt;
+ &lt;th&gt;あく&lt;/th&gt;
+ &lt;th&gt;ひらく&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;语法属性&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;自动词（不及物）&lt;/td&gt;
+ &lt;td&gt;他动词（及物）&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;主语类型&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;事物本身&lt;/td&gt;
+ &lt;td&gt;行为主体&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;句式结构&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;～が開く&lt;/td&gt;
+ &lt;td&gt;～を開く&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="b-运作机制"&gt;B. 运作机制&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;判断流程图：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;提问：谁/什么在&amp;#34;开&amp;#34;？
+ ↓
+ ┌────┴────┐
+ ↓ ↓
+[事物自己] [某人打开某物]
+ ↓ ↓
+ あく ひらく
+ ↓ ↓
+例：窓が開く 例：窓を開ける
+ (窗户开了) (打开窗户)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;互动关系：&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>“話しかける” 中的 “かけ” 如何理解？</title><link>https://lloydlore.github.io/posts/hanashikakeru/</link><pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate><guid>https://lloydlore.github.io/posts/hanashikakeru/</guid><description>&lt;h2 id="-第一步追问其本-the-why"&gt;🎯 第一步：追问其本 (The Why)&lt;/h2&gt;
 &lt;p&gt;日语的复合动词系统，是为了&lt;strong&gt;弥补单一动词表达精细动作方向性和交互性的不足&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;在人际交流中，&amp;ldquo;说话&amp;quot;这个动作存在一个核心问题：&lt;strong&gt;我们不仅需要描述&amp;quot;说&amp;quot;这个行为本身，更需要表达&amp;quot;向谁主动发起对话&amp;quot;这个方向性&lt;/strong&gt;。&lt;/p&gt;
 &lt;ul&gt;
