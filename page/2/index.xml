@@ -32,6 +32,12 @@
 &lt;li&gt;Download: &lt;a href="https://www.jetbrains.com/lp/mono/"&gt;https://www.jetbrains.com/lp/mono/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Maple Mono&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Downloads: &lt;a href="https://github.com/subframe7536/maple-font"&gt;https://github.com/subframe7536/maple-font&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id="vscode-configuration"&gt;VSCode Configuration&lt;/h3&gt;
 &lt;p&gt;Add the following to your VSCode &lt;code&gt;settings.json&lt;/code&gt;:&lt;/p&gt;
