@@ -2,7 +2,7 @@
 title: "Mono font for Chinese and English in vscode"
 author: 丛朝
 date: 2025-11-25
-lastmod: 2025-11-25
+lastmod: 2026-01-05
 featured: true
 type: "post"
 draft: false
@@ -39,6 +39,9 @@ The following fonts provide excellent CJK and Latin character width ratio (2:1):
 
 4. **JetBrains Mono** (with CJK fallback)
    - Download: <https://www.jetbrains.com/lp/mono/>
+
+5. **Maple Mono**
+   - Downloads: <https://github.com/subframe7536/maple-font>
 
 ### VSCode Configuration
 
