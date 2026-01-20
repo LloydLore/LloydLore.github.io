@@ -1,5 +1,5 @@
 ---
-title: "如何理解英语词典里 transitive, often passive 中的 passive"
+title: "失礼ですが和失礼いたします"
 
 date: 2026-01-20
 lastmod: 2026-01-20
