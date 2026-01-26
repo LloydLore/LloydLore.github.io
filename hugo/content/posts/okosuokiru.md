@@ -1,7 +1,7 @@
 ---
 title: "起こす 和 起きる 区别？"
 date: 2026-01-24
-lastmod:2026-01-24
+lastmod: 2026-01-24
 draft: false
 type: "posts"
 featured: true
