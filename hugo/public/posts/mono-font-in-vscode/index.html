@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="en"><head>
 <title>Mono font for Chinese and English in vscode</title>
 
 
@@ -39,11 +39,11 @@
     
     <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="/scss/dark-mode.min.c6421d712fbd79d98380b2e5a6d50a4dd11f7bdd990ecdcd2cd2825aec232535.css" integrity="sha256-xkIdcS&#43;9edmDgLLlptUKTdEfe92ZDs3NLNKCWuwjJTU=" media="screen">
+<link rel="stylesheet" href="/scss/dark-mode.min.5273c73af3d99e4750abe315e214cdc72b5cdd0841e245c5844d4535687efcc9.css" integrity="sha256-UnPHOvPZnkdQq&#43;MV4hTNxytc3QhB4kXFhE1FNWh&#43;/Mk=" media="screen">
 
 
 <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Material+Icons">
+          href="https://cdn.jsdelivr.net/npm/material-icons@1.13.14/iconfont/material-icons.min.css">
 
 
 
@@ -425,7 +425,7 @@
                 menu
             </i>
         </button>
-        <a id="navTitle" class="navbar-brand" href="http://localhost:1313/">
+        <a id="navTitle" class="navbar-brand" href="https://lloydlore.github.io/">
             A Byte of Cybersecurity
         </a>
         
@@ -439,7 +439,7 @@
 </nav>
 <div class="single-column-header-container" id="pageHead"
      v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
-    <a href="http://localhost:1313/">
+    <a href="https://lloydlore.github.io/">
         <div class="single-column-header-title">A Byte of Cybersecurity</div>
         
         <div class="single-column-header-subtitle">💓 ☮️</div>
@@ -533,10 +533,16 @@
 <li>Download: <a href="https://www.jetbrains.com/lp/mono/">https://www.jetbrains.com/lp/mono/</a></li>
 </ul>
 </li>
+<li>
+<p><strong>Maple Mono</strong></p>
+<ul>
+<li>Downloads: <a href="https://github.com/subframe7536/maple-font">https://github.com/subframe7536/maple-font</a></li>
+</ul>
+</li>
 </ol>
 <h3 id="vscode-configuration">VSCode Configuration</h3>
 <p>Add the following to your VSCode <code>settings.json</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;editor.fontFamily&#34;</span>: <span style="color:#e6db74">&#34;&#39;Sarasa Mono SC&#39;, &#39;Noto Sans Mono CJK SC&#39;, &#39;Source Han Sans&#39;, &#39;Microsoft YaHei Mono&#39;, monospace&#34;</span>,
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;editor.fontSize&#34;</span>: <span style="color:#ae81ff">14</span>,
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;editor.fontLigatures&#34;</span>: <span style="color:#66d9ef">false</span>,
@@ -546,7 +552,7 @@
 <ol>
 <li>
 <p><strong>Install the font</strong> (using Sarasa Mono SC as example):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># For Ubuntu/Debian</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># For Ubuntu/Debian</span>
 </span></span><span style="display:flex;"><span>wget https://github.com/be5invis/Sarasa-Gothic/releases/latest/download/sarasa-gothic-ttf.zip
 </span></span><span style="display:flex;"><span>unzip sarasa-gothic-ttf.zip -d sarasa-fonts
 </span></span><span style="display:flex;"><span>sudo mkdir -p /usr/share/fonts/truetype/sarasa
@@ -563,11 +569,11 @@
 </li>
 <li>
 <p><strong>Verify Installation</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>fc-list | grep -i sarasa
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>fc-list | grep -i sarasa
 </span></span></code></pre></div></li>
 </ol>
 <h3 id="validation-test">Validation Test</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Test alignment with various characters:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Test alignment with various characters:
 </span></span><span style="display:flex;"><span>// English: ABCDEFGHIJKLMNOPQRSTUVWXYZ
 </span></span><span style="display:flex;"><span>// Chinese: 中文测试字符串对齐检查验证
 </span></span><span style="display:flex;"><span>// Mixed:   A中B文C测D试E字F符G串H对I齐
@@ -672,7 +678,7 @@ ABC中文XYZ
 
                     
                     <HR width="100%" id="EOF">
-		    <p style="color:#777;">Last modified on 2025-11-25</p>
+		    <p style="color:#777;">Last modified on 2026-01-05</p>
                     
                 </div>
             </div>
@@ -681,8 +687,8 @@ ABC中文XYZ
             <nav class="post-pagination">
 
                 
-                <a class="newer-posts" href="/posts/%E4%B8%80%E6%9E%9D%E8%8A%B1/">
-			Next<br>一枝花
+                <a class="newer-posts" href="/posts/hanashikakeru/">
+			Next<br>“話しかける” 中的 “かけ” 如何理解？
                 </a>
                 
                 
@@ -714,7 +720,7 @@ ABC中文XYZ
                     </div>
             </div><div id="sideContainer" class="side-container">
     
-    <a class="a-block nav-head false" href="http://localhost:1313/">
+    <a class="a-block nav-head false" href="https://lloydlore.github.io/">
     
         <div class="nav-title">
             A Byte of Cybersecurity
@@ -774,7 +780,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 
 &copy;
 	
-	2025 A Byte of Cybersecurity
+	2026 A Byte of Cybersecurity
 	
 
     </div>
@@ -1117,7 +1123,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 
 &copy;
 	
-	2025 A Byte of Cybersecurity
+	2026 A Byte of Cybersecurity
 	
 </div>
             </div>
