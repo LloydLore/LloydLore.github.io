@@ -3,13 +3,13 @@
 {{ end }}
 
 {{ define "content" }}
+  {{ partialCached "home.html" . }}
+
   <section class="container list">
     <header>
-      <h1 class="title">
-        <a class="title-link" href="{{ .Permalink | safeURL }}">
-          {{ .Site.Title }}
-        </a>
-      </h1>
+      <h2 class="title">
+        Latest Posts
+      </h2>
     </header>
     <ul>
       {{- $posts := (where .Site.RegularPages "Type" "posts").ByDate.Reverse -}}

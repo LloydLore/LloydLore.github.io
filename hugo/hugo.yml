@@ -29,7 +29,7 @@ params:
   keywords: "blog,cybersecurity,personal"
   info:
     - "Love <--> Peace"
-  avatarURL: ""
+  avatarURL: "images/avatar-source.png"
   dateFormat: "January 2, 2006"
   colorScheme: "auto"
   hideColorSchemeToggle: false
