@@ -1,42 +1,17 @@
 baseURL: 'https://lloydlore.github.io/'
-locale: 'en-us'
+locale: 'en'
+defaultContentLanguage: 'en'
 title: 'A Byte of Cybersecurity'
-description: A little bit of here, a littlt bit of there
-subtitle: 'Love <--> Peace'
-theme: diary
+theme: 'hugo-coder'
+enableEmoji: true
 
-# Pagination settings
-pagination.pagerSize: 8
-paginaation.path: "page"
-
-# Make sure these aren't excluding your posts
-publishDir: "public"
-contentDir: "content"
-
-menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: Posts
-      name: posts
-      url: /posts/
-      weight: 30
+pagination:
+  pagerSize: 8
 
 markup:
   goldmark:
     renderer:
       unsafe: true
-      paginate: "5"
-      enableRobotsTXT: true
-      buildDrafts: false
-      buildFuture: false
-      googleAnalytics: UA-123-45
   highlight:
     codeFences: true
     guessSyntax: false
@@ -44,36 +19,43 @@ markup:
     lineNoStart: 1
     lineNos: false
     lineNumbersInTable: true
-    noClasses: true
+    noClasses: false
     style: "monokai"
     tabWidth: 4
 
 params:
-  author:
-    name: 丛朝
-  subtitle: '💓 ☮️'
-  DateFormat: January 2, 2006
-  defaultTheme: auto
-  disableThemeToggle: false
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: true
-  tocopen: true
+  author: "丛朝"
+  description: "A little bit of here, a little bit of there"
+  keywords: "blog,cybersecurity,personal"
+  info:
+    - "Love <--> Peace"
+  avatarURL: ""
+  dateFormat: "January 2, 2006"
+  colorScheme: "auto"
+  hideColorSchemeToggle: false
+  commit: "https://github.com/LloydLore/LloydLore.github.io/tree/"
+  maxSeeAlsoItems: 5
+  customCSS: []
+  customSCSS: []
+  customJS: []
+  customRemoteJS: []
 
-module:
-  mounts:
-  - source: assets
-    target: assets
-  - source: static
-    target: assets
+menu:
+  main:
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts/"
+      weight: 10
+    - identifier: "categories"
+      name: "Categories"
+      url: "/categories/"
+      weight: 20
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 30
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+  author: "authors"

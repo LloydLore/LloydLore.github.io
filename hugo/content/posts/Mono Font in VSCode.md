@@ -4,7 +4,7 @@ author: 丛朝
 date: 2025-11-25
 lastmod: 2026-01-05
 featured: true
-type: "post"
+type: "posts"
 draft: false
 tags: ["work", "eyecandy"]
 categories: ["Life", "Tutorials"]

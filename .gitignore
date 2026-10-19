@@ -9,3 +9,7 @@
 
 # Undo-tree save-files
 *.~undo-tree
+
+# Hugo build lock
+.hugo_build.lock
+
