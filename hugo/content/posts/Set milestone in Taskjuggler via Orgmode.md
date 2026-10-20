@@ -1,6 +1,6 @@
 +++
 title = "Set Milestone In Taskjuggler Via Orgmode"
-author = ["丛朝"]
+author = "丛朝"
 date = 2024-12-11T00:00:00+08:00
 lastmod = 2025-01-09T17:47:00+08:00
 tags = ["Cliche"]

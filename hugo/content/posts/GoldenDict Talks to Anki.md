@@ -1,6 +1,6 @@
 +++
 title = "Golden Dict Talks to Anki"
-author = ["丛朝"]
+author = "丛朝"
 date = 2024-10-25T00:00:00+08:00
 lastmod = 2024-10-25T16:35:00+08:00
 tags = ["Cliche"]

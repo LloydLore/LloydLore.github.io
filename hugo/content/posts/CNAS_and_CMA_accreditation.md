@@ -1,6 +1,6 @@
 +++
 title = "CNAS 和 CMA 认定"
-author = ["丛朝"]
+author = "丛朝"
 date = 2025-04-01T00:00:00+08:00
 lastmod = 2025-04-07T13:55:00+08:00
 tags = ["Work"]

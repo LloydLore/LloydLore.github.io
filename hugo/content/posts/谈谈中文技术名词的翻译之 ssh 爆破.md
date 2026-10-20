@@ -1,12 +1,11 @@
 +++
 title = "谈谈中文技术名词的翻译"
-author = ["丛朝"]
+author = "丛朝"
 date = 2024-01-10T00:00:00+08:00
 lastmod = 2024-11-01T23:59:00+08:00
 tags = ["cliche"]
 categories = ["只言片语"]
 draft = false
-weight = 2002
 toc = true
 isCJKLanguage = true
 +++

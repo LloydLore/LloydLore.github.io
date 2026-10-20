@@ -1,51 +1,18 @@
 baseURL: 'https://lloydlore.github.io/'
-locale: 'en'
-defaultContentLanguage: 'en'
 title: 'A Byte of Cybersecurity'
-theme: 'hugo-coder'
+theme: 'LoveIt'
+defaultContentLanguage: 'en'
+locale: 'en'
+languageName: 'English'
+hasCJKLanguage: true
 enableEmoji: true
+enableRobotsTXT: true
 
 pagination:
   pagerSize: 8
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    codeFences: true
-    guessSyntax: false
-    hl_lines: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: false
-    style: "monokai"
-    tabWidth: 4
-
-params:
-  author: "丛朝"
-  description: "A little bit of here, a little bit of there"
-  keywords: "blog,cybersecurity,personal"
-  info:
-    - "Love <--> Peace"
-  avatarURL: "images/avatar-source.png"
-  dateFormat: "January 2, 2006"
-  colorScheme: "auto"
-  hideColorSchemeToggle: false
-  commit: "https://github.com/LloydLore/LloydLore.github.io/tree/"
-  maxSeeAlsoItems: 5
-  customCSS: []
-  customSCSS: []
-  customJS: []
-  customRemoteJS: []
-
 menu:
   main:
-    - identifier: "about"
-      name: "About"
-      url: "/about/"
-      weight: 5
     - identifier: "posts"
       name: "Posts"
       url: "/posts/"
@@ -58,8 +25,104 @@ menu:
       name: "Tags"
       url: "/tags/"
       weight: 30
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 40
 
-taxonomies:
-  category: "categories"
-  tag: "tags"
-  author: "authors"
+params:
+  author:
+    name: "丛朝"
+    email: ""
+    link: ""
+  defaultTheme: "auto"
+  dateFormat: "2006-01-02"
+  title: "A Byte of Cybersecurity"
+  description: "A little bit of cybersecurity, a little bit of everything else"
+  keywords: "blog,cybersecurity,personal"
+  images:
+    - "/images/avatar-source.png"
+
+  header:
+    desktopMode: "fixed"
+    mobileMode: "auto"
+    title:
+      name: "A Byte of Cybersecurity"
+      typeit: false
+
+  footer:
+    enable: true
+    hugo: true
+    copyright: true
+    author: true
+    since: 2023
+
+  home:
+    rss: 10
+    profile:
+      enable: true
+      avatarURL: "/images/avatar-source.png"
+      title: ""
+      subtitle: "Love <--> Peace"
+      typeit: false
+      social: false
+      disclaimer: ""
+    posts:
+      enable: true
+      paginate: 8
+
+  section:
+    paginate: 20
+    dateFormat: "01-02"
+    rss: 10
+
+  list:
+    paginate: 20
+    dateFormat: "01-02"
+    rss: 10
+
+  app:
+    title: "A Byte of Cybersecurity"
+    noFavicon: false
+    svgFavicon: ""
+    themeColor: "#ffffff"
+    iconColor: "#5bbad5"
+    tileColor: "#da532c"
+
+  search:
+    enable: false
+
+  page:
+    hiddenFromHomePage: false
+    hiddenFromSearch: false
+    twemoji: false
+    lightgallery: false
+    ruby: true
+    fraction: true
+    fontawesome: true
+    linkToMarkdown: false
+    rssFullText: false
+
+  social:
+    RSS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false
+    style: "monokai"
+    tabWidth: 4
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+
+sitemap:
+  changefreq: "weekly"
+  filename: "sitemap.xml"
+  priority: 0.5

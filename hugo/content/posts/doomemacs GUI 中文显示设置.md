@@ -1,12 +1,11 @@
 +++
 title = "doomemacs GUI 中文显示及输入法设置"
-author = ["丛朝"]
+author = "丛朝"
 date = 2023-10-03T00:00:00+08:00
 lastmod = 2024-11-01T23:59:00+08:00
 tags = ["hugo", "emacs", "org"]
 categories = ["emacs"]
 draft = false
-weight = 2001
 toc = true
 isCJKLanguage = true
 +++

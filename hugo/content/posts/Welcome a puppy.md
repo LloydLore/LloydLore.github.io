@@ -1,6 +1,6 @@
 +++
 title = "Welcome A Puppy"
-author = ["丛朝"]
+author = "丛朝"
 date = 2024-12-11T00:00:00+08:00
 lastmod = 2024-12-11T18:16:00+08:00
 tags = ["Cliche"]
