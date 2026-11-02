@@ -1,4 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Emacs - Tag - A Byte of Cybersecurity</title><link>https://lloydlore.github.io/tags/emacs/</link><description>Emacs - Tag - A Byte of Cybersecurity</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/emacs/" rel="self" type="application/rss+xml"/><item><title>before-save-hook 默认不是 buffer local variable</title><link>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate><author>丛朝</author><guid>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</guid><description><![CDATA[<p>我最近准备用 <a href="https://docutils.sourceforge.io/rst.html" target="_blank" rel="noopener noreffer ">reStructuredText</a> 做结构化文档的处理。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Emacs - Tag - A Byte of Cybersecurity</title><link>https://lloydlore.github.io/tags/emacs/</link><description>Emacs - Tag - A Byte of Cybersecurity</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lloydlore.github.io/tags/emacs/" rel="self" type="application/rss+xml"/><item><title>Delete Duplicated Lines in Emacs</title><link>https://lloydlore.github.io/posts/delete-duplicate-lines-in-emacs/</link><pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate><author>丛朝</author><guid>https://lloydlore.github.io/posts/delete-duplicate-lines-in-emacs/</guid><description><![CDATA[<p>I will occasionally process spreadsheet with duplicated cells. Let&rsquo;s say when I have multiples like below:</p>
+<div class="code-block code-line-numbers" style="counter-reset: code-block 0">
+    <div class="code-header language-txt">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">aaa
+</span></span><span class="line"><span class="cl">bbb
+</span></span><span class="line"><span class="cl">aaa
+</span></span><span class="line"><span class="cl">ccc
+</span></span><span class="line"><span class="cl">aaa
+</span></span><span class="line"><span class="cl">bbb
+</span></span><span class="line"><span class="cl">ccc
+</span></span><span class="line"><span class="cl">ccc
+</span></span><span class="line"><span class="cl">ddd
+</span></span><span class="line"><span class="cl">xxx
+</span></span><span class="line"><span class="cl">aaa</span></span></code></pre></div></div>
+<p>I am not a spreadsheet guy by any means, initially I wanted to customize an elisp utility, until I found the killer emacs command: <code>delete-duplicate-lines</code>. Just mark all the lines, then hit the command, there is where amazing happens.</p>]]></description></item><item><title>before-save-hook 默认不是 buffer local variable</title><link>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0800</pubDate><author>丛朝</author><guid>https://lloydlore.github.io/posts/emacs-before-save-hook-%E4%B8%8D%E6%98%AF-local-variable/</guid><description><![CDATA[<p>我最近准备用 <a href="https://docutils.sourceforge.io/rst.html" target="_blank" rel="noopener noreffer ">reStructuredText</a> 做结构化文档的处理。
 基于我已经是一个重度的 <code>org-mode</code> 患者，我在做任何笔记的时候，离开 <code>org-mode</code> 便显得各种
 不适应。虽然能看到 <a href="https://daringfireball.net/projects/markdown/" target="_blank" rel="noopener noreffer ">Markdown</a> 很清秀，reStructuredText 很 sexy，但我大有“野花不如家花香”的
 感慨。</p>]]></description></item><item><title>doomemacs GUI 中文显示及输入法设置</title><link>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0800</pubDate><author>丛朝</author><guid>https://lloydlore.github.io/posts/doomemacs-gui-%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%AE%BE%E7%BD%AE/</guid><description><![CDATA[<p>本文尝试对 doomemacs 的中文字体显示及输入法设置，做一个记录。先说我的配置：</p>

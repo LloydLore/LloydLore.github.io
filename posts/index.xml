@@ -1,4 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - A Byte of Cybersecurity</title><link>https://lloydlore.github.io/posts/</link><description>All Posts | A Byte of Cybersecurity</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 24 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lloydlore.github.io/posts/" rel="self" type="application/rss+xml"/><item><title>起こす 和 起きる 区别？</title><link>https://lloydlore.github.io/posts/okosuokiru/</link><pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate><author>丛朝</author><guid>https://lloydlore.github.io/posts/okosuokiru/</guid><description><![CDATA[<h2 id="-第一步追问其本-the-why">🎯 第一步：追问其本 (The Why)</h2>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - A Byte of Cybersecurity</title><link>https://lloydlore.github.io/posts/</link><description>All Posts | A Byte of Cybersecurity</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lloydlore.github.io/posts/" rel="self" type="application/rss+xml"/><item><title>Delete Duplicated Lines in Emacs</title><link>https://lloydlore.github.io/posts/delete-duplicate-lines-in-emacs/</link><pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate><author>丛朝</author><guid>https://lloydlore.github.io/posts/delete-duplicate-lines-in-emacs/</guid><description><![CDATA[<p>I will occasionally process spreadsheet with duplicated cells. Let&rsquo;s say when I have multiples like below:</p>
+<div class="code-block code-line-numbers" style="counter-reset: code-block 0">
+    <div class="code-header language-txt">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">aaa
+</span></span><span class="line"><span class="cl">bbb
+</span></span><span class="line"><span class="cl">aaa
+</span></span><span class="line"><span class="cl">ccc
+</span></span><span class="line"><span class="cl">aaa
+</span></span><span class="line"><span class="cl">bbb
+</span></span><span class="line"><span class="cl">ccc
+</span></span><span class="line"><span class="cl">ccc
+</span></span><span class="line"><span class="cl">ddd
+</span></span><span class="line"><span class="cl">xxx
+</span></span><span class="line"><span class="cl">aaa</span></span></code></pre></div></div>
+<p>I am not a spreadsheet guy by any means, initially I wanted to customize an elisp utility, until I found the killer emacs command: <code>delete-duplicate-lines</code>. Just mark all the lines, then hit the command, there is where amazing happens.</p>]]></description></item><item><title>起こす 和 起きる 区别？</title><link>https://lloydlore.github.io/posts/okosuokiru/</link><pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate><author>丛朝</author><guid>https://lloydlore.github.io/posts/okosuokiru/</guid><description><![CDATA[<h2 id="-第一步追问其本-the-why">🎯 第一步：追问其本 (The Why)</h2>
 <p><strong>这两个词的区分，是为了解决日语语法中&quot;自动词与他动词&quot;这一核心语言机制的表达问题。</strong></p>
 <p>日语需要明确区分：</p>]]></description></item><item><title>失礼ですが和失礼いたします</title><link>https://lloydlore.github.io/posts/japanese_execuse_me/</link><pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate><author>丛朝</author><guid>https://lloydlore.github.io/posts/japanese_execuse_me/</guid><description><![CDATA[<h1 id="失礼ですが和失礼いたします的深度解析">「失礼ですが」和「失礼いたします」的深度解析</h1>
 <h2 id="-第一步追问其本-the-why">🎯 第一步：追问其本 (The Why)</h2>
@@ -22,5 +39,4 @@
 <p>Things just faded away, not like Michael Jordan, like a duck drone in the ocean.</p>
 </blockquote>
 <p>I had many excuses not update my blog for such a long time. But I need to say, when you didn&rsquo;t put much effort on something, it just faded away.</p>
-<p>I didn&rsquo;t realized that Hugo is under heavy development, and many themes are also evolving. So I decided to give it a try again. Last time I deployed my blog on github pages, it has a very very ugly layout. This time I found a very nice theme called <a href="https://themes.gohugo.io/themes/hugo-theme-diary/" target="_blank" rel="noopener noreffer ">diary</a>, and I really like it.</p>]]></description></item><item><title>CNAS 和 CMA 认定</title><link>https://lloydlore.github.io/posts/cnas_and_cma_accreditation/</link><pubDate>Tue, 01 Apr 2025 00:00:00 +0800</pubDate><author>丛朝</author><guid>https://lloydlore.github.io/posts/cnas_and_cma_accreditation/</guid><description>&lt;p>这两年中国汽车行业里对网络安全的认证需求越来越多，同时要求也越来越高。我能够观察
-到，随着中国电动汽车的倾销加剧，各国对中国生产的电动汽车的门槛，也会随之升高。&lt;/p></description></item></channel></rss>
+<p>I didn&rsquo;t realized that Hugo is under heavy development, and many themes are also evolving. So I decided to give it a try again. Last time I deployed my blog on github pages, it has a very very ugly layout. This time I found a very nice theme called <a href="https://themes.gohugo.io/themes/hugo-theme-diary/" target="_blank" rel="noopener noreffer ">diary</a>, and I really like it.</p>]]></description></item></channel></rss>
